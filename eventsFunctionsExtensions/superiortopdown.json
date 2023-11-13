@@ -1,0 +1,2879 @@
+{
+  "author": "",
+  "category": "",
+  "extensionNamespace": "",
+  "fullName": "TopDown Movement",
+  "helpPath": "",
+  "iconUrl": "",
+  "name": "SuperiorTopDown",
+  "previewIconUrl": "",
+  "shortDescription": "A superior top down movement engine",
+  "version": "",
+  "description": "",
+  "tags": [],
+  "authorIds": [],
+  "dependencies": [],
+  "eventsFunctions": [],
+  "eventsBasedBehaviors": [
+    {
+      "description": "A snappier and more usefull version of top down controls",
+      "fullName": "Superior Top Down Controls",
+      "name": "SuperiorTopDownControls",
+      "objectType": "Sprite",
+      "eventsFunctions": [
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "onCreated",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPreEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "BuiltinCommonInstructions::Once"
+                  },
+                  "parameters": []
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDownPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyUpPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyRightPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyLeftPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertySprintPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyCrouchPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyCurMaxSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Behavior::GetMaxSpeed()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertySprint()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateSprintPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertyCrouch()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateCrouchPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertyDown()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateDownPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertyUp()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateUpPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertyLeft()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateLeftPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertyRight()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateRightPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "KeyFromTextPressed"
+                  },
+                  "parameters": [
+                    "",
+                    "Object.Behavior::PropertyDash()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SimulateDashPress"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the down input for the object",
+          "fullName": "Simulate down input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateDownPress",
+          "sentence": "Simulate Down input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "Object.Behavior::PropertyCurMaxSpeed()/60"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "Object.Behavior::PropertyAcceleration()/(60*60)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDownPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the up input for the object",
+          "fullName": "Simulate up input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateUpPress",
+          "sentence": "Simulate Up input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "-",
+                    "Object.Behavior::PropertyCurMaxSpeed()/60"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "-",
+                    "Object.Behavior::PropertyAcceleration()/(60*60)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyUpPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the left input for the object",
+          "fullName": "Simulate left input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateLeftPress",
+          "sentence": "Simulate Left input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "-",
+                    "Object.Behavior::PropertyCurMaxSpeed()/60"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "-",
+                    "Object.Behavior::PropertyAcceleration()/(60*60)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyLeftPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the right input for the object",
+          "fullName": "Simulate right input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateRightPress",
+          "sentence": "Simulate Right input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "Object.Behavior::PropertyCurMaxSpeed()/60"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXAccel"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "+",
+                    "Object.Behavior::PropertyAcceleration()/(60*60)"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyRightPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the sprint input for the object",
+          "fullName": "Simulate sprint input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateSprintPress",
+          "sentence": "Simulate sprint input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertySprintPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyCurMaxSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Behavior::GetMaxSpeed()*Object.Behavior::PropertySprintMoveMultiplyer()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the crouch input for the object",
+          "fullName": "Simulate crouch input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateCrouchPress",
+          "sentence": "Simulate crouch input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": []
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyCrouchPressed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyCurMaxSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Behavior::GetMaxSpeed()*Object.Behavior::PropertyCrouchMoveMultiplyer()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "fullName": "",
+          "functionType": "Action",
+          "name": "doStepPostEvents",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDeceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "!=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyRightPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "max(0,(abs(Object.Behavior::PropertyXvel())-Object.Behavior::PropertyDeceleration()/(60*60)))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyLeftPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "-max(0,(abs(Object.Behavior::PropertyXvel())-Object.Behavior::PropertyDeceleration()/(60*60)))"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDownPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "max(0,(abs(Object.Behavior::PropertyYvel())-Object.Behavior::PropertyDeceleration()/(60*60)))"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyUpPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "-max(0,(abs(Object.Behavior::PropertyYvel())-Object.Behavior::PropertyDeceleration()/(60*60)))"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDeceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "-1"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyRightPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyLeftPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyRightPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyLeftPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "!=",
+                        "0"
+                      ]
+                    }
+                  ],
+                  "actions": [],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDownPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyUpPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ">",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDownPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "inverted": true,
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyUpPressed"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashing"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "max(min(Object.Behavior::PropertyXvel()+Object.Behavior::PropertyXAccel(),Object.Behavior::PropertyCurMaxSpeed()/60),-Object.Behavior::PropertyCurMaxSpeed()/60)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "max(min(Object.Behavior::PropertyYvel()+Object.Behavior::PropertyYAccel(),Object.Behavior::PropertyCurMaxSpeed()/60),-Object.Behavior::PropertyCurMaxSpeed()/60)"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreX"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.X()+Object.Behavior::PropertyXvel()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "MettreY"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Y()+Object.Behavior::PropertyYvel()"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyRotate"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "BuiltinCommonInstructions::Or"
+                      },
+                      "parameters": [],
+                      "subInstructions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "!=",
+                            "0"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "!=",
+                            "0"
+                          ]
+                        }
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyRotation"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "AngleBetweenPositions(0, 0, Object.Behavior::PropertyXvel(), Object.Behavior::PropertyYvel())"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "SetAngle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "=",
+                        "Object.Behavior::PropertyRotation()"
+                      ]
+                    }
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashing"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "MettreX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "Object.Behavior::PropertyDashOriginX()+cos(ToRad(Object.Behavior::PropertyDashDir()))*Object.Behavior::PropertyDashDist()*(min(Object.ObjectTimerElapsedTime(\"DashDur\"),Object.Behavior::PropertyDashDur())/Object.Behavior::PropertyDashDur())"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "=",
+                    "Object.Behavior::PropertyDashOriginY()+sin(ToRad(Object.Behavior::PropertyDashDir()))*Object.Behavior::PropertyDashDist()*(min(Object.ObjectTimerElapsedTime(\"DashDur\"),Object.Behavior::PropertyDashDur())/Object.Behavior::PropertyDashDur())"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "CompareObjectTimer"
+                      },
+                      "parameters": [
+                        "Object",
+                        "\"DashDur\"",
+                        ">",
+                        "Object.Behavior::PropertyDashDur()"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDashing"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        ""
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "run the action of pressing the dash input for the object",
+          "fullName": "Simulate dash input",
+          "functionType": "Action",
+          "group": "Simulate Inputs",
+          "name": "SimulateDashPress",
+          "sentence": "Simulate Dash input for _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashing"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\"",
+                    ">=",
+                    "Object.Behavior::PropertyDashDur()+Object.Behavior::PropertyDashCooldown()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ResetObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDashing"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDashOriginX"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.X()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDashOriginY"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "Object.Y()"
+                  ]
+                }
+              ],
+              "events": [
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashAngleToggle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDashDir"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "AngleBetweenPositions(0, 0, Object.Behavior::PropertyXvel(), Object.Behavior::PropertyYvel())"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [
+                    {
+                      "type": {
+                        "inverted": true,
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashAngleToggle"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior"
+                      ]
+                    }
+                  ],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDashDir"
+                      },
+                      "parameters": [
+                        "Object",
+                        "Behavior",
+                        "=",
+                        "AngleBetweenPositions(0, 0, Object.Behavior::PropertyXAccel(), Object.Behavior::PropertyYAccel())"
+                      ]
+                    }
+                  ],
+                  "events": [
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashDir"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ">",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "min(Object.Behavior::PropertyXvel(),0)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashDir"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "0"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyXvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "max(Object.Behavior::PropertyXvel(),0)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashDir"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "<",
+                            "90"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashDir"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            ">",
+                            "-90"
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "min(Object.Behavior::PropertyYvel(),0)"
+                          ]
+                        }
+                      ]
+                    },
+                    {
+                      "type": "BuiltinCommonInstructions::Standard",
+                      "conditions": [
+                        {
+                          "type": {
+                            "value": "BuiltinCommonInstructions::Or"
+                          },
+                          "parameters": [],
+                          "subInstructions": [
+                            {
+                              "type": {
+                                "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashDir"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                ">",
+                                "90"
+                              ]
+                            },
+                            {
+                              "type": {
+                                "value": "SuperiorTopDown::SuperiorTopDownControls::PropertyDashDir"
+                              },
+                              "parameters": [
+                                "Object",
+                                "Behavior",
+                                "<",
+                                "-90"
+                              ]
+                            }
+                          ]
+                        }
+                      ],
+                      "actions": [
+                        {
+                          "type": {
+                            "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyYvel"
+                          },
+                          "parameters": [
+                            "Object",
+                            "Behavior",
+                            "=",
+                            "max(Object.Behavior::PropertyYvel(),0)"
+                          ]
+                        }
+                      ]
+                    }
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "if the object is dashing",
+          "fullName": "Is Dashing",
+          "functionType": "Condition",
+          "group": "Dash",
+          "name": "IsDashing",
+          "sentence": "If _PARAM0_ is dashing",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\"",
+                    ">",
+                    "Object.Behavior::PropertyDashDur()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\"",
+                    ">",
+                    "Object.Behavior::PropertyDashDur()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "if dash is on cooldown",
+          "fullName": "Dash on cooldown",
+          "functionType": "Condition",
+          "group": "Dash",
+          "name": "DashOnCooldown",
+          "sentence": "If _PARAM0_'s dash is on cooldown",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\"",
+                    ">",
+                    "Object.Behavior::PropertyDashDur()+Object.Behavior::PropertyDashCooldown()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "inverted": true,
+                    "value": "CompareObjectTimer"
+                  },
+                  "parameters": [
+                    "Object",
+                    "\"DashDur\"",
+                    ">",
+                    "Object.Behavior::PropertyDashDur()+Object.Behavior::PropertyDashCooldown()"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnBoolean"
+                  },
+                  "parameters": [
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the objects Y velocity",
+          "fullName": "Y velocity",
+          "functionType": "ExpressionAndCondition",
+          "group": "Values",
+          "name": "GetYVel",
+          "sentence": "the Y velocity of _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "max(min(Object.Behavior::PropertyYvel()+Object.Behavior::PropertyYAccel(),Object.Behavior::PropertyMaxSpeed()/60),-Object.Behavior::PropertyMaxSpeed()/60)*60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the objects X velocity",
+          "fullName": "X velocity",
+          "functionType": "ExpressionAndCondition",
+          "group": "Values",
+          "name": "GetXVel",
+          "sentence": "the X velocity of _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "max(min(Object.Behavior::PropertyXvel()+Object.Behavior::PropertyXAccel(),Object.Behavior::PropertyMaxSpeed()/60),-Object.Behavior::PropertyMaxSpeed()/60)*60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the objects X acceleration",
+          "fullName": "X acceleration",
+          "functionType": "ExpressionAndCondition",
+          "group": "Values",
+          "name": "GetXAccel",
+          "sentence": "the X acceleration of _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyXAccel()*60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "the objects Y acceleration",
+          "fullName": "Y acceleration",
+          "functionType": "ExpressionAndCondition",
+          "group": "Values",
+          "name": "GetYAccel",
+          "sentence": "the Y acceleration of _PARAM0_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyYAccel()*60"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Changes max speed",
+          "fullName": "SetMaxSpeed",
+          "functionType": "Action",
+          "group": "Change Values",
+          "name": "SetMaxSpeed",
+          "sentence": "Set max speed of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyMaxSpeed"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"MaxSpeed\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            },
+            {
+              "description": "Max Speed",
+              "name": "MaxSpeed",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Gets max speed",
+          "fullName": "GetMaxSpeed",
+          "functionType": "Expression",
+          "group": "Values",
+          "name": "GetMaxSpeed",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyMaxSpeed()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Changes acceleration",
+          "fullName": "SetAccel",
+          "functionType": "Action",
+          "group": "Change Values",
+          "name": "SetAccel",
+          "sentence": "Set acceleration of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyAcceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Acceleration\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            },
+            {
+              "description": "Acceleration",
+              "name": "Acceleration",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Changes Decceleration",
+          "fullName": "SetDeccel",
+          "functionType": "Action",
+          "group": "Change Values",
+          "name": "SetDeccel",
+          "sentence": "Set decceleration of _PARAM0_ to _PARAM2_",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SuperiorTopDown::SuperiorTopDownControls::SetPropertyDeceleration"
+                  },
+                  "parameters": [
+                    "Object",
+                    "Behavior",
+                    "=",
+                    "GetArgumentAsNumber(\"Decceleration\")"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            },
+            {
+              "description": "Decceleration",
+              "name": "Decceleration",
+              "type": "expression"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Gets Acceleration",
+          "fullName": "GetAccel",
+          "functionType": "Expression",
+          "group": "Values",
+          "name": "GetAccel",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyAcceleration()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        },
+        {
+          "description": "Gets Decceleration",
+          "fullName": "GetDeccel",
+          "functionType": "Expression",
+          "group": "Values",
+          "name": "GetDeccel",
+          "sentence": "",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetReturnNumber"
+                  },
+                  "parameters": [
+                    "Object.Behavior::PropertyDeceleration()"
+                  ]
+                }
+              ]
+            }
+          ],
+          "expressionType": {
+            "type": "expression"
+          },
+          "parameters": [
+            {
+              "description": "Object",
+              "name": "Object",
+              "supplementaryInformation": "Sprite",
+              "type": "object"
+            },
+            {
+              "description": "Behavior",
+              "name": "Behavior",
+              "supplementaryInformation": "SuperiorTopDown::SuperiorTopDownControls",
+              "type": "behavior"
+            }
+          ],
+          "objectGroups": []
+        }
+      ],
+      "propertyDescriptors": [
+        {
+          "value": "250",
+          "type": "Number",
+          "unit": "PixelSpeed",
+          "label": "Max Speed",
+          "description": "The maximum speed the object can travel in pixels per second",
+          "group": "Speed",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "MaxSpeed"
+        },
+        {
+          "value": "400",
+          "type": "Number",
+          "unit": "PixelAcceleration",
+          "label": "Acceleration",
+          "description": "The acceleration of the object, set to -1 for instantaneous movement.",
+          "group": "Speed",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Acceleration"
+        },
+        {
+          "value": "",
+          "type": "Number",
+          "label": "Deceleration",
+          "description": "The deceleration of the object, set to -1 for instantaneous stops.",
+          "group": "Speed",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Deceleration"
+        },
+        {
+          "value": "w",
+          "type": "String",
+          "label": "Up",
+          "description": "The key to press to travel upwards",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Up"
+        },
+        {
+          "value": "s",
+          "type": "String",
+          "label": "Down",
+          "description": "The key to press to travel downwards",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Down"
+        },
+        {
+          "value": "d",
+          "type": "String",
+          "label": "Right",
+          "description": "The key to press to travel rightwards",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Right"
+        },
+        {
+          "value": "a",
+          "type": "String",
+          "label": "Left",
+          "description": "The key to press to travel leftwards",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Left"
+        },
+        {
+          "value": "LShift",
+          "type": "String",
+          "label": "Dash",
+          "description": "The key to press to dash",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Dash"
+        },
+        {
+          "value": "",
+          "type": "String",
+          "label": "Sprint",
+          "description": "The key to press to sprint",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Sprint"
+        },
+        {
+          "value": "true",
+          "type": "Boolean",
+          "label": "Rotate with movement",
+          "description": "If true the sprite will rotate to face the direction it is traveling",
+          "group": "Toggles",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Rotate"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "DegreeAngle",
+          "label": "Rotation",
+          "description": "The oreintation of the object",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Rotation"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "PixelSpeed",
+          "label": "X Velocity",
+          "description": "the velocity of the object in the x direction",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Xvel"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "PixelSpeed",
+          "label": "Y Velocity",
+          "description": "the velocity of the object in the y direction",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Yvel"
+        },
+        {
+          "value": "0.3",
+          "type": "Number",
+          "unit": "Second",
+          "label": "Dash duration",
+          "description": "The duration in seconds the dash should take",
+          "group": "Dash Config",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "DashDur"
+        },
+        {
+          "value": "200",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Dash distance",
+          "description": "The distance the dash should cover",
+          "group": "Dash Config",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "DashDist"
+        },
+        {
+          "value": "0.75",
+          "type": "Number",
+          "unit": "Second",
+          "label": "Dash cooldown",
+          "description": "The cooldown between dashes",
+          "group": "Dash Config",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "DashCooldown"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "DegreeAngle",
+          "label": "Dash direction",
+          "description": "The direction of the dash",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "DashDir"
+        },
+        {
+          "value": "true",
+          "type": "Boolean",
+          "label": "Use curent angle",
+          "description": "if true when dashing the object will dash in the direction they are currently facing/moving. If false the object will dash relative to the inputs being pressed",
+          "group": "Dash Config",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "DashAngleToggle"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "PixelAcceleration",
+          "label": "current Y acceleration",
+          "description": "the Y acceleration for this frame",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "YAccel"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "PixelAcceleration",
+          "label": "current X acceleration",
+          "description": "the X acceleration for this frame",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "XAccel"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Dashing",
+          "description": "wheather of nor the object is dashing",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "Dashing"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Dash origin y",
+          "description": "the y position where the dash was initiated",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "DashOriginY"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "Pixel",
+          "label": "Dash origin x",
+          "description": "the x position where the dash was initiated",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "DashOriginX"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Right button pressed",
+          "description": "wheather or not the right button is currently being pressed",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "RightPressed"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Down button pressed",
+          "description": "wheather or not the down button is currently being pressed",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "DownPressed"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Left button pressed",
+          "description": "wheather or not the left button is currently being pressed",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "LeftPressed"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Up button pressed",
+          "description": "wheather or not the up button is currently being pressed",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "UpPressed"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Sprint button pressed",
+          "description": "wheather or not the Sprint button is currently being pressed",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "SprintPressed"
+        },
+        {
+          "value": "",
+          "type": "Boolean",
+          "label": "Crouch button pressed",
+          "description": "wheather or not the Crouch button is currently being pressed",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "CrouchPressed"
+        },
+        {
+          "value": "LControl",
+          "type": "String",
+          "label": "Crouch",
+          "description": "The button to press to crouch",
+          "group": "Controls",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "Crouch"
+        },
+        {
+          "value": "1.6",
+          "type": "Number",
+          "unit": "Dimensionless",
+          "label": "Sprint multiplyer",
+          "description": "The number to muptiply your max speed by to sprint",
+          "group": "Speed",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "SprintMoveMultiplyer"
+        },
+        {
+          "value": "0.5",
+          "type": "Number",
+          "unit": "Dimensionless",
+          "label": "Crouch multiplyer",
+          "description": "The number to muptiply your max speed by to crouch ",
+          "group": "Speed",
+          "extraInformation": [],
+          "hidden": false,
+          "name": "CrouchMoveMultiplyer"
+        },
+        {
+          "value": "0",
+          "type": "Number",
+          "unit": "PixelSpeed",
+          "label": "Current max speed",
+          "description": "the current max speed adjusted for sprint and crouch",
+          "group": "Values",
+          "extraInformation": [],
+          "hidden": true,
+          "name": "CurMaxSpeed"
+        }
+      ],
+      "sharedPropertyDescriptors": []
+    }
+  ],
+  "eventsBasedObjects": []
+}
