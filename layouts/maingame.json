@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.13040733691179923,
+    "zoomFactor": 0.5079575118131895,
     "windowMask": false
   },
   "objectsGroups": [
@@ -37,10 +37,27 @@
       "name": "Walls_Coliders",
       "objects": [
         {
-          "name": "TempWall"
+          "name": "BuildingWall"
         },
         {
-          "name": "TestTree"
+          "name": "Tree"
+        }
+      ]
+    },
+    {
+      "name": "RelavanceCheckers",
+      "objects": [
+        {
+          "name": "Item"
+        },
+        {
+          "name": "Locker"
+        },
+        {
+          "name": "BuildingWall"
+        },
+        {
+          "name": "Tree"
         }
       ]
     }
@@ -150,7 +167,7 @@
       "depth": 1,
       "height": 32,
       "layer": "",
-      "name": "TempWall",
+      "name": "BuildingWall",
       "persistentUuid": "9afdf35a-bdec-4880-bbc2-c978415fd93f",
       "width": 224,
       "x": 704,
@@ -167,7 +184,7 @@
       "height": 3808,
       "layer": "",
       "locked": true,
-      "name": "Temp_ground",
+      "name": "Ground",
       "persistentUuid": "38bc481b-403f-4d0d-a4df-c67c4fe2063c",
       "sealed": true,
       "width": 5824,
@@ -182,8 +199,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "a88f5bd6-c17e-4f1c-948b-ffdbc2a62763",
       "width": 0,
       "x": 1344,
@@ -197,8 +214,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "681e836d-1c26-44be-9b0d-25de26375e11",
       "width": 0,
       "x": 576,
@@ -212,8 +229,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "4139d370-e2eb-42ec-8aa9-7ee4946b0a8a",
       "width": 0,
       "x": 978,
@@ -227,8 +244,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "8f5756f2-a08c-4241-947e-c9f73bdd5a37",
       "width": 0,
       "x": 722,
@@ -242,8 +259,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "069c0da8-88ac-4dcc-8f1e-3db1f32e1b6c",
       "width": 0,
       "x": 396,
@@ -257,8 +274,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "3b3f96ca-8d75-42d2-9549-a57abbd979af",
       "width": 0,
       "x": 301,
@@ -272,8 +289,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "5eb043b4-4e5d-4be3-a49e-c6b322857bb1",
       "width": 0,
       "x": 172,
@@ -287,8 +304,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "0b49c4ce-c876-47a3-93ae-4baf9c932a8e",
       "width": 0,
       "x": 1476,
@@ -302,8 +319,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "bc89e0fb-9576-4c78-a688-85f1d6d89619",
       "width": 0,
       "x": 1348,
@@ -317,8 +334,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "11f0f406-a94d-410b-810c-a6f7d151d2ae",
       "width": 0,
       "x": 1574,
@@ -332,8 +349,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "c661a54e-836f-49ec-900a-39c9c04fd850",
       "width": 0,
       "x": 1687,
@@ -347,8 +364,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "392497cd-fb09-4a2b-bc1f-702dc4d4eadb",
       "width": 0,
       "x": 689,
@@ -362,8 +379,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b07b3f5a-9518-42fc-b86e-4284485b3a73",
       "width": 0,
       "x": 268,
@@ -377,8 +394,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "f983d0f1-8477-407e-80d9-2df86bd8719a",
       "width": 0,
       "x": 624,
@@ -392,8 +409,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "136e5190-4b86-44d4-b914-32a2e1cab24a",
       "width": 0,
       "x": 139,
@@ -407,8 +424,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "bfec25cc-7dcf-4066-96c4-ea1ccf10c1a5",
       "width": 0,
       "x": 363,
@@ -422,8 +439,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "db1fd253-ed19-49e8-b4b4-aa7e6f765c5b",
       "width": 0,
       "x": 873,
@@ -437,8 +454,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "d82e7c3a-78fd-4b22-977a-e93bc7e48d3b",
       "width": 0,
       "x": 1443,
@@ -452,8 +469,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "cb9ab78a-10f4-4778-906f-c9d36c6e287f",
       "width": 0,
       "x": 1654,
@@ -467,8 +484,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "7aa314d2-4117-476b-af89-98158b3b8ad6",
       "width": 0,
       "x": 1292,
@@ -482,8 +499,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "17af7ce7-8ca4-449d-8588-cf57f59e4df9",
       "width": 0,
       "x": 1541,
@@ -497,8 +514,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "ec24dfd3-aad9-4f23-af49-09c5b6711b70",
       "width": 0,
       "x": 1315,
@@ -512,8 +529,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "0dae43f2-0a56-44d2-8b7a-b76cce85d152",
       "width": 0,
       "x": 945,
@@ -527,8 +544,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "3fd411aa-58e3-41c6-b201-7ee666f8b78f",
       "width": 0,
       "x": -1241,
@@ -542,8 +559,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "9ff75b7e-0ed2-4e90-945f-a27fefeb9567",
       "width": 0,
       "x": -1662,
@@ -557,8 +574,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "56202331-2e75-40b5-84bc-9156b6243072",
       "width": 0,
       "x": -1306,
@@ -572,8 +589,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "7f823719-45f5-4819-aebc-5b0903a0cf13",
       "width": 0,
       "x": -1791,
@@ -587,8 +604,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "6ddb3151-b15d-456c-a607-577de8af3192",
       "width": 0,
       "x": -1567,
@@ -602,8 +619,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b998f5b4-0837-4ced-ab87-cd86801ff90f",
       "width": 0,
       "x": -1057,
@@ -617,8 +634,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "0424ae97-c0fa-409c-a94b-11c768b2aba5",
       "width": 0,
       "x": -487,
@@ -632,8 +649,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "4c298144-75b8-48d7-896f-51f08bbe515c",
       "width": 0,
       "x": -276,
@@ -647,8 +664,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "c5a993d7-fbc4-415f-a5fd-c0d36c9022c1",
       "width": 0,
       "x": -638,
@@ -662,8 +679,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "3ddc6e9c-5bd5-41cc-aa13-8809f13946f0",
       "width": 0,
       "x": -389,
@@ -677,8 +694,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "1bf1e781-b759-4dc5-b95a-c9b25a2c5118",
       "width": 0,
       "x": -615,
@@ -692,8 +709,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "ba91588a-e60d-48e4-bf2c-831e9444a0fa",
       "width": 0,
       "x": -985,
@@ -707,8 +724,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "c0dbf2fa-d1aa-4ae1-af9f-9f9e1fdd3e60",
       "width": 0,
       "x": -1184,
@@ -722,8 +739,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "d7e79619-5e77-4c11-a762-5de249fa680e",
       "width": 0,
       "x": -1605,
@@ -737,8 +754,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "0323bd9b-8983-4588-92eb-cd0c4ad6ed90",
       "width": 0,
       "x": -1249,
@@ -752,8 +769,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "f798eb58-c44a-4044-9945-20f039835486",
       "width": 0,
       "x": -1734,
@@ -767,8 +784,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "585f1c16-9295-4243-af07-06b1995fc461",
       "width": 0,
       "x": -1510,
@@ -782,8 +799,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "8f564793-b9c9-4bcd-8eae-b6aaafd2a565",
       "width": 0,
       "x": -1000,
@@ -797,8 +814,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b883cd5e-2606-41e9-a654-affbad1d0957",
       "width": 0,
       "x": -430,
@@ -812,8 +829,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "3c585605-fbed-4472-a15e-3f88b98b99a5",
       "width": 0,
       "x": -219,
@@ -827,8 +844,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "cd451ad7-967c-4eb1-96a5-7d93312d007f",
       "width": 0,
       "x": -581,
@@ -842,8 +859,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b55f3e99-8a67-412a-9800-316763aa0f2a",
       "width": 0,
       "x": -332,
@@ -857,8 +874,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "3714674c-8f6e-4472-858c-ed7ec618f092",
       "width": 0,
       "x": -558,
@@ -872,8 +889,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b8924d48-8c5a-43ca-8347-1bce9406856a",
       "width": 0,
       "x": -928,
@@ -887,8 +904,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "5a908a3b-d587-4eb0-883e-81fa3f7395ca",
       "width": 0,
       "x": -1086,
@@ -902,8 +919,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "a9fb2915-a6f8-492d-aa63-af624119d0d7",
       "width": 0,
       "x": -1507,
@@ -917,8 +934,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "11fc7eaf-b579-4577-bddd-a9fd456e1abe",
       "width": 0,
       "x": -1151,
@@ -932,8 +949,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b22c78b2-3d82-4349-a737-d38a3ce8a14f",
       "width": 0,
       "x": -1636,
@@ -947,8 +964,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "b52f3848-38b6-4757-b98c-9886e8109f45",
       "width": 0,
       "x": -1412,
@@ -962,8 +979,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "830d2233-4e78-4fe0-8a6b-f8b69f9e0a4b",
       "width": 0,
       "x": -902,
@@ -977,8 +994,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "65918525-e356-4962-8b07-58ee2060bad1",
       "width": 0,
       "x": -332,
@@ -992,8 +1009,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "38aae44c-63cc-451b-b84e-50b78661b869",
       "width": 0,
       "x": -121,
@@ -1007,8 +1024,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "621485d9-fb83-4e4b-bf1f-4ea41afe9d79",
       "width": 0,
       "x": -483,
@@ -1022,8 +1039,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "812a181f-b5a0-48ee-927f-9c9dc3d1a7a5",
       "width": 0,
       "x": -234,
@@ -1037,8 +1054,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "686445be-b281-4bea-be4d-78e2c2f0a9b7",
       "width": 0,
       "x": -460,
@@ -1052,8 +1069,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "e564e33e-5837-4ddc-8431-836b4f867d4f",
       "width": 0,
       "x": -830,
@@ -1067,8 +1084,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "f236b9cd-210b-4fe5-9fc0-0aa0af4cd925",
       "width": 0,
       "x": 670,
@@ -1082,8 +1099,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "edf4d671-8232-4e15-a4a9-6376cf6dcc32",
       "width": 0,
       "x": 249,
@@ -1097,8 +1114,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "58f2ff2f-7e84-404e-aac7-7ef52e7b6d6c",
       "width": 0,
       "x": 605,
@@ -1112,8 +1129,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "43280d6d-edb5-43ae-8632-7ab1f202bcfe",
       "width": 0,
       "x": 120,
@@ -1127,8 +1144,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "eb1d9f70-d677-4cd9-a01e-659af3f40741",
       "width": 0,
       "x": 344,
@@ -1142,8 +1159,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "52297589-3b2a-45a4-a8f5-33d931bc97dc",
       "width": 0,
       "x": 854,
@@ -1157,8 +1174,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "0ba046dd-8dd3-4f7c-87cb-3ad82e4e2bdc",
       "width": 0,
       "x": 1424,
@@ -1172,8 +1189,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "4da7e10c-d988-4d26-af82-c79320795944",
       "width": 0,
       "x": 1635,
@@ -1187,8 +1204,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "0790571a-f7e8-4eb0-b388-ff8e2f979ba8",
       "width": 0,
       "x": 1273,
@@ -1202,8 +1219,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "42b65c9f-cebd-4076-b2ef-b9fef362212c",
       "width": 0,
       "x": 1522,
@@ -1217,8 +1234,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "cc7dbe92-6b48-465b-82e3-f53be20c5b78",
       "width": 0,
       "x": 1296,
@@ -1232,8 +1249,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "f850f20c-618a-4e6e-bde0-af4e2141b522",
       "width": 0,
       "x": 926,
@@ -1247,8 +1264,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "21d3f0c8-b954-498e-95a1-08000d09682c",
       "width": 0,
       "x": 2577,
@@ -1262,8 +1279,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "cb1ecf61-b2a4-4a61-9c4b-5dfbed0830bb",
       "width": 0,
       "x": 2156,
@@ -1277,8 +1294,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "7f0039e6-c3bc-45e1-a395-51f23d6f4969",
       "width": 0,
       "x": 2512,
@@ -1292,8 +1309,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "1759a4cc-45ee-41f9-845f-863699e37820",
       "width": 0,
       "x": 2027,
@@ -1307,8 +1324,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "94aecada-2010-4288-ad3c-fa4653a9d46d",
       "width": 0,
       "x": 2251,
@@ -1322,8 +1339,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "275941e0-8a4c-45d5-81d8-1466f3fbe8e9",
       "width": 0,
       "x": 2761,
@@ -1337,8 +1354,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "15b2f436-06ff-48cf-97f1-892978bfdfd3",
       "width": 0,
       "x": 3331,
@@ -1352,8 +1369,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "a4a8575a-4a85-47f3-b4ba-5cdc270ea686",
       "width": 0,
       "x": 3542,
@@ -1367,8 +1384,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "ccd0c4a4-cf12-4bac-a645-efa7fbb8d16e",
       "width": 0,
       "x": 3180,
@@ -1382,8 +1399,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "6a984c50-687f-459d-8180-d995a1ab0256",
       "width": 0,
       "x": 3429,
@@ -1397,8 +1414,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "673ded67-b6b2-4f89-9bae-45d0b068ea31",
       "width": 0,
       "x": 3203,
@@ -1412,8 +1429,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "2bb0404b-c0ce-4d78-8bdf-715c9f7e5087",
       "width": 0,
       "x": 2833,
@@ -1427,8 +1444,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "49e4d12d-c70e-4b15-b7dc-e23a2b3fca13",
       "width": 0,
       "x": 2536,
@@ -1442,8 +1459,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "ceb269b7-3fee-4fc4-b18a-c4964a17a37e",
       "width": 0,
       "x": 2115,
@@ -1457,8 +1474,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "6524ae4d-c44d-4821-81a0-e7b0a0bf2922",
       "width": 0,
       "x": 2471,
@@ -1472,8 +1489,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "fd324beb-6b91-403c-b41f-48d8ed154738",
       "width": 0,
       "x": 1986,
@@ -1487,8 +1504,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "81eecddc-444f-4623-91bc-1dfe4075208f",
       "width": 0,
       "x": 2210,
@@ -1502,8 +1519,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "02f32878-f2e4-439e-9af3-916df1673ca3",
       "width": 0,
       "x": 2720,
@@ -1517,8 +1534,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "e4c97548-72ca-4235-a4ca-fe048ebf899f",
       "width": 0,
       "x": 3290,
@@ -1532,8 +1549,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "937a7a0b-b7a8-4509-a6d1-0ffa09130e52",
       "width": 0,
       "x": 3501,
@@ -1547,8 +1564,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "21a1b78a-7c55-4a8e-b534-6d01d800a545",
       "width": 0,
       "x": 3139,
@@ -1562,8 +1579,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "e54d1a18-9b85-40b0-b6bc-9c1fa1946441",
       "width": 0,
       "x": 3388,
@@ -1577,8 +1594,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "18e7cdf0-183f-4f41-8013-343255bdf140",
       "width": 0,
       "x": 3162,
@@ -1592,8 +1609,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "98a978b8-6d56-481d-a120-a796e8e01a99",
       "width": 0,
       "x": 2792,
@@ -1607,8 +1624,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "4aaf9846-3460-4806-a243-f7bddfcf9227",
       "width": 0,
       "x": 2425,
@@ -1622,8 +1639,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "add63918-3600-4aa7-bf58-10124cad9600",
       "width": 0,
       "x": 2004,
@@ -1637,8 +1654,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "f4becd14-f142-4155-a113-65f497ee9f48",
       "width": 0,
       "x": 2360,
@@ -1652,8 +1669,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "a2275cf9-cf8c-4b94-9778-d7a8ba9aecb4",
       "width": 0,
       "x": 1875,
@@ -1667,8 +1684,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "a36a8d7d-b936-411b-8c52-1bb1d90feabb",
       "width": 0,
       "x": 2099,
@@ -1682,8 +1699,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "14c6cb56-daa8-44ed-aa01-e1ca394f2b30",
       "width": 0,
       "x": 2609,
@@ -1697,8 +1714,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "4bb5a1bf-9f78-40e9-b679-d4207ddc7b20",
       "width": 0,
       "x": 3179,
@@ -1712,8 +1729,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "4c75b2fb-d845-4be4-aeb7-88ff61fa80b1",
       "width": 0,
       "x": 3390,
@@ -1727,8 +1744,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "d50b36c8-a415-4143-b4c7-667f2a51b914",
       "width": 0,
       "x": 3028,
@@ -1742,8 +1759,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "ff64a21c-04dc-4d35-939f-17062b887391",
       "width": 0,
       "x": 3277,
@@ -1757,8 +1774,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "9b9ac741-8c92-4c72-8210-c92b1fd86c64",
       "width": 0,
       "x": 3051,
@@ -1772,8 +1789,8 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "AboveShadow",
-      "name": "TestTree",
+      "layer": "",
+      "name": "Tree",
       "persistentUuid": "60194834-4654-4ff5-ad5c-2243499f42ea",
       "width": 0,
       "x": 2681,
@@ -1789,7 +1806,7 @@
       "depth": 1,
       "height": 352,
       "layer": "",
-      "name": "TempWall",
+      "name": "BuildingWall",
       "persistentUuid": "6bfd270b-c9fa-4b7a-868c-d0f792cbcfec",
       "width": 32,
       "x": 1248,
@@ -1805,7 +1822,7 @@
       "depth": 1,
       "height": 352,
       "layer": "",
-      "name": "TempWall",
+      "name": "BuildingWall",
       "persistentUuid": "e198bfaf-3840-431a-87b9-a3f93bbeb687",
       "width": 32,
       "x": 704,
@@ -1821,7 +1838,7 @@
       "depth": 1,
       "height": 32,
       "layer": "",
-      "name": "TempWall",
+      "name": "BuildingWall",
       "persistentUuid": "fcea7bd3-098b-4f4d-b97a-c4a736ecb8ab",
       "width": 576,
       "x": 704,
@@ -1837,7 +1854,7 @@
       "depth": 1,
       "height": 32,
       "layer": "",
-      "name": "TempWall",
+      "name": "BuildingWall",
       "persistentUuid": "f9906d35-4686-4e8d-b18b-501ac99be749",
       "width": 224,
       "x": 1056,
@@ -2628,7 +2645,7 @@
   ],
   "objects": [
     {
-      "adaptCollisionMaskAutomatically": true,
+      "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Player",
       "tags": "",
@@ -2845,20 +2862,36 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 10
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 10
+                        "y": 32
                       },
                       {
-                        "x": 48,
-                        "y": 57
+                        "x": 43,
+                        "y": 43
                       },
                       {
-                        "x": 24,
-                        "y": 57
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
                       }
                     ]
                   ]
@@ -2878,7 +2911,7 @@
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Player_Walking",
+                  "image": "Player_Walking10",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2894,27 +2927,95 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 10
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 10
+                        "y": 32
+                      },
+                      {
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player_Walking11",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 57
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 57
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Player_Walking2",
+                  "image": "Player_Walking12",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2930,27 +3031,95 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 10
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 10
+                        "y": 32
+                      },
+                      {
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player_Walking13",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 57
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 57
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Player_Walking3",
+                  "image": "Player_Walking14",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -2966,27 +3135,95 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 10
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 10
+                        "y": 32
+                      },
+                      {
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player_Walking15",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 57
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 57
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Player_Walking4",
+                  "image": "Player_Walking16",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3002,27 +3239,95 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 10
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 10
+                        "y": 32
+                      },
+                      {
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Player_Walking17",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 57
+                        "y": 32
                       },
                       {
-                        "x": 24,
-                        "y": 57
+                        "x": 43,
+                        "y": 43
+                      },
+                      {
+                        "x": 32,
+                        "y": 48
+                      },
+                      {
+                        "x": 21,
+                        "y": 43
+                      },
+                      {
+                        "x": 16,
+                        "y": 32
+                      },
+                      {
+                        "x": 21,
+                        "y": 21
+                      },
+                      {
+                        "x": 32,
+                        "y": 16
                       }
                     ]
                   ]
                 },
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "Player_Walking5",
+                  "image": "Player_Walking18",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -3038,825 +3343,36 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 24,
-                        "y": 10
+                        "x": 43,
+                        "y": 21
                       },
                       {
                         "x": 48,
-                        "y": 10
+                        "y": 32
                       },
                       {
-                        "x": 48,
-                        "y": 57
+                        "x": 43,
+                        "y": 43
                       },
                       {
-                        "x": 24,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Player_Walking6",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 24,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 57
-                      },
-                      {
-                        "x": 24,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Player_Walking7",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 24,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 57
-                      },
-                      {
-                        "x": 24,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Player_Walking8",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 24,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 57
-                      },
-                      {
-                        "x": 24,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "Player_Walking9",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 24,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 10
-                      },
-                      {
-                        "x": 48,
-                        "y": 57
-                      },
-                      {
-                        "x": 24,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        },
-        {
-          "name": "Walk",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": true,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
+                        "x": 32,
+                        "y": 48
                       },
                       {
                         "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
+                        "y": 43
                       },
                       {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
+                        "x": 16,
+                        "y": 32
                       },
                       {
                         "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
+                        "y": 21
                       },
                       {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player_Walking9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player2.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player3.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player4.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player5.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player6.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player7.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player8.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
-                      }
-                    ]
-                  ]
-                },
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "assets\\Player9.png",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 21,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 10
-                      },
-                      {
-                        "x": 45,
-                        "y": 57
-                      },
-                      {
-                        "x": 21,
-                        "y": 57
+                        "x": 32,
+                        "y": 16
                       }
                     ]
                   ]
@@ -4323,46 +3839,50 @@
     },
     {
       "assetStoreId": "",
-      "height": 32,
-      "name": "TempWall",
-      "tags": "",
-      "texture": "New image",
-      "type": "TiledSpriteObject::TiledSprite",
-      "width": 32,
-      "variables": [],
-      "effects": [],
-      "behaviors": [
-        {
-          "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
       "bottomMargin": 0,
       "height": 32,
       "leftMargin": 0,
-      "name": "Temp_ground",
+      "name": "Ground",
       "rightMargin": 0,
       "tags": "",
-      "texture": "New image2",
+      "texture": "New image7",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 32,
       "variables": [],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "KawaseBlur",
+          "name": "Effect",
+          "doubleParameters": {
+            "blur": 0.001,
+            "padding": 0,
+            "pixelizeX": 0.2,
+            "pixelizeY": 0.2,
+            "quality": 1
+          },
+          "stringParameters": {},
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": []
     },
     {
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
-      "name": "TestTree",
+      "name": "Tree",
       "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -4390,12 +3910,12 @@
           "directions": [
             {
               "looping": false,
-              "metadata": "{\"pskl\":{}}",
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"Tree\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":128,\\\"width\\\":128,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 1\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Layer 2\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,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\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"TestTree2\"],\"name\":\"TestTree\"}}",
               "timeBetweenFrames": 0.08,
               "sprites": [
                 {
                   "hasCustomCollisionMask": true,
-                  "image": "TestTree",
+                  "image": "TestTree2",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -4411,48 +3931,44 @@
                   "customCollisionMask": [
                     [
                       {
-                        "x": 45.5,
-                        "y": 36.5
+                        "x": 69,
+                        "y": 66.5
                       },
                       {
-                        "x": 67,
-                        "y": 25.5
+                        "x": 62.5,
+                        "y": 63
                       },
                       {
-                        "x": 91.5,
-                        "y": 28.5
+                        "x": 62,
+                        "y": 55.5
                       },
                       {
-                        "x": 104.5,
-                        "y": 42.5
+                        "x": 62.5,
+                        "y": 46
                       },
                       {
-                        "x": 107.5,
-                        "y": 54
+                        "x": 68,
+                        "y": 39.5
                       },
                       {
-                        "x": 107,
-                        "y": 63.5
+                        "x": 78,
+                        "y": 41
                       },
                       {
-                        "x": 96.5,
-                        "y": 83
+                        "x": 86.5,
+                        "y": 46.5
+                      },
+                      {
+                        "x": 87.5,
+                        "y": 56
+                      },
+                      {
+                        "x": 84.5,
+                        "y": 63
                       },
                       {
                         "x": 77,
-                        "y": 91
-                      },
-                      {
-                        "x": 55.5,
-                        "y": 87
-                      },
-                      {
-                        "x": 44.5,
-                        "y": 77.5
-                      },
-                      {
-                        "x": 39,
-                        "y": 57
+                        "y": 66
                       }
                     ]
                   ]
@@ -4460,6 +3976,30 @@
               ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "BuildingWall",
+      "tags": "",
+      "texture": "New image",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
         }
       ]
     },
@@ -4542,6 +4082,12 @@
           "name": "PromptOffset",
           "type": "number",
           "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -5176,6 +4722,12 @@
           "name": "PromptOffset",
           "type": "number",
           "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
         }
       ],
       "effects": [
@@ -5329,7 +4881,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "Temp_ground",
+                "Ground",
                 "=",
                 "0"
               ]
@@ -5359,7 +4911,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "TempWall",
+                "BuildingWall",
                 "=",
                 "50"
               ]
@@ -5379,7 +4931,7 @@
                 "value": "ChangePlan"
               },
               "parameters": [
-                "TestTree",
+                "Tree",
                 "=",
                 "200"
               ]
@@ -5393,6 +4945,16 @@
                 "=",
                 "210"
               ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "BackpackInterface",
+                "=",
+                "0"
+              ]
             }
           ]
         }
@@ -5404,6 +4966,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Movement",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -5821,6 +5384,213 @@
                 "CameraCenterY()",
                 "\"AboveShadow\"",
                 ""
+              ]
+            }
+          ]
+        },
+        {
+          "colorB": 228,
+          "colorG": 176,
+          "colorR": 74,
+          "creationTime": 0,
+          "name": "Collisons",
+          "source": "",
+          "type": "BuiltinCommonInstructions::Group",
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Walls_Coliders",
+                    "Computing",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "CollisionNP"
+                  },
+                  "parameters": [
+                    "Walls_Coliders",
+                    "Player",
+                    "",
+                    "",
+                    "yes"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SeparateFromObjects"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Walls_Coliders",
+                    "yes"
+                  ]
+                }
+              ]
+            }
+          ],
+          "parameters": []
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "Turn of computing to save resources",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "DepartScene"
+              },
+              "parameters": [
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ResetTimer"
+              },
+              "parameters": [
+                "",
+                "\"ComputingCheck\""
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers",
+                    "Player",
+                    "2500",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers",
+                    "Computing",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "CompareTimer"
+              },
+              "parameters": [
+                "",
+                "\"ComputingCheck\"",
+                ">=",
+                "5"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers",
+                    "Computing",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ResetTimer"
+                  },
+                  "parameters": [
+                    "",
+                    "\"ComputingCheck\""
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "Distance"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers",
+                    "Player",
+                    "2500",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers",
+                    "Computing",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "RelavanceCheckers",
+                    ""
+                  ]
+                }
               ]
             }
           ]
@@ -7096,13 +6866,11 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Hotbar/BackPack/Items",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -7164,6 +6932,26 @@
                 "BackpackInterface",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Hotbar",
+                "=",
+                "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "HotbarHover",
+                "=",
+                "2"
               ]
             },
             {
@@ -7267,6 +7055,16 @@
                     "OrigLayer",
                     "=",
                     "HeldItem.Layer()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "=",
+                    "5"
                   ]
                 },
                 {
@@ -8539,6 +8337,16 @@
                   "parameters": [
                     "BackpackSlot"
                   ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "BackpackSlot",
+                    "=",
+                    "1"
+                  ]
                 }
               ],
               "events": [
@@ -8609,6 +8417,16 @@
                         "OrigLayer",
                         "=",
                         "HeldItem.Layer()"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ChangePlan"
+                      },
+                      "parameters": [
+                        "HeldItem",
+                        "=",
+                        "5"
                       ]
                     }
                   ]
@@ -9074,6 +8892,16 @@
                         },
                         {
                           "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "HeldItem",
+                            "=",
+                            "50"
+                          ]
+                        },
+                        {
+                          "type": {
                             "value": "ModVarObjet"
                           },
                           "parameters": [
@@ -9482,6 +9310,16 @@
                             "HeldItem",
                             "Dragged",
                             "False"
+                          ]
+                        },
+                        {
+                          "type": {
+                            "value": "ChangePlan"
+                          },
+                          "parameters": [
+                            "HeldItem",
+                            "=",
+                            "1"
                           ]
                         }
                       ]
@@ -10147,6 +9985,16 @@
             },
             {
               "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Interacables",
+                "Computing",
+                "True"
+              ]
+            },
+            {
+              "type": {
                 "value": "PickNearest"
               },
               "parameters": [
@@ -10259,6 +10107,16 @@
           "conditions": [
             {
               "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Interacables",
+                "Computing",
+                "True"
+              ]
+            },
+            {
+              "type": {
                 "value": "PickNearest"
               },
               "parameters": [
@@ -10323,13 +10181,14 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Flashlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
           "type": "BuiltinCommonInstructions::ForEach",
-          "object": "TempWall",
+          "object": "BuildingWall",
           "conditions": [
             {
               "type": {
@@ -10348,8 +10207,8 @@
               "parameters": [
                 "",
                 "LightWall",
-                "TempWall.X()+12",
-                "TempWall.Y()+12",
+                "BuildingWall.X() + 12",
+                "BuildingWall.Y() + 12",
                 ""
               ]
             },
@@ -10361,7 +10220,7 @@
                 "LightWall",
                 "Resizable",
                 "=",
-                "TempWall.Width()-24"
+                "BuildingWall.Width() - 24"
               ]
             },
             {
@@ -10372,7 +10231,7 @@
                 "LightWall",
                 "Resizable",
                 "=",
-                "TempWall.Height()-24"
+                "BuildingWall.Height() - 24"
               ]
             }
           ]
@@ -10564,7 +10423,7 @@
             "const SHAPE_DRAWER = runtimeScene.getObjects(\"FlashlightShapePainter\")[0];",
             "",
             "const INTERACTABLE_OBJECTS = [",
-            "    \"LightWall\",\"TestTree\",",
+            "    \"LightWall\",\"Tree\",",
             "]",
             "",
             "// Edges will correspond to their left corner",
@@ -10649,6 +10508,15 @@
             "    ",
             "    for (let i = 0; i < points.length; i += 2) {",
             "        SHAPE_DRAWER.drawPathLineTo(points[i], points[i + 1]);",
+            "    }",
+            "",
+            "    SHAPE_DRAWER.endFillPath();",
+            "}",
+            "",
+            "function drawDarkener(){",
+            "    SHAPE_DRAWER.beginFillPath(0, 0);",
+            "    for (let i = 0; i < CORNERS.length; i += 1) {",
+            "        SHAPE_DRAWER.drawPathLineTo(CORNERS[i].x, CORNERS[i].y);",
             "    }",
             "",
             "    SHAPE_DRAWER.endFillPath();",
@@ -10779,7 +10647,10 @@
             "",
             "let exterior_corners = getExteriorCorners(lbi_edge, hbi_edge);",
             "",
-            "SHAPE_DRAWER.setFillOpacity(210);",
+            "SHAPE_DRAWER.setFillOpacity(155);",
+            "drawDarkener();",
+            "",
+            "SHAPE_DRAWER.setFillOpacity(220);",
             "drawShadowCast(",
             "    ...player_screen_position.coords,",
             "    ...high_bound_intercept.coords,",
@@ -11101,43 +10972,21 @@
       "followBaseLayerCamera": false,
       "isLightingLayer": false,
       "isLocked": false,
-      "name": "AboveShadow",
+      "name": "UI",
       "renderingType": "",
       "visibility": true,
       "cameras": [],
       "effects": [
         {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
+          "effectType": "Brightness",
+          "name": "Effect",
           "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
+            "brightness": 0.8
           },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
+          "stringParameters": {},
           "booleanParameters": {}
         }
       ]
-    },
-    {
-      "ambientLightColorB": 200,
-      "ambientLightColorG": 200,
-      "ambientLightColorR": 200,
-      "camera3DFarPlaneDistance": 10000,
-      "camera3DFieldOfView": 45,
-      "camera3DNearPlaneDistance": 0.1,
-      "followBaseLayerCamera": false,
-      "isLightingLayer": false,
-      "isLocked": false,
-      "name": "UI",
-      "renderingType": "",
-      "visibility": true,
-      "cameras": [],
-      "effects": []
     },
     {
       "ambientLightColorB": 200,
@@ -11155,18 +11004,12 @@
       "cameras": [],
       "effects": [
         {
-          "effectType": "Scene3D::HemisphereLight",
-          "name": "3D Light",
+          "effectType": "Brightness",
+          "name": "Effect",
           "doubleParameters": {
-            "elevation": 45,
-            "intensity": 1,
-            "rotation": 0
+            "brightness": 0.8
           },
-          "stringParameters": {
-            "groundColor": "64;64;64",
-            "skyColor": "255;255;255",
-            "top": "Y-"
-          },
+          "stringParameters": {},
           "booleanParameters": {}
         }
       ]
