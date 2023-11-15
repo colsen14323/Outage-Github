@@ -854,6 +854,15 @@
         "name": "Player_Walking18",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Ocean.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
+        "name": "Ocean",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
