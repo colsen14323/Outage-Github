@@ -9,16 +9,16 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
-    "gridWidth": 1028,
-    "gridHeight": 1028,
+    "gridWidth": 32,
+    "gridHeight": 32,
     "gridOffsetX": 0,
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.010186253758129305,
+    "snap": false,
+    "zoomFactor": 0.01620530828165852,
     "windowMask": false
   },
   "objectsGroups": [
@@ -186,8 +186,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "38bc481b-403f-4d0d-a4df-c67c4fe2063c",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 15420,
@@ -393,7 +395,7 @@
       "angle": 0,
       "customSize": false,
       "height": 0,
-      "layer": "",
+      "layer": "UI",
       "name": "InteractPrompt",
       "persistentUuid": "9ee83c84-7064-405b-96df-42c1f43946bb",
       "width": 0,
@@ -523,7 +525,14 @@
       "zOrder": 111,
       "numberProperties": [],
       "stringProperties": [],
-      "initialVariables": []
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "PromptOffset",
+          "type": "number",
+          "value": 16
+        }
+      ]
     },
     {
       "angle": 90,
@@ -1021,36 +1030,16 @@
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 8000,
-      "layer": "Flashlight",
-      "locked": true,
-      "name": "LayerSpreader",
-      "persistentUuid": "2c907c09-c6d5-4811-bbb7-cbe6f65b7405",
-      "sealed": true,
-      "width": 10656,
-      "x": -4544,
-      "y": -3392,
-      "zOrder": 113,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 344,
       "customSize": true,
       "depth": 1,
-      "height": 37248,
+      "height": 31472,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "4843b70b-490c-4440-9b26-b25150b7bfd4",
-      "sealed": true,
-      "width": 2163,
-      "x": -5123,
-      "y": 1730,
+      "width": 1827,
+      "x": -3998,
+      "y": 7440,
       "zOrder": 114,
       "numberProperties": [],
       "stringProperties": [],
@@ -1062,10 +1051,8 @@
       "depth": 1,
       "height": 37248,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "51715d65-7552-466b-8e4d-25e66ae27543",
-      "sealed": true,
       "width": 2163,
       "x": 6929,
       "y": 1789,
@@ -1080,10 +1067,8 @@
       "depth": 1,
       "height": 15261,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "f64bb323-2114-477c-8430-77900c345cbf",
-      "sealed": true,
       "width": 2252,
       "x": -10376,
       "y": -10422,
@@ -1098,13 +1083,11 @@
       "depth": 1,
       "height": 11747,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "8fec001d-0212-4062-a075-cdc909f8ea69",
-      "sealed": true,
       "width": 2252,
-      "x": 12119,
-      "y": -8458,
+      "x": 12103,
+      "y": -8455,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -1116,10 +1099,8 @@
       "depth": 1,
       "height": 9305,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "30acd0fd-c062-4052-8a9a-3a52fb736458",
-      "sealed": true,
       "width": 2252,
       "x": -7392,
       "y": -14026,
@@ -1134,10 +1115,8 @@
       "depth": 1,
       "height": 9305,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "8e0219c5-090c-4840-a3a0-ba231d371094",
-      "sealed": true,
       "width": 2252,
       "x": 9227,
       "y": -14411,
@@ -1147,18 +1126,16 @@
       "initialVariables": []
     },
     {
-      "angle": 270,
+      "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 15261,
+      "height": 2899,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "f8974497-c8af-433c-a266-5632114b80c5",
-      "sealed": true,
-      "width": 2252,
-      "x": 914,
-      "y": -20374,
+      "width": 8621,
+      "x": -6562,
+      "y": -14515,
       "zOrder": 115,
       "numberProperties": [],
       "stringProperties": [],
@@ -1170,10 +1147,8 @@
       "depth": 1,
       "height": 11747,
       "layer": "",
-      "locked": true,
       "name": "Ocean",
       "persistentUuid": "7fc8963c-f8ce-4db7-84d8-b449e2e0e8e5",
-      "sealed": true,
       "width": 2252,
       "x": 1096,
       "y": 32737,
@@ -9798,8 +9773,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "02b4445a-608d-4c75-833f-9eabb224c63f",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 20560,
@@ -9814,8 +9791,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "00375add-fa2c-4e9e-8e55-b0f0bc69ba95",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 25700,
@@ -9830,8 +9809,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "5737f0a8-4456-4a2c-b4e8-80fb8264e3e8",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 30840,
@@ -9846,8 +9827,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "4e1eef8e-c9e2-4825-8cba-19a33df83789",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 35980,
@@ -9862,8 +9845,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "1602cf64-78c2-4a2e-8f9d-448ed0290cb6",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 41120,
@@ -9878,8 +9863,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "6eb470b3-b57c-4b9c-9c12-4d72df10e71b",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 20560,
@@ -9894,8 +9881,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "4610b488-0c0a-4623-b58e-e874349f0c46",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 25700,
@@ -9910,8 +9899,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "a9b1d40c-a990-4b1e-8868-6ebe142b245b",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 30840,
@@ -9926,8 +9917,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "aa4737a8-984a-4f79-974d-8e6de1ba3279",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 35980,
@@ -9942,8 +9935,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "6a07c341-a5a3-4638-865a-dd6f0f570356",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 41120,
@@ -9958,8 +9953,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "f50393e6-bf4d-4f71-9aa3-886b5f6e4241",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 15420,
@@ -10019,8 +10016,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "201eb93f-5f8a-428e-8b6a-8252d05d5a4b",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": -15420,
@@ -10035,8 +10034,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "343bf07b-8819-4718-9278-c7cbf57fecc5",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": -10280,
@@ -10051,8 +10052,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "5d933596-59f4-4e05-8a67-831835f75248",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": -5140,
@@ -10067,8 +10070,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "a83bd275-2403-4728-b235-62eef318d682",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 0,
@@ -10083,8 +10088,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "520fe826-4e60-46c2-80b6-4a28fa9ad086",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 5140,
@@ -10099,8 +10106,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "49e7f75d-d552-4d5b-b59c-0d40e13ad563",
+      "sealed": true,
       "width": 13364,
       "x": -11308,
       "y": 10280,
@@ -10115,8 +10124,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "2232c9cc-1047-47df-9260-4a7d5db591b4",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": -10280,
@@ -10131,8 +10142,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "c8c9715a-fb1c-4e6c-8b15-570117a8ab92",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": -5140,
@@ -10147,8 +10160,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "4ed3e3a9-f44d-4cb2-888a-b1bf9d653ed7",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 0,
@@ -10163,8 +10178,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "12f38f42-92f3-4d17-843f-c8875e2c1e33",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 5140,
@@ -10179,8 +10196,10 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "9da0eaa7-062f-4459-a1e6-e789c6d61b41",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": 10280,
@@ -10195,12 +10214,110 @@
       "depth": 7,
       "height": 5140,
       "layer": "",
+      "locked": true,
       "name": "Ground",
       "persistentUuid": "73959e4d-d40d-406c-8a5a-14396890e583",
+      "sealed": true,
       "width": 13364,
       "x": 2056,
       "y": -15420,
       "zOrder": -3,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "layer": "",
+      "name": "Dock",
+      "persistentUuid": "3c0f06a0-eb6c-4472-9870-0bbd42283086",
+      "width": 128,
+      "x": 2048,
+      "y": -12032,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 255,
+      "customSize": true,
+      "depth": 1,
+      "height": 328,
+      "layer": "",
+      "name": "Dock",
+      "persistentUuid": "bd4ff96e-9774-4a38-9529-cad872d9aed2",
+      "width": 101,
+      "x": -6761,
+      "y": 7639,
+      "zOrder": 120,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2483,
+      "layer": "",
+      "name": "Ocean",
+      "persistentUuid": "45e901e8-fe95-4ca8-b451-925501704004",
+      "width": 132,
+      "x": 2045,
+      "y": -14515,
+      "zOrder": 121,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 2899,
+      "layer": "",
+      "name": "Ocean",
+      "persistentUuid": "7eb1e2f0-4b0c-4d32-8b4d-540c29d9e2da",
+      "width": 8621,
+      "x": 2164,
+      "y": -14515,
+      "zOrder": 115,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 344,
+      "customSize": true,
+      "depth": 1,
+      "height": 10348,
+      "layer": "",
+      "name": "Ocean",
+      "persistentUuid": "a0d098b7-05f3-45ba-ac74-b6531dcfd5e6",
+      "width": 2104,
+      "x": -10054,
+      "y": -2141,
+      "zOrder": 114,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 343,
+      "customSize": true,
+      "depth": 3,
+      "height": 147,
+      "layer": "",
+      "name": "Ocean",
+      "persistentUuid": "15a7c509-3890-4474-9fa5-21c5ca93903c",
+      "width": 1635,
+      "x": -8432,
+      "y": 8005,
+      "zOrder": 122,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -12128,140 +12245,6 @@
       ]
     },
     {
-      "assetStoreId": "",
-      "bold": false,
-      "italic": false,
-      "name": "InteractPrompt",
-      "smoothed": true,
-      "tags": "",
-      "type": "TextObject::Text",
-      "underlined": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "string": "Press E to pickup",
-      "font": "",
-      "textAlignment": "left",
-      "characterSize": 14,
-      "color": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      }
-    },
-    {
-      "adaptCollisionMaskAutomatically": true,
-      "assetStoreId": "",
-      "name": "BackpackInterface",
-      "tags": "ItemTech",
-      "type": "Sprite",
-      "updateIfNotVisible": false,
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "animations": [
-        {
-          "name": "BackpackInterface",
-          "useMultipleDirections": false,
-          "directions": [
-            {
-              "looping": false,
-              "metadata": "{\"pskl\":{}}",
-              "timeBetweenFrames": 0.08,
-              "sprites": [
-                {
-                  "hasCustomCollisionMask": true,
-                  "image": "BackpackInterface",
-                  "points": [],
-                  "originPoint": {
-                    "name": "origine",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "centerPoint": {
-                    "automatic": true,
-                    "name": "centre",
-                    "x": 0,
-                    "y": 0
-                  },
-                  "customCollisionMask": [
-                    [
-                      {
-                        "x": 28,
-                        "y": 6
-                      },
-                      {
-                        "x": 228,
-                        "y": 6
-                      },
-                      {
-                        "x": 228,
-                        "y": 255
-                      },
-                      {
-                        "x": 28,
-                        "y": 255
-                      }
-                    ]
-                  ]
-                }
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "assetStoreId": "",
-      "name": "UsageMeter",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "fillOpacity": 0,
-      "outlineSize": 6,
-      "outlineOpacity": 255,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "absoluteCoordinates": true,
-      "clearBetweenFrames": true,
-      "antialiasing": "high"
-    },
-    {
-      "assetStoreId": "",
-      "name": "WeaponFireArc",
-      "tags": "",
-      "type": "PrimitiveDrawing::Drawer",
-      "variables": [],
-      "effects": [],
-      "behaviors": [],
-      "fillOpacity": 0,
-      "outlineSize": 2,
-      "outlineOpacity": 125,
-      "fillColor": {
-        "b": 255,
-        "g": 255,
-        "r": 255
-      },
-      "outlineColor": {
-        "b": 0,
-        "g": 0,
-        "r": 0
-      },
-      "absoluteCoordinates": true,
-      "clearBetweenFrames": true,
-      "antialiasing": "none"
-    },
-    {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Locker",
@@ -12370,6 +12353,140 @@
     },
     {
       "assetStoreId": "",
+      "bold": false,
+      "italic": false,
+      "name": "InteractPrompt",
+      "smoothed": true,
+      "tags": "",
+      "type": "TextObject::Text",
+      "underlined": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "string": "Press E to pickup",
+      "font": "",
+      "textAlignment": "left",
+      "characterSize": 14,
+      "color": {
+        "b": 206,
+        "g": 206,
+        "r": 206
+      }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "BackpackInterface",
+      "tags": "ItemTech",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "BackpackInterface",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "BackpackInterface",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 28,
+                        "y": 6
+                      },
+                      {
+                        "x": 228,
+                        "y": 6
+                      },
+                      {
+                        "x": 228,
+                        "y": 255
+                      },
+                      {
+                        "x": 28,
+                        "y": 255
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "assetStoreId": "",
+      "name": "WeaponFireArc",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "fillOpacity": 0,
+      "outlineSize": 2,
+      "outlineOpacity": 125,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 0,
+        "g": 0,
+        "r": 0
+      },
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": true,
+      "antialiasing": "none"
+    },
+    {
+      "assetStoreId": "",
+      "name": "UsageMeter",
+      "tags": "",
+      "type": "PrimitiveDrawing::Drawer",
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "fillOpacity": 0,
+      "outlineSize": 6,
+      "outlineOpacity": 255,
+      "fillColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "outlineColor": {
+        "b": 255,
+        "g": 255,
+        "r": 255
+      },
+      "absoluteCoordinates": true,
+      "clearBetweenFrames": true,
+      "antialiasing": "high"
+    },
+    {
+      "assetStoreId": "",
       "name": "FlashlightShapePainter",
       "tags": "",
       "type": "PrimitiveDrawing::Drawer",
@@ -12421,6 +12538,23 @@
       "variables": [],
       "effects": [],
       "behaviors": []
+    },
+    {
+      "assetStoreId": "",
+      "bottomMargin": 16,
+      "height": 64,
+      "leftMargin": 16,
+      "name": "Dock",
+      "rightMargin": 16,
+      "tags": "",
+      "texture": "Dock",
+      "tiled": true,
+      "topMargin": 16,
+      "type": "PanelSpriteObject::PanelSprite",
+      "width": 64,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
     }
   ],
   "events": [
@@ -12464,6 +12598,16 @@
                 "Ocean",
                 "=",
                 "1"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Dock",
+                "=",
+                "2"
               ]
             },
             {
@@ -17649,7 +17793,7 @@
               "parameters": [
                 "InteractPrompt",
                 "=",
-                "Interacables.CenterX()"
+                "Interacables.CenterX()-Player.CenterX()+(SceneWindowWidth()/2)"
               ]
             },
             {
@@ -17659,7 +17803,7 @@
               "parameters": [
                 "InteractPrompt",
                 "=",
-                "Interacables.CenterY()-Interacables.Variable(PromptOffset)"
+                "(Interacables.CenterY()-Player.CenterY())+(SceneWindowHeight()/2)-Interacables.Variable(PromptOffset)"
               ]
             },
             {
@@ -17774,6 +17918,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Flashlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -18287,7 +18432,9 @@
             "    input_manager.getMouseY()",
             ")",
             "",
-            "let player_screen_position = toScreenSpace(player_position);",
+            "//changed so that flashlight will come from center of screen instead of player for hiding",
+            "// let player_screen_position = toScreenSpace(player_position);",
+            "let player_screen_position = toScreenSpace(new Point(CAMERA_INSTANCE.getCameraX(),CAMERA_INSTANCE.getCameraY()));",
             "let player_mouse_ray = Ray.fromPoints(player_screen_position, mouse_position);",
             "",
             "let low_fov_bound = Ray.fromAngle(player_screen_position, player_mouse_ray.angle - fov_range);",

@@ -715,7 +715,7 @@
         "alwaysLoaded": false,
         "file": "assets/Locker.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Locker.png\"}",
         "name": "Locker",
         "smoothed": true,
         "userAdded": true
@@ -861,6 +861,15 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{}}",
         "name": "Ocean",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Dock.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Dock.png\"}",
+        "name": "Dock",
         "smoothed": true,
         "userAdded": true
       }
