@@ -1088,6 +1088,15 @@
         "name": "Sign5",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Table.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Table.png\"}",
+        "name": "Table",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
