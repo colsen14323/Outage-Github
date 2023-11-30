@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25416226780274803,
+    "zoomFactor": 0.25416226780275236,
     "windowMask": false
   },
   "objectsGroups": [
@@ -50,9 +50,6 @@
         },
         {
           "name": "Ocean"
-        },
-        {
-          "name": "Table"
         }
       ]
     },
@@ -124,27 +121,6 @@
     }
   ],
   "instances": [
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "dda18b34-69fd-4149-b05d-343859639679",
-      "width": 64,
-      "x": 2304,
-      "y": -8288,
-      "zOrder": 100,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
     {
       "angle": 0,
       "customSize": true,
@@ -11880,7 +11856,7 @@
           "folded": true,
           "name": "TextBoxSprite",
           "type": "number",
-          "value": 1
+          "value": 3
         }
       ]
     },
@@ -11907,7 +11883,7 @@
           "folded": true,
           "name": "TextBoxSprite",
           "type": "number",
-          "value": 1
+          "value": 4
         },
         {
           "name": "Texts",
@@ -11930,6 +11906,16 @@
                   "folded": true,
                   "type": "string",
                   "value": "East"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
                 }
               ]
             },
@@ -11944,12 +11930,22 @@
                 {
                   "folded": true,
                   "type": "number",
-                  "value": 401
+                  "value": 295
                 },
                 {
                   "folded": true,
                   "type": "string",
                   "value": "North Docks"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
                 }
               ]
             }
@@ -12514,6 +12510,735 @@
       "x": 1184,
       "y": 64,
       "zOrder": 173,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 512,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "4942e027-ec78-417f-9840-c19cd047531a",
+      "width": 800,
+      "x": -1440,
+      "y": -9728,
+      "zOrder": 174,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 832,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "ca7858a9-b00b-4b0f-ab5c-ea33c25fbed6",
+      "width": 320,
+      "x": -960,
+      "y": -10560,
+      "zOrder": 175,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "ad8a594d-909f-4909-b046-e6bfee7c6aa7",
+      "width": 1920,
+      "x": -2560,
+      "y": -11168,
+      "zOrder": 176,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "cc6d9f28-1b35-4e1b-ac84-bc60615cc652",
+      "width": 864,
+      "x": -2176,
+      "y": -10560,
+      "zOrder": 177,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "4d7f0d72-dca7-4b82-9145-061b04bfa1cf",
+      "width": 32,
+      "x": -1344,
+      "y": -10592,
+      "zOrder": 178,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "4b5b202e-29cc-4cf8-8bc3-74c6ef599573",
+      "width": 384,
+      "x": -1696,
+      "y": -10240,
+      "zOrder": 179,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "b0be4152-052a-469e-8a06-6d9c92e0de63",
+      "width": 416,
+      "x": -2176,
+      "y": -10240,
+      "zOrder": 180,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "0b58bedd-93a6-495f-80a8-90bcb5dfd0cd",
+      "width": 64,
+      "x": -1760,
+      "y": -10240,
+      "zOrder": 181,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "1b901087-75dc-4d71-9e43-2ab2bbd2bf2a",
+      "width": 32,
+      "x": -2176,
+      "y": -10592,
+      "zOrder": 182,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "e00e7f56-9145-43d2-ade5-d4c66f56c63c",
+      "width": 416,
+      "x": -2560,
+      "y": -10592,
+      "zOrder": 183,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 608,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "c63b1f04-4d18-4135-bdc4-afda69d77127",
+      "width": 32,
+      "x": -2560,
+      "y": -11168,
+      "zOrder": 184,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "5e541e7e-33fd-4b5c-bc21-c4d0160ecedd",
+      "width": 1920,
+      "x": -2560,
+      "y": -11168,
+      "zOrder": 186,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "03a1739a-cb45-45e9-a8f2-5fdec0abab8a",
+      "width": 416,
+      "x": -1344,
+      "y": -10592,
+      "zOrder": 187,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 896,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "540815a8-4747-4545-8d05-023f90d038d0",
+      "width": 32,
+      "x": -960,
+      "y": -10592,
+      "zOrder": 188,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "4ffe33c7-e0b7-4d95-8f93-d5e00d016c36",
+      "width": 512,
+      "x": -1440,
+      "y": -9728,
+      "zOrder": 189,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "d9a9c612-d076-4693-8ed0-f9440d38d76f",
+      "width": 32,
+      "x": -1440,
+      "y": -9728,
+      "zOrder": 190,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "22bd2402-546a-463d-8821-063befcfc639",
+      "width": 800,
+      "x": -1440,
+      "y": -9248,
+      "zOrder": 191,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "ad94ef76-4c0c-4ff3-8c6f-5d62f4e88945",
+      "width": 64,
+      "x": -1456,
+      "y": -9488,
+      "zOrder": 192,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "99f526e7-87ba-4c64-9519-2815e3790852",
+      "width": 32,
+      "x": -1440,
+      "y": -9440,
+      "zOrder": 193,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1952,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "bd75c9d5-4b5d-4c68-b3c1-8e2f64113fd2",
+      "width": 32,
+      "x": -672,
+      "y": -11168,
+      "zOrder": 194,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "3796861e-383e-46fc-9ceb-2630cc9326bd",
+      "width": 64,
+      "x": -832,
+      "y": -9728,
+      "zOrder": 195,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "67a5d962-4e29-4b54-8287-d22866e71f3f",
+      "width": 128,
+      "x": -960,
+      "y": -9728,
+      "zOrder": 196,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "10deb531-3d1a-4cac-81e8-897422373c6a",
+      "width": 128,
+      "x": -768,
+      "y": -9728,
+      "zOrder": 197,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "9080600f-217d-4668-b41e-d4a92e0cd479",
+      "width": 128,
+      "x": -960,
+      "y": -10592,
+      "zOrder": 196,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "0567041d-2270-4eba-ad29-86a9772282c8",
+      "width": 64,
+      "x": -832,
+      "y": -10592,
+      "zOrder": 195,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "498a941f-8adc-443a-b7cc-8d78b7644d36",
+      "width": 128,
+      "x": -768,
+      "y": -10592,
+      "zOrder": 197,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 256,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "e56ed4ee-1b7c-483f-a024-bf0bc9a53e69",
+      "width": 32,
+      "x": -2176,
+      "y": -10816,
+      "zOrder": 198,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "9262c784-b39e-48cc-ad6f-f6301e7d5bd2",
+      "width": 64,
+      "x": -2192,
+      "y": -10864,
+      "zOrder": 199,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "fd91c705-a09b-45f8-9e2d-5ba476ff5ae7",
+      "width": 32,
+      "x": -2176,
+      "y": -11168,
+      "zOrder": 200,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "8c1479fb-5b1d-4de1-9596-458a94436c49",
+      "width": 64,
+      "x": -2528,
+      "y": -10720,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "009a3e4b-04d9-4fa3-95c7-057b440c1c0e",
+      "width": 0,
+      "x": -2496,
+      "y": -10688,
+      "zOrder": 202,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "1e64851d-80b1-4d15-ad98-8eccdc6a92a4",
+      "width": 0,
+      "x": -2016,
+      "y": -10848,
+      "zOrder": 203,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "23990ef5-15c1-4d8c-912f-8847010715fd",
+      "width": 0,
+      "x": -2496,
+      "y": -10976,
+      "zOrder": 202,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "9f64c778-1380-4de6-a6b3-f40c3c52f5e5",
+      "width": 64,
+      "x": -2528,
+      "y": -11008,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "60d1ae7b-7809-4722-b555-1069b17502c0",
+      "width": 32,
+      "x": -2368,
+      "y": -11120,
+      "zOrder": 202,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "ee8e6e48-bf1c-40c1-ab5d-75e64d49e7f9",
+      "width": 96,
+      "x": -2400,
+      "y": -11136,
+      "zOrder": 201,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "8048594d-1bda-4e3c-9340-b7ae926e8e9a",
+      "width": 32,
+      "x": -1408,
+      "y": -11168,
+      "zOrder": 204,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "663d80ba-3dd0-4d8c-b9fc-225ca3c4e702",
+      "width": 672,
+      "x": -1312,
+      "y": -10912,
+      "zOrder": 205,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "ed49dffc-ecc3-4b19-99f6-f6c37b1e882d",
+      "width": 64,
+      "x": -1376,
+      "y": -10912,
+      "zOrder": 206,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "0c3e442f-6e96-4043-b265-c0948a6ba7f5",
+      "width": 96,
+      "x": -768,
+      "y": -11136,
+      "zOrder": 207,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "74984449-7ea1-4f90-b866-418bf123caa9",
+      "width": 0,
+      "x": -736,
+      "y": -11120,
+      "zOrder": 208,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "1a61f5d4-4638-40f3-b0b5-ae5b32a0e429",
+      "width": 0,
+      "x": -1344,
+      "y": -10816,
+      "zOrder": 209,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 5
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 480,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "e8e0c7fa-66fd-4f39-82d8-402339a7bbca",
+      "width": 672,
+      "x": -1504,
+      "y": -4992,
+      "zOrder": 210,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 928,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "d35523bd-90d9-47c7-a0b9-d6ba7c985b5d",
+      "width": 384,
+      "x": -1216,
+      "y": -5920,
+      "zOrder": 211,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14093,6 +14818,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Locked",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Locked",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 64
+                      },
+                      {
+                        "x": 0,
+                        "y": 64
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -14402,6 +15176,104 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Egg",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Egg",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Key",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -14618,6 +15490,102 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "12Gauge",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Egg",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Egg.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Key",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Key.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -15376,6 +16344,104 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Sign3",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sign6",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 22
+                      },
+                      {
+                        "x": 226,
+                        "y": 22
+                      },
+                      {
+                        "x": 226,
+                        "y": 256
+                      },
+                      {
+                        "x": 42,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "Sign4",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sign7",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 22
+                      },
+                      {
+                        "x": 226,
+                        "y": 22
+                      },
+                      {
+                        "x": 226,
+                        "y": 256
+                      },
+                      {
+                        "x": 42,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -15444,6 +16510,14 @@
                   "folded": true,
                   "type": "string",
                   "value": "TestingText"
+                },
+                {
+                  "type": "number",
+                  "value": 90
+                },
+                {
+                  "type": "number",
+                  "value": 20
                 }
               ]
             }
@@ -15753,6 +16827,26 @@
                 "Scale",
                 "=",
                 "2"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Table",
+                "=",
+                "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "ChangePlan"
+              },
+              "parameters": [
+                "Locker",
+                "=",
+                "10"
               ]
             }
           ]
@@ -16422,13 +17516,32 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Door",
-                    "Animation",
-                    "=",
-                    "0"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Door",
+                        "Animation",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Door",
+                        "Animation",
+                        "=",
+                        "3"
+                      ]
+                    }
                   ]
                 },
                 {
@@ -17887,7 +19000,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Hotbar/BackPack/Items",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -18533,6 +19645,16 @@
                   },
                   "parameters": [
                     "HeldItem"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ChangePlan"
+                  },
+                  "parameters": [
+                    "Item",
+                    "=",
+                    "40"
                   ]
                 }
               ]
@@ -20893,13 +22015,32 @@
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Interacables",
-                "Animation",
-                "=",
-                "0"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "3"
+                  ]
+                }
               ]
             },
             {
@@ -20931,13 +22072,32 @@
           "conditions": [
             {
               "type": {
-                "value": "AnimatableCapability::AnimatableBehavior::Index"
+                "value": "BuiltinCommonInstructions::Or"
               },
-              "parameters": [
-                "Interacables",
-                "Animation",
-                "=",
-                "0"
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Door",
+                    "Animation",
+                    "=",
+                    "3"
+                  ]
+                }
               ]
             },
             {
@@ -20965,7 +22125,73 @@
           ]
         },
         {
-          "folded": true,
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "AnimatableCapability::AnimatableBehavior::Index"
+              },
+              "parameters": [
+                "Door",
+                "Animation",
+                "=",
+                "3"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Not"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "HotbarHover.CenterX()",
+                    "HotbarHover.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "HeldItem"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "Animation",
+                    "=",
+                    "5"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Door",
+                "InteractText",
+                "=",
+                "\"A key is needed\""
+              ]
+            }
+          ]
+        },
+        {
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -21038,6 +22264,17 @@
                     "InteractType",
                     "=",
                     "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "0"
                   ]
                 }
               ],
@@ -21139,6 +22376,150 @@
                     "InteractType",
                     "=",
                     "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageMax",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageCur",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageType",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Interacting",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "InMenu",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "HotbarHover.CenterX()",
+                    "HotbarHover.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "HeldItem"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "Animation",
+                    "=",
+                    "5"
                   ]
                 }
               ],
@@ -21398,6 +22779,43 @@
           ],
           "actions": [],
           "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "3"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "HotbarHover.CenterX()",
+                    "HotbarHover.CenterY()",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeldItem"
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -21682,6 +23100,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Text",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -21959,6 +23378,26 @@
                 },
                 {
                   "type": {
+                    "value": "TextObject::Angle"
+                  },
+                  "parameters": [
+                    "TextPopUpText",
+                    "=",
+                    "TextInteractable.Variable(Texts[Variable(LoopCounter)][3])"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "TextObject::Text::SetFontSize"
+                  },
+                  "parameters": [
+                    "TextPopUpText",
+                    "=",
+                    "TextInteractable.Variable(Texts[Variable(LoopCounter)][4])"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "TextObject::String"
                   },
                   "parameters": [
@@ -22029,6 +23468,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Interact general",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -22351,13 +23791,32 @@
                 },
                 {
                   "type": {
-                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                    "value": "BuiltinCommonInstructions::Or"
                   },
-                  "parameters": [
-                    "Interacables",
-                    "Animation",
-                    "=",
-                    "0"
+                  "parameters": [],
+                  "subInstructions": [
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Interacables",
+                        "Animation",
+                        "=",
+                        "0"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "AnimatableCapability::AnimatableBehavior::Index"
+                      },
+                      "parameters": [
+                        "Interacables",
+                        "Animation",
+                        "=",
+                        "3"
+                      ]
+                    }
                   ]
                 }
               ],

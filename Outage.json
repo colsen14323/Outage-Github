@@ -904,7 +904,7 @@
         "alwaysLoaded": false,
         "file": "assets/Door2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Door2.png\"}",
         "name": "Door2",
         "smoothed": true,
         "userAdded": false
@@ -1039,7 +1039,7 @@
         "alwaysLoaded": false,
         "file": "assets/Sign2.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Sign2.png\"}",
         "name": "Sign2",
         "smoothed": true,
         "userAdded": false
@@ -1095,6 +1095,69 @@
         "kind": "image",
         "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/Table.png\"}",
         "name": "Table",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sign6.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Sign6.png\"}",
+        "name": "Sign6",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Sign7.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Sign7",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Egg.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Egg",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Locked.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Locked",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Key.png\"}",
+        "name": "Key",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Egg.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Egg.png",
+        "smoothed": true,
+        "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Key.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Key.png",
         "smoothed": true,
         "userAdded": true
       }
