@@ -1169,6 +1169,15 @@
         "name": "New image8",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generator.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "Generator",
+        "smoothed": true,
+        "userAdded": false
       }
     ],
     "resourceFolders": []

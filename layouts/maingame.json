@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.11466680052397701,
+    "snap": false,
+    "zoomFactor": 0.5633579909743118,
     "windowMask": false
   },
   "objectsGroups": [
@@ -87,6 +87,9 @@
         },
         {
           "name": "Table"
+        },
+        {
+          "name": "LightWall"
         }
       ]
     }
@@ -185,22 +188,6 @@
     {
       "angle": 0,
       "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "",
-      "name": "BuildingWall",
-      "persistentUuid": "9afdf35a-bdec-4880-bbc2-c978415fd93f",
-      "width": 224,
-      "x": 704,
-      "y": 352,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
       "depth": 7,
       "height": 5140,
       "layer": "",
@@ -212,101 +199,6 @@
       "x": -11264,
       "y": 15480,
       "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "BuildingWall",
-      "persistentUuid": "6bfd270b-c9fa-4b7a-868c-d0f792cbcfec",
-      "width": 32,
-      "x": 1248,
-      "y": 32,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 352,
-      "layer": "",
-      "name": "BuildingWall",
-      "persistentUuid": "e198bfaf-3840-431a-87b9-a3f93bbeb687",
-      "width": 32,
-      "x": 704,
-      "y": 32,
-      "zOrder": 19,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "",
-      "name": "BuildingWall",
-      "persistentUuid": "fcea7bd3-098b-4f4d-b97a-c4a736ecb8ab",
-      "width": 576,
-      "x": 704,
-      "y": 32,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "",
-      "name": "BuildingWall",
-      "persistentUuid": "f9906d35-4686-4e8d-b18b-501ac99be749",
-      "width": 224,
-      "x": 1056,
-      "y": 352,
-      "zOrder": 6,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 320,
-      "layer": "",
-      "name": "RoomFloor",
-      "persistentUuid": "9ed3b99f-094e-4a96-9104-49b1fc4f984b",
-      "width": 512,
-      "x": 736,
-      "y": 64,
-      "zOrder": -1,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "BloodParticleEmmiter",
-      "persistentUuid": "f35bd802-ea84-40e1-8e8f-a2db5dbfe489",
-      "width": 0,
-      "x": 992,
-      "y": 544,
-      "zOrder": 21,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -350,37 +242,6 @@
     },
     {
       "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 64,
-      "layer": "UI",
-      "name": "Hotbar",
-      "persistentUuid": "684074d4-acac-4afb-9d05-7455d706182b",
-      "width": 192,
-      "x": 896,
-      "y": 32,
-      "zOrder": 101,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "HotbarHover",
-      "persistentUuid": "ee035146-e125-4f01-b539-773e0e1375ac",
-      "width": 0,
-      "x": 896,
-      "y": 32,
-      "zOrder": 102,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
@@ -391,96 +252,6 @@
       "y": 448,
       "zOrder": 103,
       "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "6de85504-9d1e-4c76-a4e1-6228f135529a",
-      "width": 0,
-      "x": 1090,
-      "y": 454,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "UI",
-      "name": "InteractPrompt",
-      "persistentUuid": "9ee83c84-7064-405b-96df-42c1f43946bb",
-      "width": 0,
-      "x": 555,
-      "y": 391,
-      "zOrder": 104,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "355b01da-f63b-4377-87de-1ba3be52e965",
-      "width": 0,
-      "x": 1154,
-      "y": 454,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "a095956e-e92b-4ce3-b3f9-e3d00874b8f2",
-      "width": 0,
-      "x": 1122,
-      "y": 454,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "b5d909f1-a444-48b5-a464-2258bedc2797",
-      "width": 0,
-      "x": 1186,
-      "y": 454,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -527,508 +298,6 @@
       "y": -32,
       "zOrder": 110,
       "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Locker",
-      "persistentUuid": "93a95d86-4671-48e6-bb51-d2711495d67c",
-      "width": 0,
-      "x": 1056,
-      "y": 64,
-      "zOrder": 111,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": [
-        {
-          "folded": true,
-          "name": "PromptOffset",
-          "type": "number",
-          "value": 16
-        }
-      ]
-    },
-    {
-      "angle": 90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Locker",
-      "persistentUuid": "83d7d412-47a1-4519-abbc-98c57ac52897",
-      "width": 0,
-      "x": 1200,
-      "y": 272,
-      "zOrder": 111,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": -90,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Locker",
-      "persistentUuid": "408822ab-7ccd-41e5-a683-884ead08fe3e",
-      "width": 0,
-      "x": 720,
-      "y": 176,
-      "zOrder": 111,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "24ed9c6c-8db1-49b6-8582-3b6fc4763920",
-      "width": 0,
-      "x": 1090,
-      "y": 486,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "7146e9ab-626d-4897-ac44-81846f8bb81e",
-      "width": 0,
-      "x": 1154,
-      "y": 486,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "bedfaf24-46b5-4f86-9c15-b0f69971b7bf",
-      "width": 0,
-      "x": 1122,
-      "y": 486,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "1cccfee8-fe68-430b-a82a-d706ee959511",
-      "width": 0,
-      "x": 1186,
-      "y": 486,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "d610cdf6-6d9a-4747-a37e-8d7853227278",
-      "width": 0,
-      "x": 1090,
-      "y": 518,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "854175ee-4147-4e95-a6cd-e0c7cda73c66",
-      "width": 0,
-      "x": 1154,
-      "y": 518,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "70f63609-115e-49ed-97a2-1c6215d6f4d8",
-      "width": 0,
-      "x": 1122,
-      "y": 518,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "c4e3b19a-5c20-43da-bfeb-dac321e6da1c",
-      "width": 0,
-      "x": 1186,
-      "y": 518,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "1849fb34-c754-4783-9c98-b9f29bfb2483",
-      "width": 0,
-      "x": 1090,
-      "y": 550,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "672861f4-b077-4629-84a8-d49fa2142cee",
-      "width": 0,
-      "x": 1154,
-      "y": 550,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "bc150b29-d1ea-4760-bc31-38137cf58381",
-      "width": 0,
-      "x": 1122,
-      "y": 550,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "acdbffe1-1068-4987-905a-877b51a4ab54",
-      "width": 0,
-      "x": 1186,
-      "y": 550,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "a625c306-292c-4bc7-ab71-fce79576e42a",
-      "width": 0,
-      "x": 1090,
-      "y": 582,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "11a44bee-2a83-456f-9975-89e303a79278",
-      "width": 0,
-      "x": 1154,
-      "y": 582,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "841c9a27-5688-4382-9401-73397dd98c8d",
-      "width": 0,
-      "x": 1122,
-      "y": 582,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "e4f674dc-3caf-4c68-abf6-be67b4b59a4d",
-      "width": 0,
-      "x": 1186,
-      "y": 582,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "e5a0ba5f-d83a-4602-bdfd-0fd0efb42ede",
-      "width": 0,
-      "x": 1090,
-      "y": 614,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "6b0d78c3-7724-44cf-8091-6bca23b6a2cf",
-      "width": 0,
-      "x": 1154,
-      "y": 614,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "0bc182d5-9950-4b3e-9df7-bb049d7f8c3c",
-      "width": 0,
-      "x": 1122,
-      "y": 614,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "204d73d9-a65b-45ce-8003-37b86970ee53",
-      "width": 0,
-      "x": 1186,
-      "y": 614,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "4df5e2dc-29ec-4eb9-80e6-d5c76ee0d966",
-      "width": 0,
-      "x": 1090,
-      "y": 646,
-      "zOrder": 142,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "e1c92728-84f0-4f4e-9a33-248f60112a9b",
-      "width": 0,
-      "x": 1154,
-      "y": 646,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 2
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "346c6fb2-914d-4236-ac1a-846b0f2be2db",
-      "width": 0,
-      "x": 1122,
-      "y": 646,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 1
-        }
-      ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Item",
-      "persistentUuid": "727ce61b-0673-431f-a030-5d8f1cb547e8",
-      "width": 0,
-      "x": 1186,
-      "y": 646,
-      "zOrder": 142,
-      "numberProperties": [
-        {
-          "name": "animation",
-          "value": 3
-        }
-      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -12039,12 +11308,12 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 32,
+      "height": 64,
       "layer": "",
       "name": "Table",
       "persistentUuid": "c63920e5-8b79-429f-9e5d-e0fb54c6b098",
-      "width": 64,
-      "x": 3616,
+      "width": 96,
+      "x": 3584,
       "y": -10624,
       "zOrder": 169,
       "numberProperties": [],
@@ -12479,37 +11748,6 @@
       "x": 10218,
       "y": -15360,
       "zOrder": -3,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Table",
-      "persistentUuid": "cd06004f-095b-4061-95d2-49b09243b2d5",
-      "width": 0,
-      "x": 1024,
-      "y": 1024,
-      "zOrder": 172,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": true,
-      "depth": 1,
-      "height": 32,
-      "layer": "",
-      "name": "Table",
-      "persistentUuid": "05c05451-a77e-4052-8243-ed51a855a73c",
-      "width": 64,
-      "x": 1184,
-      "y": 64,
-      "zOrder": 173,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -13019,21 +12257,6 @@
       "customSize": false,
       "height": 0,
       "layer": "",
-      "name": "Player",
-      "persistentUuid": "1e64851d-80b1-4d15-ad98-8eccdc6a92a4",
-      "width": 0,
-      "x": -2016,
-      "y": -10848,
-      "zOrder": 203,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
       "name": "Item",
       "persistentUuid": "23990ef5-15c1-4d8c-912f-8847010715fd",
       "width": 0,
@@ -13247,13 +12470,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 544,
+      "height": 576,
       "layer": "",
       "name": "RoomFloor",
       "persistentUuid": "a581a865-864d-4b78-b137-52b6a159e5db",
       "width": 864,
       "x": -1216,
-      "y": -4512,
+      "y": -4544,
       "zOrder": 212,
       "numberProperties": [],
       "stringProperties": [],
@@ -13267,9 +12490,9 @@
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "37cfb4bc-384d-4a62-b31c-580bd3bf99d7",
-      "width": 416,
-      "x": -768,
-      "y": -4512,
+      "width": 544,
+      "x": -896,
+      "y": -4544,
       "zOrder": 213,
       "numberProperties": [],
       "stringProperties": [],
@@ -13279,13 +12502,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 544,
+      "height": 576,
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "8a1aa432-2f7d-49ed-a9b1-5aa8d66c3300",
       "width": 32,
       "x": -384,
-      "y": -4512,
+      "y": -4544,
       "zOrder": 214,
       "numberProperties": [],
       "stringProperties": [],
@@ -13331,7 +12554,7 @@
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "16669a0b-afb2-44a1-9408-40eaa54b57c2",
-      "width": 320,
+      "width": 544,
       "x": -1504,
       "y": -4544,
       "zOrder": 217,
@@ -13395,7 +12618,7 @@
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "34491f16-e196-4ff1-b884-9bce8e6b5861",
-      "width": 320,
+      "width": 544,
       "x": -1504,
       "y": -4992,
       "zOrder": 217,
@@ -13439,7 +12662,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1440,
+      "height": 1408,
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "3919bd37-e786-4d5f-b5a7-63fbbc314363",
@@ -13447,6 +12670,889 @@
       "x": -768,
       "y": -5920,
       "zOrder": 222,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "d9553997-add1-4adc-8bb6-135705655d9b",
+      "width": 64,
+      "x": -960,
+      "y": -4544,
+      "zOrder": 223,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "9c6766d7-f915-447c-861a-3f053a217386",
+      "width": 160,
+      "x": -896,
+      "y": -4992,
+      "zOrder": 224,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "efffeb11-271e-4eed-9934-5cbf8a29f06c",
+      "width": 64,
+      "x": -960,
+      "y": -4992,
+      "zOrder": 223,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "9807c749-51e5-4343-a91e-b93dc2e6d217",
+      "width": 0,
+      "x": -960,
+      "y": -5472,
+      "zOrder": 225,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "fe01069d-92a3-41ba-8a86-9e73d1de5ae2",
+      "width": 0,
+      "x": -1200,
+      "y": -5456,
+      "zOrder": 226,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "283aff93-42bf-4bf2-8e8d-32e86386fecc",
+      "width": 0,
+      "x": -928,
+      "y": -5888,
+      "zOrder": 226,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "16c8f997-dade-4f4a-8462-be86147d4215",
+      "width": 0,
+      "x": -816,
+      "y": -5264,
+      "zOrder": 226,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "80e806ca-f8a2-40d5-a191-bad955033d9d",
+      "width": 96,
+      "x": -1152,
+      "y": -5888,
+      "zOrder": 227,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "c9fce242-a0f4-46ab-b8fd-f32b77da8daf",
+      "width": 64,
+      "x": -832,
+      "y": -5504,
+      "zOrder": 228,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "e3922e5c-b95c-47ec-8974-f0a7dacd251d",
+      "width": 0,
+      "x": -1120,
+      "y": -5872,
+      "zOrder": 229,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "b39451c0-f51b-497b-bffe-f0ad3daf9b4e",
+      "width": 0,
+      "x": -832,
+      "y": -5472,
+      "zOrder": 230,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1056,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "17f9c95b-dd95-4bd9-a210-a185fdc00347",
+      "width": 960,
+      "x": 3968,
+      "y": -7488,
+      "zOrder": 231,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 736,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "2acb7f7e-9f65-43f0-8d80-a3128f342fda",
+      "width": 1056,
+      "x": 2912,
+      "y": -7488,
+      "zOrder": 232,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "2cbca4e3-fbcb-41b9-8794-89ecd86f1455",
+      "width": 64,
+      "x": 2896,
+      "y": -7120,
+      "zOrder": 233,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "e4acd7b9-4079-42d7-b5a4-909b98f88b58",
+      "width": 64,
+      "x": 4512,
+      "y": -6464,
+      "zOrder": 233,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "0aa616ee-28e0-4abb-ae3c-c208a33defea",
+      "width": 32,
+      "x": 2912,
+      "y": -7072,
+      "zOrder": 234,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "6cc0bd13-a407-4d23-b282-915ae00a5787",
+      "width": 1088,
+      "x": 2912,
+      "y": -6784,
+      "zOrder": 235,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "7a1eee08-57a2-4d6e-adba-fe02b38d077f",
+      "width": 32,
+      "x": 3968,
+      "y": -6784,
+      "zOrder": 236,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "2786b255-b7ac-4b5a-a623-89dd457e69ce",
+      "width": 544,
+      "x": 3968,
+      "y": -6464,
+      "zOrder": 237,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "4712aa2c-5160-4c07-ae41-3c65b08825d6",
+      "width": 352,
+      "x": 4576,
+      "y": -6464,
+      "zOrder": 238,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1056,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "95a59565-8f07-4122-8abc-7c22bec23ef1",
+      "width": 32,
+      "x": 4896,
+      "y": -7488,
+      "zOrder": 239,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "56ee149a-f1ff-44bb-8bb7-30c3388514bd",
+      "width": 2016,
+      "x": 2912,
+      "y": -7488,
+      "zOrder": 240,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "0f38883b-72f9-488c-8b1f-92bbf13a98dc",
+      "width": 32,
+      "x": 2912,
+      "y": -7488,
+      "zOrder": 241,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 352,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "79fc216c-e21f-4b3f-867f-8d041ddeb2cc",
+      "width": 32,
+      "x": 3744,
+      "y": -7488,
+      "zOrder": 242,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "79917e1d-3815-4f0a-aa6f-ce846c968298",
+      "width": 64,
+      "x": 3728,
+      "y": -7120,
+      "zOrder": 233,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 320,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "970633f4-42b7-43ab-9671-232210a9b34c",
+      "width": 32,
+      "x": 3744,
+      "y": -7072,
+      "zOrder": 242,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "d6c68df2-a289-43e2-800b-146c7f95668a",
+      "width": 224,
+      "x": 4704,
+      "y": -7008,
+      "zOrder": 243,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "19b3adc4-427f-4a3f-85c3-9986d86370ee",
+      "width": 64,
+      "x": 4640,
+      "y": -7008,
+      "zOrder": 233,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "b3b5a705-ae4f-4879-9f84-dba2ce9455a0",
+      "width": 192,
+      "x": 4448,
+      "y": -7008,
+      "zOrder": 244,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 512,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "728a6c5f-f596-403a-925b-d7d9baf5abe6",
+      "width": 32,
+      "x": 4448,
+      "y": -7488,
+      "zOrder": 245,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "5e2c5330-0c85-48d9-aa09-b3b877291960",
+      "width": 96,
+      "x": 4800,
+      "y": -7456,
+      "zOrder": 246,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "d00d5bb9-ffed-4573-b493-571f970ffcb0",
+      "width": 0,
+      "x": 4832,
+      "y": -7440,
+      "zOrder": 247,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 5
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "fb2f4569-1ee0-43e2-933c-8e1c8f643f55",
+      "width": 64,
+      "x": 4480,
+      "y": -7328,
+      "zOrder": 248,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "41f8123f-88de-47a4-a47a-c77fc099bb95",
+      "width": 0,
+      "x": 4512,
+      "y": -7296,
+      "zOrder": 249,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "66032902-91cf-4aae-91d4-841235b7f81f",
+      "width": 64,
+      "x": 4832,
+      "y": -7296,
+      "zOrder": 250,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "a6343d84-65e7-4f9b-846a-a121e7cc737f",
+      "width": 0,
+      "x": 4832,
+      "y": -7264,
+      "zOrder": 251,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "b4a40404-9d84-4f78-82ba-fbc7e04dcda5",
+      "width": 0,
+      "x": 3904,
+      "y": -7456,
+      "zOrder": 252,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "15815f3d-2385-408e-8506-112c7ff7bd27",
+      "width": 0,
+      "x": 4224,
+      "y": -7456,
+      "zOrder": 253,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "5c60237c-f328-4677-9098-40d773c07f94",
+      "width": 0,
+      "x": 4160,
+      "y": -6496,
+      "zOrder": 254,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "2d9dff73-9bc6-47fa-bef3-b426ce3780f6",
+      "width": 0,
+      "x": 3328,
+      "y": -6816,
+      "zOrder": 255,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 480,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "15dee23b-65c4-4bab-a480-490d5c1ef4a7",
+      "width": 416,
+      "x": 6848,
+      "y": -4608,
+      "zOrder": 256,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "c5c95dda-f837-4175-b3a1-266717fe4f1d",
+      "width": 416,
+      "x": 6848,
+      "y": -4608,
+      "zOrder": 257,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 480,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "09e5f500-e7cf-4486-b353-4810f64e44c7",
+      "width": 32,
+      "x": 7232,
+      "y": -4608,
+      "zOrder": 258,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "8679b383-9901-43f7-94c0-66b861fb9546",
+      "width": 32,
+      "x": 6848,
+      "y": -4320,
+      "zOrder": 259,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "3fafa569-afba-4fc4-a8a1-47de0ee6d174",
+      "width": 32,
+      "x": 6848,
+      "y": -4608,
+      "zOrder": 259,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "aece3559-b344-4054-a91f-6f4fed1047d7",
+      "width": 64,
+      "x": 6832,
+      "y": -4368,
+      "zOrder": 260,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "c9dc57f6-4fe7-43a4-9f86-4ce2d323d95e",
+      "width": 160,
+      "x": 6848,
+      "y": -4160,
+      "zOrder": 261,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "adb3a62a-c6fe-41a7-9356-214ce7ca1ee4",
+      "width": 192,
+      "x": 7072,
+      "y": -4160,
+      "zOrder": 261,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "e2b3c36b-3a6d-48e0-89a5-f3b93716f010",
+      "width": 64,
+      "x": 7008,
+      "y": -4160,
+      "zOrder": 262,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "d2d916aa-ae47-4fe4-ac2b-915ff3ceb9c1",
+      "width": 0,
+      "x": 7072,
+      "y": -4576,
+      "zOrder": 263,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "39772c1b-340c-4b63-aab8-a87812a0015e",
+      "width": 64,
+      "x": 7168,
+      "y": -4416,
+      "zOrder": 264,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "fd975237-f812-4728-b984-ab590539f44c",
+      "width": 0,
+      "x": 7168,
+      "y": -4384,
+      "zOrder": 265,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "f2b7c2c1-9d30-4414-901a-27b5a836215d",
+      "width": 0,
+      "x": 3616,
+      "y": -10608,
+      "zOrder": 266,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "UI",
+      "name": "HotbarHover",
+      "persistentUuid": "14cc6933-b33d-44d8-86e8-f9e87bb929b0",
+      "width": 0,
+      "x": 800,
+      "y": 32,
+      "zOrder": 267,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "UI",
+      "name": "Hotbar",
+      "persistentUuid": "1ae0cedc-003f-4699-9a0c-9ef89f1bf5cd",
+      "width": 192,
+      "x": 800,
+      "y": 32,
+      "zOrder": 1,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14711,7 +14817,12 @@
         }
       ],
       "effects": [],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "TestTree",
@@ -16143,7 +16254,14 @@
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
       "width": 8,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [
         {
@@ -16892,6 +17010,68 @@
         "debugMode": false,
         "texture": "New image8"
       }
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Generator",
+      "tags": "",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "GeneratorOff",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":128,\\\"width\\\":128,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Color\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABLVJREFUeF7tncF1pDAQBe3InMFk4Ej2vJFMBpOBQ3IE3of98IIGoVZLgPRVvuzBaobuKrWA9aDX2+329eL8eTwer9bQ6XNyxi+PW3KO1vMbddyrp7gpkO/v7yap7ve7SSDPOY4KNDfvbAG24FuBp05uKQTQU9Wq8/ssAUL4tcB/fn7WyYajZFfAJMAR4IGezeqQgKQAS/ilMx7ohzAsOuiuAMAvqm0XwVEBasFn1rftwaYAwG8bWs2zexIA+DXL2/6xVgLUgE/Lbx/68gx/BSiBD/S+oD8J4L3PB3y/4Oczf3oWb7nXB3z/4N0CAF8H/pTJqgOkZj/wteBnCQB8PfgrAfZmP/A14ZsEAL4u/KQAwNeGvysA8PXh/woQrv/AHwM+AozDOZrp93OAZQdg9o9lxUoA4I8Ff7UEAH88+AgwJvNV1t9LAF/CGNeE5J+Fj1uaMTJHgDE4x28Daf9jG0AHGJv/CwIggP8FEYPXTiJ9OoAERn8SCOCvnUQkAkhg9CeBAP7aSUQigARGfxII4K+dRCQCSGD0J4EA/tpJRCKABEZ/Egjgr51EJAJIYPQngQD+2klEIoAERn8SCOCvnUQkAkhg9CeBAP7aSUQigARGfxII4K+dRCQCSGD0J4EA/tpJRCKABEZ/Egjgr51EJAJIYPQngQD+2klEIoAERn8SCOCvnUQkAkhg9CeBAP7aSUQigARGfxII4K+dRORQAmztfD76G1KGEWAL/jSFEeCm/4KIGHwEeBnjFTEIEL9ckV8CgL9/rSotwB582v+PGAggcTPnT0JWgNTspwOId4CUAKPf/s09Q7IDpOAz+/8vGTICTBtefHx8PG2GHVsd6QBiSwAC+C4EJTrAvN0NHSBfAgTIr5lURPcCLDe7ogPku9m1AOFOZ1YBerkA/Pt4rIj+ud3yCSciEKB6ScsPGIIPj1hThG4F2NrnUKUDIIBhEqkKkII/l6ZWF6ADGGQ7cwgCGKod2+bWsgS0fgGIAAYBpmf9b29vX+FQBDAULxjS3RKwfOoXSpASoPXZn4+vPKJbAabUJ+BLCRAgX4iuBNh68IMA+dCXEV0LEHaBvQ5A+98WBQHKJlD30d0LsOwCsQ7A7I972o0AsXt/BChrQl0IsAd/Tp/Z7xMBAXx1k4mSFoC1P+0pAqRrJD2ieQEs63/sOoAOkHZXVgDgp+FPI5oWIGf2z7eD07/At8FvWoBc+EsBwvQRosMHQQhgn8UlI5tdAhCgBKs9FgHstZIc2aQAntnPNYDPz+YE8MKPCcAF4L4YCOCbODJRTQnA7D/fK1kBclr/9GfmOePPx3TcJzaVeK0OkAsTAY4TzHzkEvg8BjaX+WlgEx2gFnz+HyBfhMsFKIXP7M+Hvoy4VICa8Jn9PhEQwFc3majLBGD2t+HQJQLUgB8++s299Wuj/NefxekCAP966JdeBNYQIPwSCLPfL9WpHQD4flBHRZ4mwBHwufUr1+IUAYBfDuqoIxwmQA3oc9JbX/xk3a+jRFUBakIPb/PCdBGgEQFqQ0+Bn9NGgAsFCPfk2Xpnn+f0Um/5Ar6nqvsxWUuAZTOm6eOsQliB0/7rg5+PaN5k6bhTyD8y7T+/ZrGIf6mwVC4jdI9TAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Outline\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAIAAAACACAYAAADDPmHLAAAAAXNSR0IArs4c6QAABPRJREFUeF7tnety3SAMhJv3f+i2nimpj2PQcpEtLZs/mUkESLsfArunk69fPl+/wWm/wDiFOSmwyoCr4ei8o+Oc5NhvWtSomjLFwNl5yvyr59vP0c6KR43zNsp7/k6ZeMN7AXjamKfX43W6UlkPAIcZPfErxXxz7ZV1hJsLNTSCARFyCGfgbEIIAJGEj5TLrPYhxlsARBQ8Yk4hzBxJogVAZKFbuaEvoUb0Yhnz7XsNgMjmn98Z3OWfIfc3QfrQJ7uAd2YLgDZeAuDN7Rdg7SYAGXfPNeeMNTzJhQB4Uu2Aa1UByLxzzrlnruMJXrYDYOfHQvOSXwIYdk2pgaEWz05w2wEYRBMAGDYCANOJNmo7AHQH+GT5BwAM7V8fKcMblgDAtaKMFACUtuJFbQeA7gC6A+DbY4PI7TrABp52lSgAuuTiC94OAN0BdAfg28YTFW3XASa0ohwqAChtxYsSALhWlJECgNJWvCgBgGtFGSkAKG3FixIAuFaUkQKA0la8KAGAa0UZKQAobcWLEgC4VpSRAoDSVrwoAYBrRRkpAChtxYsSALhWlJECgNJWvCgBgGtFGSkAKG3FixIAuFaUkQKA0la8KAGAa0UZKQAobcWLEgC4VpSRAoDSVrwoAYBrRRkpAChtxYsSALhWlJECgNJWvCgBgGtFGSkAKG3FixIAuFaUkQKA0la8KAGAa0UZKQAobcWLEgC4VpSRAoDSVrwoAYBrRRkpAChtxYsSALhWlJECgNJWvKjtATgEOH9Zf0EdlzZH5NYAfBT/z6+7n+WwcizLbQFoGb0TBALgZuMIgLFuEm5UOd/Nv5h5yVwAhLNyLCEBYOv2yBFwvWnX0lp9A7cAOPK4rtkaY8uZL8IFgNFHq9FxNdktAA7z79bUETAI8urdMzsfAsBdqQKgE4BZo6zlRudnA2B1hzx0nzoCRo2xDB9p6bWdfHfO/yg8+FNATecV+g8D8GabRNdm6QCtelEtWpvq+yJcLkXWbXx20dEOcB6H5MAAAFqn5dkyAJCEVhiMzGHlIgBsFbuOAEtwe7n1EVZ7zH4HQDRHYqY7wMwi623/nLGWG0sHQPRzPQIim1/EucuRAQDE/JkY8wjIYH4NAusxqQbN6G6aMeKtsVsDUN4HnMXfyXzzRVCm3X/XBawO8Naui7RuswMIgEhW+eRSBSCj+dcuoA5gQyMAbI2oI24BqL08yaRE2f0MtXjqLgA81U0wtwBIYJJnigLAU90Ec5svghLUUE1RTwG2ewLA1og6YgsAqB1cUFz3J4IWrPnIFDoCbJm36AC7/QOPbfv/CAHQoxZhrAAgNLWnJAHQoxZhrAAgNLWnJAHQoxZh7A8AjhozfxageFRqYKjFkzsB4KlugrkFQAKTPFMUAJ7qJpj7FoDs94BzUboDtCkUAAl2qWeKVQCydoHrjlcHGOwAAsBz38WZu9kBskFwt9vVASY6gACIs1O9MjE7QBYIajtdHWCyA1xfrXqRODNvy2QBsAiAqJ3AMtj6/Qx4DGOhI+BcaCRBkVyQGAYjR2voBiBKJ0CNReNGBcw+bgiAtyHoMbUnNruZI/kPA1AgOL4/9anbI9ne9QTAwktgbaoRY3ponZlfADwAwPlRsXeHttKbMT7D42vPJvCKnToCrI5Qfo8eEcXw3nEIRF4CMsz78V/DPAq6GltbAwXFI0fN+VeBP0H655DEnb86AAAAAElFTkSuQmCC\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"Generator\"],\"name\":\"Generator\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Generator",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "events": [
@@ -17956,6 +18136,86 @@
                   ]
                 }
               ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "LightWall",
+                    "LightObstacleBehavior",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Tree",
+                    "LightObstacleBehavior",
+                    "no"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "LightWall",
+                    "Computing",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "LightWall",
+                    "LightObstacleBehavior",
+                    "yes"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Tree",
+                    "Computing",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Tree",
+                    "LightObstacleBehavior",
+                    "yes"
+                  ]
+                }
+              ]
             }
           ]
         }
@@ -18243,6 +18503,18 @@
                 "BloodParticleEmmiter",
                 "=",
                 "-1"
+              ]
+            },
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "BloodParticleEmmiter",
+                "Player.CenterX()",
+                "Player.CenterY()",
+                ""
               ]
             }
           ],
@@ -19649,7 +19921,6 @@
           ]
         },
         {
-          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -23699,6 +23970,17 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "name": "Power",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
       "folded": true,
       "name": "Interact general",
       "source": "",
@@ -23714,7 +23996,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Interact Types\n0:use Item\n1:hide\n2:unhide\n3:Break/openDoor\n4:closeDoor\n5:Reading"
+          "comment": "Interact Types\n0:use Item\n1:hide\n2:unhide\n3:Break/openDoor\n4:closeDoor\n5:Reading\n6:generator\n7:breaker"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -23729,6 +24011,18 @@
             }
           ],
           "actions": [
+            {
+              "type": {
+                "value": "Create"
+              },
+              "parameters": [
+                "",
+                "InteractPrompt",
+                "0",
+                "0",
+                "\"UI\""
+              ]
+            },
             {
               "type": {
                 "value": "Cache"
@@ -24206,6 +24500,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Flashlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -25225,9 +25520,9 @@
       ]
     },
     {
-      "ambientLightColorB": 95,
-      "ambientLightColorG": 95,
-      "ambientLightColorR": 95,
+      "ambientLightColorB": 194,
+      "ambientLightColorG": 194,
+      "ambientLightColorR": 194,
       "camera3DFarPlaneDistance": 10000,
       "camera3DFieldOfView": 45,
       "camera3DNearPlaneDistance": 0.1,
