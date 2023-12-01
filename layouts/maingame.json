@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.25416226780275236,
+    "zoomFactor": 0.11466680052397701,
     "windowMask": false
   },
   "objectsGroups": [
@@ -13219,7 +13219,7 @@
       "layer": "",
       "name": "RoomFloor",
       "persistentUuid": "e8e0c7fa-66fd-4f39-82d8-402339a7bbca",
-      "width": 672,
+      "width": 768,
       "x": -1504,
       "y": -4992,
       "zOrder": 210,
@@ -13235,10 +13235,218 @@
       "layer": "",
       "name": "RoomFloor",
       "persistentUuid": "d35523bd-90d9-47c7-a0b9-d6ba7c985b5d",
-      "width": 384,
+      "width": 480,
       "x": -1216,
       "y": -5920,
       "zOrder": 211,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 544,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "a581a865-864d-4b78-b137-52b6a159e5db",
+      "width": 864,
+      "x": -1216,
+      "y": -4512,
+      "zOrder": 212,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "37cfb4bc-384d-4a62-b31c-580bd3bf99d7",
+      "width": 416,
+      "x": -768,
+      "y": -4512,
+      "zOrder": 213,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 544,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "8a1aa432-2f7d-49ed-a9b1-5aa8d66c3300",
+      "width": 32,
+      "x": -384,
+      "y": -4512,
+      "zOrder": 214,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "ba74eb8f-d12d-48ce-9166-885baa7c1cef",
+      "width": 864,
+      "x": -1216,
+      "y": -4000,
+      "zOrder": 215,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 576,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "86648499-c1fd-4d40-be02-e03a2e76cbd3",
+      "width": 32,
+      "x": -1216,
+      "y": -4544,
+      "zOrder": 216,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "16669a0b-afb2-44a1-9408-40eaa54b57c2",
+      "width": 320,
+      "x": -1504,
+      "y": -4544,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 192,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "e3dd01ad-ce6e-4b46-b988-38f8a123bfcd",
+      "width": 32,
+      "x": -1504,
+      "y": -4704,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "63bb602d-e7fa-46e4-a5df-18bd24bf60b8",
+      "width": 64,
+      "x": -1520,
+      "y": -4752,
+      "zOrder": 219,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 224,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "a29ecdab-cefc-4136-b532-1ef687dc188b",
+      "width": 32,
+      "x": -1504,
+      "y": -4992,
+      "zOrder": 218,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "34491f16-e196-4ff1-b884-9bce8e6b5861",
+      "width": 320,
+      "x": -1504,
+      "y": -4992,
+      "zOrder": 217,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 960,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "9f95a4ab-ea0d-4a78-8104-a61a7fa564bd",
+      "width": 32,
+      "x": -1216,
+      "y": -5920,
+      "zOrder": 220,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "fbd06522-7ebe-4207-9381-13cb79d106e1",
+      "width": 480,
+      "x": -1216,
+      "y": -5920,
+      "zOrder": 221,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1440,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "3919bd37-e786-4d5f-b5a7-63fbbc314363",
+      "width": 32,
+      "x": -768,
+      "y": -5920,
+      "zOrder": 222,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -14597,12 +14805,7 @@
         }
       ],
       "effects": [],
-      "behaviors": [
-        {
-          "name": "LightObstacleBehavior",
-          "type": "Lighting::LightObstacleBehavior"
-        }
-      ]
+      "behaviors": []
     },
     {
       "assetStoreId": "",
@@ -15942,7 +16145,12 @@
       "width": 8,
       "variables": [],
       "effects": [],
-      "behaviors": []
+      "behaviors": [
+        {
+          "name": "LightObstacleBehavior",
+          "type": "Lighting::LightObstacleBehavior"
+        }
+      ]
     },
     {
       "assetStoreId": "",
@@ -16661,6 +16869,28 @@
         "b": 0,
         "g": 0,
         "r": 0
+      }
+    },
+    {
+      "assetStoreId": "",
+      "name": "LineOfSight",
+      "tags": "",
+      "type": "Lighting::LightObject",
+      "variables": [],
+      "effects": [],
+      "behaviors": [
+        {
+          "name": "Sticker",
+          "type": "Sticker::Sticker",
+          "OnlyFollowPosition": false,
+          "IsDestroyedWithParent": true
+        }
+      ],
+      "content": {
+        "radius": 2000,
+        "color": "255;255;255",
+        "debugMode": false,
+        "texture": "New image8"
       }
     }
   ],
@@ -19000,6 +19230,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Hotbar/BackPack/Items",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -23975,7 +24206,6 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Flashlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -24082,6 +24312,35 @@
                     "LightWall",
                     "=",
                     "Door.Angle()"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Create"
+                  },
+                  "parameters": [
+                    "",
+                    "LineOfSight",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "LineOfSight",
+                    "Sticker",
+                    "Player",
+                    ""
                   ]
                 }
               ]
@@ -24577,49 +24836,49 @@
             "    drawDarkener();",
             "}",
             "",
-            "SHAPE_DRAWER.setFillOpacity(255);",
-            "INTERACTABLE_OBJECTS.forEach((object_type) => {",
-            "    let instances = runtimeScene.getObjects(object_type);",
+            "// SHAPE_DRAWER.setFillOpacity(255);",
+            "// INTERACTABLE_OBJECTS.forEach((object_type) => {",
+            "//     let instances = runtimeScene.getObjects(object_type);",
             "",
-            "    instances.forEach((instance) => {",
-            "        let center = toScreenSpace(new Point(instance.getCenterXInScene(), instance.getCenterYInScene()));",
-            "        let center_angle = Point.calcDirectionVecAB(player_screen_position, center).angle;",
-            "        let hitbox = instance.getHitBoxes()[0].vertices;",
-            "        let corners = hitbox.map((corner) => toScreenSpace(new Point(corner[0], corner[1])));",
+            "//     instances.forEach((instance) => {",
+            "//         let center = toScreenSpace(new Point(instance.getCenterXInScene(), instance.getCenterYInScene()));",
+            "//         let center_angle = Point.calcDirectionVecAB(player_screen_position, center).angle;",
+            "//         let hitbox = instance.getHitBoxes()[0].vertices;",
+            "//         let corners = hitbox.map((corner) => toScreenSpace(new Point(corner[0], corner[1])));",
             "",
-            "        if (!boundingBoxIsInScreen(corners)) {",
-            "            return;",
-            "        }",
+            "//         if (!boundingBoxIsInScreen(corners)) {",
+            "//             return;",
+            "//         }",
             "",
-            "        const vertex_count = corners.length;",
+            "//         const vertex_count = corners.length;",
             "        ",
-            "        let rays = corners.map((corner) => {",
-            "            return new Ray(player_screen_position, Point.calcDirectionVecAB(player_screen_position, corner));",
-            "        });",
+            "//         let rays = corners.map((corner) => {",
+            "//             return new Ray(player_screen_position, Point.calcDirectionVecAB(player_screen_position, corner));",
+            "//         });",
             "        ",
-            "        let angles = rays.map((ray) => differenceBetweenAngles(center_angle, ray.angle));",
+            "//         let angles = rays.map((ray) => differenceBetweenAngles(center_angle, ray.angle));",
             "",
-            "        let low_index = angles.indexOf(Math.min(...angles));",
-            "        let high_index = angles.indexOf(Math.max(...angles))",
+            "//         let low_index = angles.indexOf(Math.min(...angles));",
+            "//         let high_index = angles.indexOf(Math.max(...angles))",
             "",
-            "        let low_ray = rays[low_index];",
-            "        let [low_ray_intercept, lri_edge] = getRayViewportIntercept(low_ray);",
+            "//         let low_ray = rays[low_index];",
+            "//         let [low_ray_intercept, lri_edge] = getRayViewportIntercept(low_ray);",
             "",
-            "        let high_ray = rays[high_index];",
-            "        let [high_ray_intercept, hri_edge] = getRayViewportIntercept(high_ray);",
+            "//         let high_ray = rays[high_index];",
+            "//         let [high_ray_intercept, hri_edge] = getRayViewportIntercept(high_ray);",
             "",
-            "        let contained_corners = getInteriorCorners(lri_edge, hri_edge, vertex_count);",
+            "//         let contained_corners = getInteriorCorners(lri_edge, hri_edge, vertex_count);",
             "",
-            "        let exterior_corners = getExteriorCornersFromIndex(low_index, high_index, vertex_count).map((index) => corners[index]);",
+            "//         let exterior_corners = getExteriorCornersFromIndex(low_index, high_index, vertex_count).map((index) => corners[index]);",
             "",
-            "        drawShadowCast(...corners[low_index].coords,",
-            "                        ...exterior_corners.reduce((points, corner) => points.concat(corner.coords), []),",
-            "                        ...corners[high_index].coords, ",
-            "                        ...high_ray_intercept.coords, ",
-            "                        ...contained_corners.reverse().reduce((points, corner) => points.concat(corner.coords), []), ",
-            "                        ...low_ray_intercept.coords);",
-            "    })",
-            "})"
+            "//         drawShadowCast(...corners[low_index].coords,",
+            "//                         ...exterior_corners.reduce((points, corner) => points.concat(corner.coords), []),",
+            "//                         ...corners[high_index].coords, ",
+            "//                         ...high_ray_intercept.coords, ",
+            "//                         ...contained_corners.reverse().reduce((points, corner) => points.concat(corner.coords), []), ",
+            "//                         ...low_ray_intercept.coords);",
+            "//     })",
+            "// })"
           ],
           "parameterObjects": "Player",
           "useStrict": true,
@@ -24964,6 +25223,22 @@
           "booleanParameters": {}
         }
       ]
+    },
+    {
+      "ambientLightColorB": 95,
+      "ambientLightColorG": 95,
+      "ambientLightColorR": 95,
+      "camera3DFarPlaneDistance": 10000,
+      "camera3DFieldOfView": 45,
+      "camera3DNearPlaneDistance": 0.1,
+      "followBaseLayerCamera": true,
+      "isLightingLayer": true,
+      "isLocked": false,
+      "name": "Lighting",
+      "renderingType": "",
+      "visibility": true,
+      "cameras": [],
+      "effects": []
     }
   ],
   "behaviorsSharedData": [
@@ -25002,6 +25277,10 @@
     {
       "name": "Scale",
       "type": "ScalableCapability::ScalableBehavior"
+    },
+    {
+      "name": "Sticker",
+      "type": "Sticker::Sticker"
     },
     {
       "name": "SuperiorTopDownControls",
