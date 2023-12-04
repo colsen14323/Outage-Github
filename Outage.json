@@ -1174,10 +1174,64 @@
         "alwaysLoaded": false,
         "file": "assets/Generator.png",
         "kind": "image",
-        "metadata": "{\"extension\":\".png\"}",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/Generator.png\"}",
         "name": "Generator",
         "smoothed": true,
         "userAdded": false
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/Generator.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\Generator.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/GeneratorOn.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "GeneratorOn",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image9.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"pskl\":{},\"localFilePath\":\"assets/New image9.png\"}",
+        "name": "New image9",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/line.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/line.png\"}",
+        "name": "line",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/line2.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\",\"localFilePath\":\"assets/line2.png\"}",
+        "name": "line2",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/TheMachine.png",
+        "kind": "image",
+        "metadata": "{\"extension\":\".png\"}",
+        "name": "TheMachine",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []
