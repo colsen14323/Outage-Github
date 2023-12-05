@@ -18,8 +18,8 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.4043466814305751,
-    "windowMask": false
+    "zoomFactor": 0.5633579909743323,
+    "windowMask": true
   },
   "objectsGroups": [
     {
@@ -11237,22 +11237,23 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 1
+          "value": 0
         }
       ],
       "stringProperties": [],
       "initialVariables": []
     },
     {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "angle": 11,
+      "customSize": true,
+      "depth": 3,
+      "height": 67,
       "layer": "Text",
       "name": "TextPopUpText",
       "persistentUuid": "dd3853e9-23e2-43ab-a026-4f7ceb488178",
-      "width": 0,
-      "x": 1046,
-      "y": 401,
+      "width": 375,
+      "x": 878,
+      "y": 327,
       "zOrder": 165,
       "numberProperties": [],
       "stringProperties": [],
@@ -13524,21 +13525,6 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "c80301b6-3500-4acd-8def-c29c07df71da",
-      "width": 0,
-      "x": 4260,
-      "y": -6934,
-      "zOrder": 268,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
       "customSize": true,
       "depth": 1,
       "height": 55200,
@@ -13703,7 +13689,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 1056,
+      "height": 704,
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "39e2121e-fbc7-4950-958a-16227f9612d9",
@@ -13834,7 +13820,7 @@
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "ad9e6bea-d509-4de9-8f35-831fe7858577",
-      "width": 448,
+      "width": 480,
       "x": 1664,
       "y": -1216,
       "zOrder": 286,
@@ -13886,7 +13872,12 @@
       "x": 1152,
       "y": -1568,
       "zOrder": 289,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -13926,13 +13917,13 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 512,
+      "height": 544,
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "dc2c331b-42a3-48c4-bb95-0a8ee3886c4b",
       "width": 32,
       "x": 480,
-      "y": -576,
+      "y": -608,
       "zOrder": 282,
       "numberProperties": [],
       "stringProperties": [],
@@ -14017,6 +14008,1772 @@
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "91342acf-405b-4502-a299-eff57ba3c8e7",
+      "width": 96,
+      "x": 1824,
+      "y": -1184,
+      "zOrder": 294,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "276a371d-7fea-4a34-b561-30fb8e47401c",
+      "width": 64,
+      "x": 2048,
+      "y": -896,
+      "zOrder": 295,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "50b050c6-80ba-4304-8f4c-792ac65a495b",
+      "width": 96,
+      "x": 2016,
+      "y": -480,
+      "zOrder": 296,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "03947f7b-45d8-4143-beb2-12d10d048e3f",
+      "width": 0,
+      "x": 1760,
+      "y": -352,
+      "zOrder": 297,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "0be5bdce-d6b9-4645-b1c6-5bc5dd08df4d",
+      "width": 0,
+      "x": 1920,
+      "y": -352,
+      "zOrder": 298,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "94903067-9cf6-43b4-97f5-e751d66cfe43",
+      "width": 0,
+      "x": 2064,
+      "y": -144,
+      "zOrder": 299,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "2382c31e-b45d-46b9-b8fb-0f554f9e58bc",
+      "width": 0,
+      "x": 2064,
+      "y": 240,
+      "zOrder": 300,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "94dae45c-24e8-45d8-902a-e1ca7a34df6b",
+      "width": 128,
+      "x": 1760,
+      "y": 352,
+      "zOrder": 301,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "8b0b9022-328b-46aa-9714-a7449f72855a",
+      "width": 480,
+      "x": 864,
+      "y": 32,
+      "zOrder": 302,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "c79c9f88-fa1f-432d-91b4-03edf1739b33",
+      "width": 32,
+      "x": 1312,
+      "y": 32,
+      "zOrder": 303,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "50d539fe-d41a-477f-8e66-f4425141b691",
+      "width": 32,
+      "x": 864,
+      "y": 32,
+      "zOrder": 304,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "df1c9693-e362-4497-9fa7-0fa83b09b59b",
+      "width": 160,
+      "x": 1024,
+      "y": 160,
+      "zOrder": 305,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "4d85c14b-382e-4a88-913f-ea9f2e4bd2c2",
+      "width": 0,
+      "x": 1600,
+      "y": -1728,
+      "zOrder": 306,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 288,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "e328db9c-00a8-449e-98df-cc7e6fca21ab",
+      "width": 32,
+      "x": 512,
+      "y": -1312,
+      "zOrder": 307,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "a51b094c-e7c6-4d0d-a951-848c113daa55",
+      "width": 64,
+      "x": 496,
+      "y": -1360,
+      "zOrder": 289,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "bb7111fc-2311-49ee-b1d9-77cc975f1cda",
+      "width": 0,
+      "x": 2080,
+      "y": -1248,
+      "zOrder": 308,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 4
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 160,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "9c01499b-e45e-43aa-9e92-89d3905ef70a",
+      "width": 64,
+      "x": 1728,
+      "y": -1728,
+      "zOrder": 309,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "56210e31-9787-40fc-b307-13438eb60933",
+      "width": 0,
+      "x": 800,
+      "y": -1024,
+      "zOrder": 310,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 180,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "70b39903-b3fa-48d1-8947-6ee030b02257",
+      "width": 0,
+      "x": 800,
+      "y": -640,
+      "zOrder": 311,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "c56bd49d-d519-4e31-840e-723213f3a312",
+      "width": 64,
+      "x": 992,
+      "y": -864,
+      "zOrder": 312,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 270,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Locker",
+      "persistentUuid": "0f8a32ac-9ffc-4999-9e39-db8d7fbba76c",
+      "width": 0,
+      "x": 80,
+      "y": -1104,
+      "zOrder": 313,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "3831c1e2-547a-464a-a5ac-370b68c5937b",
+      "width": 32,
+      "x": 2048,
+      "y": -1280,
+      "zOrder": 314,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "1539ac75-8a94-4e35-b9d0-c27354de36c6",
+      "width": 64,
+      "x": 96,
+      "y": 320,
+      "zOrder": 315,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "35b1f7bf-1cac-4ff5-a63c-756842c8f6e5",
+      "width": 0,
+      "x": 128,
+      "y": 352,
+      "zOrder": 316,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 128,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "0a4b072b-95e5-46e4-8a0d-28595af54a78",
+      "width": 64,
+      "x": 416,
+      "y": -416,
+      "zOrder": 317,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Item",
+      "persistentUuid": "7726ce16-1f23-4ca0-b995-ee74cc077b11",
+      "width": 0,
+      "x": 416,
+      "y": -352,
+      "zOrder": 318,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 2
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "86d19b5b-cc4c-4e46-9fd3-1c8d20adabb5",
+      "width": 0,
+      "x": 992,
+      "y": -832,
+      "zOrder": 319,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 892
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 235
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Dec 12/23"
+                },
+                {
+                  "type": "number",
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "I don't know what the boss was thinking"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "taking this request, we're engineers not"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "biologists, we make machines not living"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "creatures. There is no way we will make"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "this deadline. "
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": ""
+                },
+                {
+                  "type": "number",
+                  "value": 11
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "0b2a3cb1-5ef6-440b-9b32-b92bbeff983e",
+      "width": 0,
+      "x": 2048,
+      "y": -480,
+      "zOrder": 320,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 892
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 235
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Dec 5/23"
+                },
+                {
+                  "type": "number",
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "The boss took a multi-billion contract to"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "bring woolly mamoths back to life without"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "thinking, and now us scientist need to"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "pickup the slack and fulfill his promises."
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "I swear, this will be my last job working"
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "for Josephi Krakowski, after this, I quit!"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 11
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "282a7b89-f6d9-4bbc-83c0-94b6ed277628",
+      "width": 0,
+      "x": 1856,
+      "y": -1168,
+      "zOrder": 321,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 892
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 235
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Dec 8/23"
+                },
+                {
+                  "type": "number",
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Spent the last couple days looking into"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "previous attempts to revive the woolly"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "mamoth, turns out there has been hundreds"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "of attempts made already, but no one"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "has been able to get woolly mamoth DNA"
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "let alone find a way to clone them."
+                },
+                {
+                  "type": "number",
+                  "value": 11
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "e089b101-e417-4ec2-adde-cbe9f5196d8d",
+      "width": 0,
+      "x": 1728,
+      "y": -1696,
+      "zOrder": 322,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 892
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 235
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Dec 28/23"
+                },
+                {
+                  "type": "number",
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "It's done! We've finaly finished the"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "machine, searching for DNA cell by cell,"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "then simulating rapid growth through"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "electric pulses, all brought to life by a"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "neural network constantly improving the"
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "model of the mamoths brain.                 "
+                },
+                {
+                  "type": "number",
+                  "value": 11
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "c1fbff0f-3d2f-44fb-ba41-9b38abff0d96",
+      "width": 0,
+      "x": 1728,
+      "y": -1632,
+      "zOrder": 323,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 892
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 235
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Dec 30/23"
+                },
+                {
+                  "type": "number",
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "The machine is finished! and we have"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "a new pet woolly mamoth! now we just"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "need to hand it off tomorow. but"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "tonight we rest, the entire teams feeling"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "under the weather after watching the "
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "machine run for 2 days straigt."
+                },
+                {
+                  "type": "number",
+                  "value": 11
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": 6,
+      "customSize": false,
+      "height": 0,
+      "layer": "Text",
+      "name": "TextPopUpText",
+      "persistentUuid": "c4baa6ca-926f-42c4-87c0-7821cee045c8",
+      "width": 0,
+      "x": 892,
+      "y": 235,
+      "zOrder": 324,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 96,
+      "layer": "",
+      "name": "Table",
+      "persistentUuid": "5fd04399-0bf6-4e21-a2cf-fd3b3cb054f1",
+      "width": 64,
+      "x": 96,
+      "y": -1440,
+      "zOrder": 325,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "8d32fb1b-3c00-4367-a9d9-feb9b2daa6a1",
+      "width": 0,
+      "x": 128,
+      "y": -1408,
+      "zOrder": 326,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 892
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 235
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Dec 15/23"
+                },
+                {
+                  "type": "number",
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "I've figured it out, instead of making the"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "mamoth ourselves why not make a machine"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "to figure it out for us! its genious! We can"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "make an analyser to pull apart fossils at"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "a celular level and look for any traces of"
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "DNA.                                                   \n                    "
+                },
+                {
+                  "type": "number",
+                  "value": 11
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objects": [
@@ -17286,21 +19043,195 @@
                 {
                   "folded": true,
                   "type": "number",
-                  "value": 500
+                  "value": 892
                 },
                 {
                   "folded": true,
                   "type": "number",
-                  "value": 250
+                  "value": 235
                 },
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "TestingText"
+                  "value": "Dec 5/23"
                 },
                 {
                   "type": "number",
-                  "value": 90
+                  "value": 6
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 874
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 322
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "This is a Line of text that spans the page"
+                },
+                {
+                  "type": "number",
+                  "value": 7
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 865
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 362
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Second Line"
+                },
+                {
+                  "type": "number",
+                  "value": 8
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 858
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 397
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Third Line"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 856
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 426
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Fourth Line"
+                },
+                {
+                  "type": "number",
+                  "value": 9
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 851
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 464
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Fifth Line"
+                },
+                {
+                  "type": "number",
+                  "value": 10
+                },
+                {
+                  "type": "number",
+                  "value": 20
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 847
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 496
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Sixth Line"
+                },
+                {
+                  "type": "number",
+                  "value": 11
                 },
                 {
                   "type": "number",
@@ -17440,7 +19371,7 @@
       "variables": [],
       "effects": [],
       "behaviors": [],
-      "string": "TextGoesHere",
+      "string": "Dec 5/23",
       "font": "",
       "textAlignment": "left",
       "characterSize": 20,
@@ -18303,6 +20234,122 @@
                 "45"
               ]
             }
+          ],
+          "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Unstick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "=",
+                    "22.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "LOS_Blocker"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "LineOfSight"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Unstick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "=",
+                    "-22.5"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "=",
+                    "Player.CenterX()-(1000-+cos(ToRad(LOS_Blocker.Angle()))*1000)-10",
+                    "=",
+                    "Player.CenterY()+sin(ToRad(LOS_Blocker.Angle()))*1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "LOS_Blocker"
+                  ]
+                }
+              ]
+            }
           ]
         },
         {
@@ -18339,6 +20386,122 @@
                 "FOV",
                 "=",
                 "100"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Unstick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "=",
+                    "50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "LOS_Blocker"
+                  ]
+                }
+              ]
+            },
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "AjoutHasard"
+                  },
+                  "parameters": [
+                    "",
+                    "LineOfSight"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Unstick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetAngle"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "=",
+                    "-50"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "=",
+                    "Player.CenterX()-(1000-+cos(ToRad(LOS_Blocker.Angle()))*1000)-10",
+                    "=",
+                    "Player.CenterY()+sin(ToRad(LOS_Blocker.Angle()))*1000"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Sticker::Sticker::Stick"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "Sticker",
+                    "Player",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "LOS_Blocker"
+                  ]
+                }
               ]
             }
           ]
@@ -19146,6 +21309,94 @@
               },
               "parameters": [
                 "",
+                "\"Flashlight\"",
+                "\"Blind1\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Blind2\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Blind3\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Blind4\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Blind5\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Ana1\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Ana2\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
+                "\"Flashlight\"",
+                "\"Bleed1\"",
+                "no"
+              ]
+            },
+            {
+              "type": {
+                "value": "EnableLayerEffect"
+              },
+              "parameters": [
+                "",
                 "\"Lighting\"",
                 "\"Bleed1\"",
                 "no"
@@ -19575,7 +21826,29 @@
                       },
                       "parameters": [
                         "",
+                        "\"Flashlight\"",
+                        "\"Ana1\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
                         "\"Lighting\"",
+                        "\"Ana2\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
                         "\"Ana2\"",
                         "yes"
                       ]
@@ -19646,6 +21919,17 @@
                       "parameters": [
                         "",
                         "\"Lighting\"",
+                        "\"Ana2\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
                         "\"Ana1\"",
                         "no"
                       ]
@@ -19657,6 +21941,17 @@
                       "parameters": [
                         "",
                         "\"Lighting\"",
+                        "\"Ana1\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
                         "\"Ana2\"",
                         "no"
                       ]
@@ -19793,6 +22088,50 @@
                         "",
                         "\"Lighting\"",
                         "\"Blind3\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind1\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind2\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind3\"",
+                        "yes"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind4\"",
                         "yes"
                       ]
                     },
@@ -19940,6 +22279,61 @@
                         "",
                         "\"Lighting\"",
                         "\"Blind4\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind1\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind5\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind3\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind4\"",
+                        "no"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "EnableLayerEffect"
+                      },
+                      "parameters": [
+                        "",
+                        "\"Flashlight\"",
+                        "\"Blind2\"",
                         "no"
                       ]
                     },
@@ -24650,6 +27044,18 @@
                 },
                 {
                   "type": {
+                    "value": "MettreXY"
+                  },
+                  "parameters": [
+                    "TextPopUpText",
+                    "=",
+                    "TextInteractable.Variable(Texts[Variable(LoopCounter)][0])",
+                    "=",
+                    "TextInteractable.Variable(Texts[Variable(LoopCounter)][1])"
+                  ]
+                },
+                {
+                  "type": {
                     "value": "ModVarScene"
                   },
                   "parameters": [
@@ -25240,6 +27646,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Flashlight",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
@@ -25376,56 +27783,64 @@
                     "Player",
                     ""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Player_Ambient",
-                    "Player.CenterX()-15",
-                    "Player.CenterY()",
-                    "\"Lighting\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sticker::Sticker::Stick"
-                  },
-                  "parameters": [
-                    "Player_Ambient",
-                    "Sticker",
-                    "Player",
-                    ""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Create"
-                  },
-                  "parameters": [
-                    "",
-                    "Player_Ambient",
-                    "Player.CenterX()",
-                    "Player.CenterY()",
-                    "\"Lighting\""
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Sticker::Sticker::Stick"
-                  },
-                  "parameters": [
-                    "Player_Ambient",
-                    "Sticker",
-                    "Player",
-                    ""
-                  ]
                 }
               ],
               "events": [
                 {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Player_Ambient",
+                        "Player.CenterX()-15",
+                        "Player.CenterY()",
+                        "\"Lighting\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sticker::Sticker::Stick"
+                      },
+                      "parameters": [
+                        "Player_Ambient",
+                        "Sticker",
+                        "Player",
+                        ""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Create"
+                      },
+                      "parameters": [
+                        "",
+                        "Player_Ambient",
+                        "Player.CenterX()",
+                        "Player.CenterY()",
+                        "\"Lighting\""
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Sticker::Sticker::Stick"
+                      },
+                      "parameters": [
+                        "Player_Ambient",
+                        "Sticker",
+                        "Player",
+                        ""
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -25485,6 +27900,7 @@
                   ]
                 },
                 {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [],
                   "actions": [
@@ -25575,37 +27991,44 @@
                 "Player",
                 "FlashlightOn"
               ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "LineOfSight",
-                ""
-              ]
-            },
-            {
-              "type": {
-                "value": "ActivateBehavior"
-              },
-              "parameters": [
-                "LOS_Blocker",
-                "LightObstacleBehavior",
-                "yes"
-              ]
-            },
-            {
-              "type": {
-                "value": "Montre"
-              },
-              "parameters": [
-                "Player_Ambient",
-                ""
-              ]
             }
           ],
           "events": [
+            {
+              "disabled": true,
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "LineOfSight",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "LOS_Blocker",
+                    "LightObstacleBehavior",
+                    "yes"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Montre"
+                  },
+                  "parameters": [
+                    "Player_Ambient",
+                    ""
+                  ]
+                }
+              ]
+            },
             {
               "type": "BuiltinCommonInstructions::Standard",
               "conditions": [
@@ -25629,36 +28052,44 @@
                     "Player",
                     "\"FlashlightOffDur\""
                   ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "Player_Ambient"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "Cache"
-                  },
-                  "parameters": [
-                    "LineOfSight"
-                  ]
-                },
-                {
-                  "type": {
-                    "value": "ActivateBehavior"
-                  },
-                  "parameters": [
-                    "LOS_Blocker",
-                    "LightObstacleBehavior",
-                    "no"
-                  ]
                 }
               ],
               "events": [
                 {
+                  "disabled": true,
+                  "type": "BuiltinCommonInstructions::Standard",
+                  "conditions": [],
+                  "actions": [
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "Player_Ambient"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "Cache"
+                      },
+                      "parameters": [
+                        "LineOfSight"
+                      ]
+                    },
+                    {
+                      "type": {
+                        "value": "ActivateBehavior"
+                      },
+                      "parameters": [
+                        "LOS_Blocker",
+                        "LightObstacleBehavior",
+                        "no"
+                      ]
+                    }
+                  ]
+                },
+                {
+                  "disabled": true,
                   "type": "BuiltinCommonInstructions::Standard",
                   "conditions": [
                     {
@@ -25695,7 +28126,6 @@
           "actions": []
         },
         {
-          "disabled": true,
           "type": "BuiltinCommonInstructions::JsCode",
           "inlineCode": [
             "/**",
@@ -26112,18 +28542,18 @@
             "drawDarkener();",
             "",
             "",
-            "// if(player_instance.getVariables().get(\"FlashlightOn\").getAsBoolean()){",
-            "//     SHAPE_DRAWER.setFillOpacity(210);",
-            "//     drawShadowCast(",
-            "//         ...player_screen_position.coords,",
-            "//         ...high_bound_intercept.coords,",
-            "//         ...exterior_corners.reduce((points, corner) => points.concat(corner.coords), []),",
-            "//         ...low_bound_intercept.coords,",
-            "//     );",
-            "// }else{",
-            "//     SHAPE_DRAWER.setFillOpacity(Math.max(185,210-(player_instance.getTimerElapsedTimeInSeconds(\"FlashlightOffDur\")*3)));",
-            "//     drawDarkener();",
-            "// }",
+            "if(player_instance.getVariables().get(\"FlashlightOn\").getAsBoolean()){",
+            "    SHAPE_DRAWER.setFillOpacity(210);",
+            "    drawShadowCast(",
+            "        ...player_screen_position.coords,",
+            "        ...high_bound_intercept.coords,",
+            "        ...exterior_corners.reduce((points, corner) => points.concat(corner.coords), []),",
+            "        ...low_bound_intercept.coords,",
+            "    );",
+            "}else{",
+            "    SHAPE_DRAWER.setFillOpacity(Math.max(185,210-(player_instance.getTimerElapsedTimeInSeconds(\"FlashlightOffDur\")*3)));",
+            "    drawDarkener();",
+            "}",
             "",
             "// SHAPE_DRAWER.setFillOpacity(255);",
             "// INTERACTABLE_OBJECTS.forEach((object_type) => {",
