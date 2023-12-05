@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.5449810500782102,
+    "zoomFactor": 0.4043466814305751,
     "windowMask": false
   },
   "objectsGroups": [
@@ -13703,7 +13703,7 @@
       "angle": 0,
       "customSize": true,
       "depth": 1,
-      "height": 544,
+      "height": 1056,
       "layer": "",
       "name": "BuildingWall",
       "persistentUuid": "39e2121e-fbc7-4950-958a-16227f9612d9",
@@ -13885,6 +13885,134 @@
       "width": 64,
       "x": 1152,
       "y": -1568,
+      "zOrder": 289,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 448,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "5d0b817f-2fa8-4f0d-a444-d0bfd4a9a521",
+      "width": 32,
+      "x": 480,
+      "y": 0,
+      "zOrder": 282,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "39a8b0e0-6b51-4cf5-93ac-eb28e86ade0b",
+      "width": 64,
+      "x": 464,
+      "y": -48,
+      "zOrder": 283,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 512,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "dc2c331b-42a3-48c4-bb95-0a8ee3886c4b",
+      "width": 32,
+      "x": 480,
+      "y": -576,
+      "zOrder": 282,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "57285de3-1944-4efa-9c1c-90dcb892fb88",
+      "width": 768,
+      "x": 320,
+      "y": -608,
+      "zOrder": 290,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 480,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "6c80d016-c8cd-431d-9d08-71664a9cd79f",
+      "width": 32,
+      "x": 1056,
+      "y": -1056,
+      "zOrder": 291,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "3a8b7f6a-daf3-468d-a4d0-1482c9eb2c2b",
+      "width": 576,
+      "x": 512,
+      "y": -1056,
+      "zOrder": 292,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "e778f737-3c71-44f3-b835-079aa5da798b",
+      "width": 192,
+      "x": 64,
+      "y": -608,
+      "zOrder": 293,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "632a60f4-31f0-4043-9b0a-0c5f741d6126",
+      "width": 64,
+      "x": 256,
+      "y": -608,
       "zOrder": 289,
       "numberProperties": [],
       "stringProperties": [],
@@ -17645,6 +17773,15 @@
                 "Player",
                 "=",
                 "0"
+              ]
+            },
+            {
+              "type": {
+                "value": "ShowLayer"
+              },
+              "parameters": [
+                "",
+                "\"UI\""
               ]
             }
           ]
@@ -26433,7 +26570,7 @@
       "isLocked": false,
       "name": "UI",
       "renderingType": "",
-      "visibility": true,
+      "visibility": false,
       "cameras": [],
       "effects": [
         {
