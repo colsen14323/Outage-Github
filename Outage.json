@@ -2042,6 +2042,24 @@
         "name": "Still7",
         "smoothed": true,
         "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image12.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image12.png",
+        "smoothed": true,
+        "userAdded": true
+      },
+      {
+        "alwaysLoaded": false,
+        "file": "assets/New image10.png",
+        "kind": "image",
+        "metadata": "",
+        "name": "assets\\New image10.png",
+        "smoothed": true,
+        "userAdded": true
       }
     ],
     "resourceFolders": []

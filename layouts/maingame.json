@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": false,
-    "zoomFactor": 0.05714437479119166,
+    "zoomFactor": 0.3541128223539805,
     "windowMask": false
   },
   "objectsGroups": [
@@ -17379,10 +17379,10 @@
           "type": "Lighting::LightObstacleBehavior"
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -17465,7 +17465,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "BuildingWall",
-      "texture": "New image",
+      "texture": "assets\\New image10.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [
@@ -17479,10 +17479,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ]
     },
@@ -17490,7 +17490,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "RoomFloor",
-      "texture": "New image3",
+      "texture": "assets\\New image12.png",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -17768,10 +17768,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ]
     },
@@ -18561,10 +18561,10 @@
       ],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -18642,10 +18642,10 @@
       "effects": [],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ]
     },
@@ -20061,6 +20061,8 @@
       "effects": [],
       "behaviors": [
         {
+          "name": "Pathfinding",
+          "type": "PathfindingBehavior::PathfindingBehavior",
           "acceleration": 800,
           "allowDiagonals": true,
           "angleOffset": 90,
@@ -20071,16 +20073,14 @@
           "gridOffsetX": 0,
           "gridOffsetY": 0,
           "maxSpeed": 300,
-          "name": "Pathfinding",
           "rotateObject": true,
-          "smoothingMaxCellGap": 1,
-          "type": "PathfindingBehavior::PathfindingBehavior"
+          "smoothingMaxCellGap": 1
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -20410,10 +20410,10 @@
       "effects": [],
       "behaviors": [
         {
-          "angleOffset": 90,
-          "maxSpeed": 100,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "angleOffset": 90,
+          "maxSpeed": 100,
           "acceleration": 400,
           "allowDiagonals": true,
           "angularMaxSpeed": 180,
@@ -20426,10 +20426,10 @@
           "smoothingMaxCellGap": 1
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -20759,9 +20759,9 @@
       "effects": [],
       "behaviors": [
         {
-          "angleOffset": 90,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "angleOffset": 90,
           "acceleration": 400,
           "allowDiagonals": true,
           "angularMaxSpeed": 180,
@@ -20775,10 +20775,10 @@
           "smoothingMaxCellGap": 1
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -22345,10 +22345,10 @@
       "effects": [],
       "behaviors": [
         {
-          "angleOffset": 90,
-          "maxSpeed": 700,
           "name": "Pathfinding",
           "type": "PathfindingBehavior::PathfindingBehavior",
+          "angleOffset": 90,
+          "maxSpeed": 700,
           "acceleration": 400,
           "allowDiagonals": true,
           "angularMaxSpeed": 180,
@@ -22361,10 +22361,10 @@
           "smoothingMaxCellGap": 1
         },
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
