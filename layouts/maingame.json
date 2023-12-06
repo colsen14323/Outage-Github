@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": true,
+    "grid": false,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,9 +17,9 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": true,
-    "zoomFactor": 0.5633579909743323,
-    "windowMask": true
+    "snap": false,
+    "zoomFactor": 1.5749952347260872,
+    "windowMask": false
   },
   "objectsGroups": [
     {
@@ -7766,14 +7766,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "0ef928d3-2008-4ae0-8808-e12ac8ec7073",
-      "width": 0,
-      "x": -1134,
-      "y": 9,
+      "width": 147,
+      "x": -931,
+      "y": 152,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7781,14 +7782,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "7c6e4ae5-2cea-43a5-bc02-b21c60079145",
-      "width": 0,
-      "x": -1864,
-      "y": 56,
+      "width": 147,
+      "x": -1772,
+      "y": 206,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7796,14 +7798,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "1337521d-0cf1-40d6-ac8b-d8f438f0002e",
-      "width": 0,
-      "x": -615,
-      "y": 787,
+      "width": 147,
+      "x": -333,
+      "y": 1048,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7811,14 +7814,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "c6f27b9c-b1e5-41cf-aecc-e95d804b4343",
-      "width": 0,
-      "x": -1440,
-      "y": 834,
+      "width": 147,
+      "x": -1283,
+      "y": 1102,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7826,14 +7830,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "ca3ca8f1-60e2-4c28-9eee-b94ca94e06ed",
-      "width": 0,
-      "x": -2406,
-      "y": -510,
+      "width": 147,
+      "x": -2396,
+      "y": -446,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7841,14 +7846,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "e7cb5e30-5c85-4f09-a5b9-83d05047a186",
-      "width": 0,
-      "x": -1157,
-      "y": -864,
+      "width": 147,
+      "x": -957,
+      "y": -854,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7856,14 +7862,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "ef240266-aaa4-44ae-b27d-c40ebf22e53d",
-      "width": 0,
-      "x": -898,
-      "y": -722,
+      "width": 147,
+      "x": -659,
+      "y": -691,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7871,14 +7878,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "af6688c6-00b8-4b7b-b6cc-88d5523e4ba1",
-      "width": 0,
-      "x": -427,
-      "y": -86,
+      "width": 147,
+      "x": -116,
+      "y": 42,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -7886,14 +7894,15 @@
     },
     {
       "angle": 0,
-      "customSize": false,
-      "height": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 147,
       "layer": "",
       "name": "Tree",
       "persistentUuid": "d9976df9-dd83-45b1-8ccc-7e0bf8ba2ca7",
-      "width": 0,
-      "x": -1699,
-      "y": -699,
+      "width": 147,
+      "x": -1582,
+      "y": -664,
       "zOrder": 116,
       "numberProperties": [],
       "stringProperties": [],
@@ -15781,7 +15790,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Player",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -16537,7 +16545,6 @@
     {
       "assetStoreId": "6a16d25e5a4b7e16b72187c4cab1164e2e8fba46d78b9af0132f10301b4224e9",
       "name": "CopperRedBar",
-      "tags": "",
       "type": "PanelSpriteContinuousBar::PanelSpriteContinuousBar",
       "variables": [],
       "effects": [],
@@ -16616,7 +16623,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BleedingStatus",
-      "tags": "Status",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16689,7 +16695,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "AnestitisedStatus",
-      "tags": "Status",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16762,7 +16767,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BlindedStatus",
-      "tags": "Status",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16835,7 +16839,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BleedingVingette",
-      "tags": "Status",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -16979,7 +16982,6 @@
       "rendererParam1": 32,
       "rendererParam2": 32,
       "rendererType": "Quad",
-      "tags": "Status",
       "tank": 0,
       "textureParticleName": "BloodSplatter",
       "type": "ParticleSystem::ParticleEmitter",
@@ -16995,8 +16997,7 @@
       "leftMargin": 0,
       "name": "Ground",
       "rightMargin": 0,
-      "tags": "",
-      "texture": "New image7",
+      "texture": "New image14",
       "tiled": true,
       "topMargin": 0,
       "type": "PanelSpriteObject::PanelSprite",
@@ -17023,7 +17024,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Tree",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -17121,8 +17121,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "BuildingWall",
-      "tags": "",
-      "texture": "New image",
+      "texture": "New image11",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [
@@ -17140,8 +17139,7 @@
       "assetStoreId": "",
       "height": 32,
       "name": "RoomFloor",
-      "tags": "",
-      "texture": "New image3",
+      "texture": "New image12",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
       "variables": [],
@@ -17152,7 +17150,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Door",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -17406,7 +17403,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "Ocean",
-      "tags": "",
       "texture": "Ocean",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -17425,7 +17421,6 @@
       "assetStoreId": "",
       "height": 64,
       "name": "Hotbar",
-      "tags": "ItemTech",
       "texture": "Hotbar2",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -17437,7 +17432,6 @@
       "assetStoreId": "",
       "height": 64,
       "name": "BackpackSlot",
-      "tags": "ItemTech",
       "texture": "BackpackSlot",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -17449,7 +17443,6 @@
       "assetStoreId": "",
       "height": 64,
       "name": "HotbarHover",
-      "tags": "ItemTech",
       "texture": "HotbarHover",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 64,
@@ -17461,7 +17454,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "Item",
-      "tags": "ItemTech",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -17813,7 +17805,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "HeldItem",
-      "tags": "ItemTech",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -18161,7 +18152,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Locker",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -18271,7 +18261,6 @@
       "leftMargin": 16,
       "name": "Table",
       "rightMargin": 16,
-      "tags": "",
       "texture": "Table",
       "tiled": true,
       "topMargin": 16,
@@ -18294,7 +18283,6 @@
       "italic": false,
       "name": "InteractPrompt",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -18314,7 +18302,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "BackpackInterface",
-      "tags": "ItemTech",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -18375,7 +18362,6 @@
     {
       "assetStoreId": "",
       "name": "WeaponFireArc",
-      "tags": "",
       "type": "PrimitiveDrawing::Drawer",
       "variables": [],
       "effects": [],
@@ -18400,7 +18386,6 @@
     {
       "assetStoreId": "",
       "name": "UsageMeter",
-      "tags": "",
       "type": "PrimitiveDrawing::Drawer",
       "variables": [],
       "effects": [],
@@ -18425,7 +18410,6 @@
     {
       "assetStoreId": "",
       "name": "FlashlightShapePainter",
-      "tags": "",
       "type": "PrimitiveDrawing::Drawer",
       "variables": [],
       "effects": [],
@@ -18451,7 +18435,6 @@
       "assetStoreId": "",
       "height": 32,
       "name": "LayerSpreader",
-      "tags": "",
       "texture": "Transparent",
       "type": "TiledSpriteObject::TiledSprite",
       "width": 32,
@@ -18466,7 +18449,6 @@
       "leftMargin": 0,
       "name": "LightWall",
       "rightMargin": 0,
-      "tags": "",
       "texture": "Transparent",
       "tiled": false,
       "topMargin": 0,
@@ -18495,7 +18477,6 @@
       "leftMargin": 16,
       "name": "Dock",
       "rightMargin": 16,
-      "tags": "",
       "texture": "Dock",
       "tiled": true,
       "topMargin": 16,
@@ -18512,7 +18493,6 @@
       "leftMargin": 116,
       "name": "Road",
       "rightMargin": 116,
-      "tags": "",
       "texture": "Road2",
       "tiled": true,
       "topMargin": 0,
@@ -18526,7 +18506,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "RoadIntersections",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -18735,7 +18714,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "TextBackground",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -18993,7 +18971,6 @@
       "adaptCollisionMaskAutomatically": false,
       "assetStoreId": "",
       "name": "TextInteractable",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [
@@ -19365,7 +19342,6 @@
       "italic": false,
       "name": "TextPopUpText",
       "smoothed": true,
-      "tags": "",
       "type": "TextObject::Text",
       "underlined": false,
       "variables": [],
@@ -19384,7 +19360,6 @@
     {
       "assetStoreId": "",
       "name": "LineOfSight",
-      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -19395,19 +19370,12 @@
           "OnlyFollowPosition": false,
           "IsDestroyedWithParent": true
         }
-      ],
-      "content": {
-        "radius": 2000,
-        "color": "255;255;255",
-        "debugMode": false,
-        "texture": "New image9"
-      }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "LOS_Blocker",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -19479,7 +19447,6 @@
     {
       "assetStoreId": "",
       "name": "Player_Ambient",
-      "tags": "",
       "type": "Lighting::LightObject",
       "variables": [],
       "effects": [],
@@ -19490,19 +19457,12 @@
           "OnlyFollowPosition": false,
           "IsDestroyedWithParent": true
         }
-      ],
-      "content": {
-        "radius": 800,
-        "color": "54;54;54",
-        "debugMode": false,
-        "texture": ""
-      }
+      ]
     },
     {
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "Generator",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -19613,7 +19573,6 @@
       "adaptCollisionMaskAutomatically": true,
       "assetStoreId": "",
       "name": "The_Machine",
-      "tags": "",
       "type": "Sprite",
       "updateIfNotVisible": false,
       "variables": [],
@@ -19672,6 +19631,125 @@
       ]
     }
   ],
+  "objectsFolderStructure": {
+    "folderName": "__ROOT",
+    "children": [
+      {
+        "objectName": "Player"
+      },
+      {
+        "objectName": "CopperRedBar"
+      },
+      {
+        "objectName": "BleedingStatus"
+      },
+      {
+        "objectName": "AnestitisedStatus"
+      },
+      {
+        "objectName": "BlindedStatus"
+      },
+      {
+        "objectName": "BleedingVingette"
+      },
+      {
+        "objectName": "BloodParticleEmmiter"
+      },
+      {
+        "objectName": "Ground"
+      },
+      {
+        "objectName": "Tree"
+      },
+      {
+        "objectName": "BuildingWall"
+      },
+      {
+        "objectName": "RoomFloor"
+      },
+      {
+        "objectName": "Door"
+      },
+      {
+        "objectName": "Ocean"
+      },
+      {
+        "objectName": "Hotbar"
+      },
+      {
+        "objectName": "BackpackSlot"
+      },
+      {
+        "objectName": "HotbarHover"
+      },
+      {
+        "objectName": "Item"
+      },
+      {
+        "objectName": "HeldItem"
+      },
+      {
+        "objectName": "Locker"
+      },
+      {
+        "objectName": "Table"
+      },
+      {
+        "objectName": "InteractPrompt"
+      },
+      {
+        "objectName": "BackpackInterface"
+      },
+      {
+        "objectName": "WeaponFireArc"
+      },
+      {
+        "objectName": "UsageMeter"
+      },
+      {
+        "objectName": "FlashlightShapePainter"
+      },
+      {
+        "objectName": "LayerSpreader"
+      },
+      {
+        "objectName": "LightWall"
+      },
+      {
+        "objectName": "Dock"
+      },
+      {
+        "objectName": "Road"
+      },
+      {
+        "objectName": "RoadIntersections"
+      },
+      {
+        "objectName": "TextBackground"
+      },
+      {
+        "objectName": "TextInteractable"
+      },
+      {
+        "objectName": "TextPopUpText"
+      },
+      {
+        "objectName": "LineOfSight"
+      },
+      {
+        "objectName": "LOS_Blocker"
+      },
+      {
+        "objectName": "Player_Ambient"
+      },
+      {
+        "objectName": "Generator"
+      },
+      {
+        "objectName": "The_Machine"
+      }
+    ]
+  },
   "events": [
     {
       "colorB": 228,
@@ -29117,6 +29195,10 @@
     {
       "name": "SuperiorTopDownControls",
       "type": "SuperiorTopDown::SuperiorTopDownControls"
+    },
+    {
+      "name": "Text",
+      "type": "TextContainerCapability::TextContainerBehavior"
     }
   ]
 }
