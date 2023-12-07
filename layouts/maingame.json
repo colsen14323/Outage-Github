@@ -18,7 +18,7 @@
     "gridColor": 10401023,
     "gridAlpha": 0.8,
     "snap": true,
-    "zoomFactor": 0.47727553269351264,
+    "zoomFactor": 0.5633579909743593,
     "windowMask": false
   },
   "objectsGroups": [
@@ -39,6 +39,18 @@
         },
         {
           "name": "Generator"
+        },
+        {
+          "name": "Sparking_wire"
+        },
+        {
+          "name": "Breaker"
+        },
+        {
+          "name": "comms"
+        },
+        {
+          "name": "Backup_Gen"
         }
       ]
     },
@@ -67,6 +79,9 @@
         },
         {
           "name": "Generator"
+        },
+        {
+          "name": "comms"
         }
       ]
     },
@@ -99,6 +114,18 @@
         },
         {
           "name": "Generator"
+        },
+        {
+          "name": "Sparking_wire"
+        },
+        {
+          "name": "Breaker"
+        },
+        {
+          "name": "comms"
+        },
+        {
+          "name": "Backup_Gen"
         }
       ]
     },
@@ -11164,6 +11191,105 @@
           "name": "TextBoxSprite",
           "type": "number",
           "value": 3
+        },
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "persistentUuid": "855a5fec-41c1-4510-b28b-302904e429f0",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 749
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 320
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Main labs"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "persistentUuid": "d54d2904-be07-41cc-9305-771f122abba5",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 749
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 350
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Backup Power"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "persistentUuid": "0b3c15a5-7c53-403c-927c-60200172c8a0",
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 1010
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 300
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "North Docks"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": -90
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -11197,6 +11323,7 @@
           "type": "array",
           "children": [
             {
+              "folded": true,
               "type": "array",
               "children": [
                 {
@@ -11207,12 +11334,12 @@
                 {
                   "folded": true,
                   "type": "number",
-                  "value": 333
+                  "value": 320
                 },
                 {
                   "folded": true,
                   "type": "string",
-                  "value": "East"
+                  "value": "Secondary labs"
                 },
                 {
                   "folded": true,
@@ -11227,6 +11354,7 @@
               ]
             },
             {
+              "folded": true,
               "type": "array",
               "children": [
                 {
@@ -11255,6 +11383,67 @@
                   "value": 25
                 }
               ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 749
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 350
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Communications"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "folded": true,
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 1027
+                },
+                {
+                  "type": "number",
+                  "value": 390
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Main Lab"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 90
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
             }
           ]
         }
@@ -11275,25 +11464,9 @@
       "numberProperties": [
         {
           "name": "animation",
-          "value": 0
+          "value": 5
         }
       ],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 11,
-      "customSize": true,
-      "depth": 3,
-      "height": 67,
-      "layer": "Text",
-      "name": "TextPopUpText",
-      "persistentUuid": "dd3853e9-23e2-43ab-a026-4f7ceb488178",
-      "width": 375,
-      "x": 878,
-      "y": 327,
-      "zOrder": 165,
-      "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -13506,7 +13679,12 @@
       "x": 7168,
       "y": -4384,
       "zOrder": 265,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 6
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -15550,21 +15728,6 @@
       ]
     },
     {
-      "angle": 6,
-      "customSize": false,
-      "height": 0,
-      "layer": "Text",
-      "name": "TextPopUpText",
-      "persistentUuid": "c4baa6ca-926f-42c4-87c0-7821cee045c8",
-      "width": 0,
-      "x": 892,
-      "y": 235,
-      "zOrder": 324,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
       "angle": 0,
       "customSize": true,
       "depth": 1,
@@ -16124,7 +16287,12 @@
       "x": 6160,
       "y": 20080,
       "zOrder": 332,
-      "numberProperties": [],
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 3
+        }
+      ],
       "stringProperties": [],
       "initialVariables": []
     },
@@ -16328,24 +16496,9 @@
       "name": "Veloceraptor",
       "persistentUuid": "10c2197f-e601-4c91-bea9-80a379c33484",
       "width": 0,
-      "x": 9024,
-      "y": 224,
+      "x": 6232,
+      "y": 160,
       "zOrder": 347,
-      "numberProperties": [],
-      "stringProperties": [],
-      "initialVariables": []
-    },
-    {
-      "angle": 0,
-      "customSize": false,
-      "height": 0,
-      "layer": "",
-      "name": "Player",
-      "persistentUuid": "1caa9da0-a6f5-47c6-b28d-cebbbd550485",
-      "width": 0,
-      "x": 9120,
-      "y": 1184,
-      "zOrder": 348,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -16361,6 +16514,940 @@
       "x": 9184,
       "y": 1280,
       "zOrder": 349,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 8384,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "7bea644e-5b45-4e91-809d-c5a31bd6393d",
+      "width": 32,
+      "x": 9248,
+      "y": 1440,
+      "zOrder": 350,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire_L",
+      "persistentUuid": "b83328a4-4ab3-4e04-b428-994dff069ddc",
+      "width": 0,
+      "x": 9248,
+      "y": 9824,
+      "zOrder": 351,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 2976,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "3ea5b121-e622-4938-bb32-b2c2ffc5a162",
+      "width": 32,
+      "x": 7744,
+      "y": 8352,
+      "zOrder": 352,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Wire_L",
+      "persistentUuid": "4bd364dd-8e70-4047-9452-6266a4d78ff6",
+      "width": 0,
+      "x": 6240,
+      "y": 9824,
+      "zOrder": 353,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 10080,
+      "layer": "",
+      "name": "Wire",
+      "persistentUuid": "c8be0251-6e53-4576-90f9-3466122057ba",
+      "width": 32,
+      "x": 6240,
+      "y": 9856,
+      "zOrder": 354,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Sparking_wire",
+      "persistentUuid": "b0bdf4b8-e379-4b67-9c32-70fd84ff3408",
+      "width": 0,
+      "x": 6240,
+      "y": 14752,
+      "zOrder": 355,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 544,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "043099f3-fd71-4d56-8304-e5e217816c46",
+      "width": 800,
+      "x": -6048,
+      "y": 1248,
+      "zOrder": 356,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 544,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "f5c674c2-8c61-4806-9792-db536926cd98",
+      "width": 32,
+      "x": -5280,
+      "y": 1248,
+      "zOrder": 357,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "6edabc52-917a-41b1-97ba-687714d1df6b",
+      "width": 544,
+      "x": -5824,
+      "y": 1248,
+      "zOrder": 358,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 416,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "36ad4539-2323-40a7-9b7c-d47f2b514bdb",
+      "width": 416,
+      "x": -6048,
+      "y": 832,
+      "zOrder": 359,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 448,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "2666a178-1958-457f-b958-f736d1797df7",
+      "width": 32,
+      "x": -5664,
+      "y": 832,
+      "zOrder": 360,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "3e1b3332-4b98-41ea-9dd7-ac66f8cf8971",
+      "width": 64,
+      "x": -5888,
+      "y": 1248,
+      "zOrder": 361,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "4423db72-0da8-4f25-83f1-8e1c8764ec0f",
+      "width": 416,
+      "x": -6048,
+      "y": 832,
+      "zOrder": 362,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 960,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "1e5f0220-9111-4fd9-9f3e-6b85fdc4d5d2",
+      "width": 32,
+      "x": -6048,
+      "y": 832,
+      "zOrder": 363,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "776cb218-0dd9-4be2-87d4-0fd7ce4d30b5",
+      "width": 160,
+      "x": -6048,
+      "y": 1248,
+      "zOrder": 364,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "b2912f2f-4175-427f-9d2c-48b4b701d739",
+      "width": 352,
+      "x": -6048,
+      "y": 1760,
+      "zOrder": 365,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "c75be1bc-74e6-40bc-a577-088dca9255c9",
+      "width": 384,
+      "x": -5632,
+      "y": 1760,
+      "zOrder": 365,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "ff9051f2-a32c-42ac-b4d7-178ee12e3594",
+      "width": 64,
+      "x": -5696,
+      "y": 1760,
+      "zOrder": 366,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Trex",
+      "persistentUuid": "f4973b48-151a-4b2f-9e8e-43036edf1b26",
+      "width": 0,
+      "x": -3744,
+      "y": 6336,
+      "zOrder": 367,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "8fb751df-3d08-40dd-8a21-69760135396f",
+      "width": 0,
+      "x": -4064,
+      "y": 3296,
+      "zOrder": 368,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "c13d38a8-ae77-431e-a145-8b2b72c6525c",
+      "width": 0,
+      "x": -4160,
+      "y": 3488,
+      "zOrder": 369,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "12d958f8-503c-4fc0-b0b7-35460cedf8ff",
+      "width": 0,
+      "x": -4000,
+      "y": 3456,
+      "zOrder": 370,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dilophosaur",
+      "persistentUuid": "7b590dd2-5ed6-41b4-b624-921058647bd6",
+      "width": 0,
+      "x": 4448,
+      "y": 20192,
+      "zOrder": 371,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dilophosaur",
+      "persistentUuid": "7c644bf7-53ba-402c-b872-12e9a5039d2e",
+      "width": 0,
+      "x": 4448,
+      "y": 15008,
+      "zOrder": 372,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Veloceraptor",
+      "persistentUuid": "71819fa9-b7af-49a3-8fe3-d5cfab71149e",
+      "width": 0,
+      "x": 7776,
+      "y": 11936,
+      "zOrder": 373,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "63845caa-42d1-4741-a0a9-fe5a57a165ea",
+      "width": 0,
+      "x": 4960,
+      "y": 8032,
+      "zOrder": 374,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "ff7e9caa-5e98-45e0-9abe-c7a00552cebc",
+      "width": 0,
+      "x": 4960,
+      "y": 8160,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "9675a09b-899c-4ab0-a114-e691448ba7f3",
+      "width": 0,
+      "x": 5088,
+      "y": 8096,
+      "zOrder": 376,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "f8fa3088-27c0-4f71-af55-9eac2d579158",
+      "width": 0,
+      "x": -1409,
+      "y": 11212,
+      "zOrder": 374,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "3cf7b645-9504-4af0-88df-6caf5c68690b",
+      "width": 0,
+      "x": -1409,
+      "y": 11340,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "6040a244-f5b0-4083-9016-2f1b4ad299f9",
+      "width": 0,
+      "x": -1281,
+      "y": 11276,
+      "zOrder": 376,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "9a4a3dbc-fac0-4de1-8e35-443252da2981",
+      "width": 0,
+      "x": 1862,
+      "y": 15312,
+      "zOrder": 374,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "af4a228f-a95a-4268-88b6-4fce362ea154",
+      "width": 0,
+      "x": 1862,
+      "y": 15440,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "bc8c741a-75a1-496b-8849-9e9bf69fb995",
+      "width": 0,
+      "x": 1990,
+      "y": 15376,
+      "zOrder": 376,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "8547d293-a903-4602-9756-cbf36193f72d",
+      "width": 0,
+      "x": -1187,
+      "y": 19157,
+      "zOrder": 374,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "06b6d883-de85-480e-baf9-ee53aba04628",
+      "width": 0,
+      "x": -1187,
+      "y": 19285,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "5310cc44-b0cd-4124-93e1-3a07896158e2",
+      "width": 0,
+      "x": -1059,
+      "y": 19221,
+      "zOrder": 376,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "13fc5d62-b1a7-4171-8cd5-42e5bb0d7afa",
+      "width": 0,
+      "x": 3863,
+      "y": 4410,
+      "zOrder": 374,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "473e99a2-9367-43da-becd-5bcc9bcdaece",
+      "width": 0,
+      "x": 3863,
+      "y": 4538,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "da6a5a8e-74c5-48c1-800a-5cfa71d8bfdb",
+      "width": 0,
+      "x": 3991,
+      "y": 4474,
+      "zOrder": 376,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dilophosaur",
+      "persistentUuid": "657d0ac0-dd20-4b05-9fb6-09c9e95c8e67",
+      "width": 0,
+      "x": 2679,
+      "y": 7408,
+      "zOrder": 377,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "d7220417-c082-431e-8eb3-069c47adea64",
+      "width": 0,
+      "x": -4766,
+      "y": -6122,
+      "zOrder": 374,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "6209718e-a7ea-4bec-9d9c-9c642e2e7344",
+      "width": 0,
+      "x": -4766,
+      "y": -5994,
+      "zOrder": 375,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "5d450c97-f672-494c-8943-521281c11246",
+      "width": 0,
+      "x": -4638,
+      "y": -6058,
+      "zOrder": 376,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "7b635eea-177f-47df-a28b-e06a3285bd46",
+      "width": 0,
+      "x": 9191,
+      "y": -7119,
+      "zOrder": 378,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "9e70166e-a812-42c9-b4fb-9d845792b32e",
+      "width": 0,
+      "x": 1123,
+      "y": -9962,
+      "zOrder": 379,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Dilophosaur",
+      "persistentUuid": "ff1c4e83-c1ec-49bd-8f19-489b852e5c78",
+      "width": 0,
+      "x": -5991,
+      "y": -2141,
+      "zOrder": 380,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Compy",
+      "persistentUuid": "913b179d-9770-4dde-bb1e-c51d83261a18",
+      "width": 0,
+      "x": -5669,
+      "y": 1522,
+      "zOrder": 381,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Breaker",
+      "persistentUuid": "9fc2174c-e4d2-48a6-b002-7cee978b5666",
+      "width": 0,
+      "x": -5952,
+      "y": 864,
+      "zOrder": 382,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "comms",
+      "persistentUuid": "7e1c9fa6-7888-4b97-8b3b-fc054890683d",
+      "width": 0,
+      "x": -576,
+      "y": -4512,
+      "zOrder": 383,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 64,
+      "layer": "",
+      "name": "Backup_Gen",
+      "persistentUuid": "cbf964f0-ee8c-4341-95e4-e1a9d1ff7148",
+      "width": 64,
+      "x": -5696,
+      "y": 1280,
+      "zOrder": 384,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "TextInteractable",
+      "persistentUuid": "00f6dcac-c666-423e-b907-69091d7bf15a",
+      "width": 0,
+      "x": 2752,
+      "y": -6432,
+      "zOrder": 386,
+      "numberProperties": [
+        {
+          "name": "animation",
+          "value": 1
+        }
+      ],
+      "stringProperties": [],
+      "initialVariables": [
+        {
+          "folded": true,
+          "name": "TextBoxSprite",
+          "type": "number",
+          "value": 5
+        },
+        {
+          "name": "Texts",
+          "type": "array",
+          "children": [
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 1024
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 329
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Storage and power"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 0
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 860
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 268
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "North Docks"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": -90
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            },
+            {
+              "type": "array",
+              "children": [
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 867
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 492
+                },
+                {
+                  "folded": true,
+                  "type": "string",
+                  "value": "Main Lab"
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": -90
+                },
+                {
+                  "folded": true,
+                  "type": "number",
+                  "value": 25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "angle": -90,
+      "customSize": false,
+      "height": 0,
+      "layer": "Text",
+      "name": "TextPopUpText",
+      "persistentUuid": "aa928ea0-1bde-48b0-a8e4-c2064b471e6b",
+      "width": 0,
+      "x": 867,
+      "y": 492,
+      "zOrder": 387,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Player",
+      "persistentUuid": "e437af99-9b9c-4c57-ad02-a93dba38383b",
+      "width": 0,
+      "x": 2080,
+      "y": -11424,
+      "zOrder": 388,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -17793,7 +18880,14 @@
           "booleanParameters": {}
         }
       ],
-      "behaviors": [],
+      "behaviors": [
+        {
+          "cost": 2,
+          "impassable": true,
+          "name": "PathfindingObstacle",
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+        }
+      ],
       "animations": [
         {
           "name": "Door",
@@ -18399,6 +19493,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "electritians kit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "electritians kit",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -18710,6 +19853,54 @@
                 {
                   "hasCustomCollisionMask": true,
                   "image": "assets\\Key.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 32
+                      },
+                      {
+                        "x": 0,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "electric kit",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\electritians kit.png",
                   "points": [],
                   "originPoint": {
                     "name": "origine",
@@ -19579,6 +20770,55 @@
               ]
             }
           ]
+        },
+        {
+          "name": "Sign5",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "Sign8",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 42,
+                        "y": 22
+                      },
+                      {
+                        "x": 226,
+                        "y": 22
+                      },
+                      {
+                        "x": 226,
+                        "y": 256
+                      },
+                      {
+                        "x": 42,
+                        "y": 256
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -20124,7 +21364,21 @@
           "value": false
         }
       ],
-      "effects": [],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 1,
+            "outerStrength": 1.5
+          },
+          "stringParameters": {
+            "color": "221;221;221"
+          },
+          "booleanParameters": {}
+        }
+      ],
       "behaviors": [],
       "animations": [
         {
@@ -23281,6 +24535,730 @@
           ]
         }
       ]
+    },
+    {
+      "assetStoreId": "",
+      "height": 32,
+      "name": "Wire",
+      "texture": "New image11",
+      "type": "TiledSpriteObject::TiledSprite",
+      "width": 32,
+      "variables": [],
+      "effects": [],
+      "behaviors": []
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Wire_L",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "wireL",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "wireL",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 14,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 18
+                      },
+                      {
+                        "x": 14,
+                        "y": 18
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Sparking_wire",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "InteractSelected",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "InteractText",
+          "type": "string",
+          "value": "Press E to fix"
+        },
+        {
+          "folded": true,
+          "name": "InteractType",
+          "type": "number",
+          "value": 8
+        },
+        {
+          "folded": true,
+          "name": "PromptOffset",
+          "type": "number",
+          "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 1,
+            "outerStrength": 1.5
+          },
+          "stringParameters": {
+            "color": "221;221;221"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "sparking",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sparking",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 32
+                      },
+                      {
+                        "x": 13,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sparking2",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 32
+                      },
+                      {
+                        "x": 13,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sparking3",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 32
+                      },
+                      {
+                        "x": 13,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "sparking4",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 32
+                      },
+                      {
+                        "x": 13,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                },
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\New image17.png",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 32
+                      },
+                      {
+                        "x": 13,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "fixed",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "fixed",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 13,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 0
+                      },
+                      {
+                        "x": 19,
+                        "y": 32
+                      },
+                      {
+                        "x": 13,
+                        "y": 32
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Breaker",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "InteractSelected",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "InteractText",
+          "type": "string",
+          "value": "Press E to switch to primary power"
+        },
+        {
+          "folded": true,
+          "name": "InteractType",
+          "type": "number",
+          "value": 7
+        },
+        {
+          "folded": true,
+          "name": "PromptOffset",
+          "type": "number",
+          "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 1,
+            "outerStrength": 1.5
+          },
+          "stringParameters": {
+            "color": "221;221;221"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "breaker off",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":32,\\\"width\\\":32,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Color\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAGhJREFUWEdjNDU1/c8wgIBx1AGjITAaAqMhgK0MEhMTAxdOr169YiS3jDrGy4tSwFl9/ozVLKyCw8IBoJCDhQIu34PU0CwEiI06suOYWAsIqRt1wGgIjIbAaAiMhsBoCIyGwGgIjIYAAGFMKq9JgwdOAAAAAElFTkSuQmCC\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Outline\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAAAAXNSR0IArs4c6QAAAC1JREFUWEft0EERAAAAAUH6lxbDZxU4s815PffjAAECBAgQIECAAAECBAgQIDAaPwAh6O5R/QAAAABJRU5ErkJggg==\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[]}}\",\"resourceNames\":[\"breaker off\"],\"name\":\"breaker off\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "breaker off",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "name": "breaker on",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "breaker on",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 0
+                      },
+                      {
+                        "x": 32,
+                        "y": 13
+                      },
+                      {
+                        "x": 0,
+                        "y": 13
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "comms",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "InteractSelected",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "InteractText",
+          "type": "string",
+          "value": "Press E to call for help"
+        },
+        {
+          "folded": true,
+          "name": "InteractType",
+          "type": "number",
+          "value": 9
+        },
+        {
+          "folded": true,
+          "name": "PromptOffset",
+          "type": "number",
+          "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [
+        {
+          "effectType": "Glow",
+          "name": "Glow",
+          "doubleParameters": {
+            "distance": 10,
+            "innerStrength": 1,
+            "outerStrength": 1.5
+          },
+          "stringParameters": {
+            "color": "221;221;221"
+          },
+          "booleanParameters": {}
+        }
+      ],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "comms",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{\"data\":\"{\\\"modelVersion\\\":2,\\\"piskel\\\":{\\\"name\\\":\\\"New Animation\\\",\\\"description\\\":\\\"\\\",\\\"fps\\\":12,\\\"height\\\":128,\\\"width\\\":192,\\\"layers\\\":[\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Color\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACACAYAAABdhGZrAAAAAXNSR0IArs4c6QAABPlJREFUeF7t3cFxW0cURFEiCa4ZBKNAKFw4BC8cghcOhfFwzSSkkst0ibJBNID3STTmeKOFH0czt/v+J1e5Srs7/yCwMIHdwm/3dATuCKAESxMgwNLxezwBdGBpAgRYOn6PJ4AOLE2AAEvH7/EE0IGlCRBg6fg9ngA6sDQBAiwdv8cTQAeWJkCApeP3eALowNIECLB0/B5fKcB+v/8muusj8Pz8XNenmgsr/fUV/qMbtchw1QIofVfpD932mmW4OgGU/jZK3yLDVQig9Ldd+muW4csEUPo1S39tMnyqAEqv9AmBz/xvhs0FUPokcjNftRk2EUDpFXoLAltshjEBlH6LyJ259Wa4SAClV9BrIHDJZjhZAKW/hsjdYWozRAIovcI1Ekg2w0EBlL4xcnc+dTO8E0DpFWgFAj9vhp3SrxC5Nx4isHt6evL/1uvHsgQIsGz0Hv6DAAH0YGkCBFg6fo/fVIC/fvsd4QMEnv78492/wepwVX5lNVkqAkzSPOEsAuSwCJCzqpkkQB4VAXJWNZMEyKMiQM6qZpIAeVQEyFnVTBIgj4oAOauaSQLkUREgZ1UzSYA8KgLkrGomCZBHRYCcVc0kAfKoCJCzqpkkQB4VAXJWNZMEyKMiQM6qZpIAeVQEyFnVTBIgj4oAOauaSQLkUREgZ1UzSYA8KgLkrGomCZBHRYCcVc0kAfKoCJCzqpkkQB4VAXJWNZMEyKMiQM6qZpIAeVQEyFnVTBIgj4oAOauaSQLkUREgZ1UzSYA8KgLkrGomCZBHRYCcVc0kAfKoCJCzqpkkQB4VAXJWNZMEyKMiQM6qZpIAeVQEyFnVTBIgj4oAOauaSQLkUREgZ1UzSYA8KgLkrGomCZBHRYCcVc0kAfKoCJCzqpkkQB4VAXJWNZMEyKOqFSB/okkEvobApn9H2Nc8ye+KQE6AADkrkzdIgAA3GKon5QQ2E+Dl5SW/hUkEjhB4eHjYhNEmAij/Jlktf+gWEowLoPzL93RTANMSjAqg/Jtm7/B/CExKMCZAU/lfX1/v7u/v7z7r13Ob+1n3e/t9zr3nV/zclAQjAjSV/y2slnK13LNVgosFUP7jm+Tccij/cXKXboKLBGgsvw3w8R//jlfu+iYukeBsAZT/+Jf/0j9b2wC5bOdKcJYAzeW3AW5vA7xleo4EJwug/PmX3wbIv+BTk6dKcJIAt1B+G+B2N8A5myAWQPlP//LbAFPf9dPPSTdBJMAtld8GuP0NcMomOCqA8p//5bcBTv9yT//EsU3woQC3WH4bYJ0NkGyCgwIo/+Vffhtg+nt+/nmHNsH/CnDL5bcB1tsAH22C/wig/HNffhvg/C/2Vj/56yZ4J8AK5d8KrHN7CPwswb8CKH9PgG56OYE3Cf4WQPkvB+qEPgI/JNjt9/tvfVd3YwRmCOweHx8JMMPSKYUECFAYmivPESDAHEsnFRIgQGForjxHgABzLJ1USIAAhaG58hwBAsyxdFIhAQIUhubKcwQIMMfSSYUECFAYmivPESDAHEsnFRIgQGForjxHgABzLJ1USIAAhaG58hwBAsyxdFIhAQIUhubKcwQIMMfSSYUECFAYmivPESDAHEsnFRIgQGForjxHgABzLJ1USIAAhaG58hwBAsyxdFIhAQIUhubKcwQIMMfSSYUECFAYmivPESDAHEsnFRIgQGForjxHgABzLJ1USOA7ONUI7X0D/hAAAAAASUVORK5CYII=\\\\\\\"}]}\\\",\\\"{\\\\\\\"name\\\\\\\":\\\\\\\"Outline\\\\\\\",\\\\\\\"opacity\\\\\\\":1,\\\\\\\"frameCount\\\\\\\":1,\\\\\\\"chunks\\\\\\\":[{\\\\\\\"layout\\\\\\\":[[0]],\\\\\\\"base64PNG\\\\\\\":\\\\\\\"data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAMAAAACACAYAAABdhGZrAAAAAXNSR0IArs4c6QAAAoBJREFUeF7t0wEBAAAIgzDfv7RBmA3gsnMMhA0szA6dgROAJ0gbEEB6fvAC8ANpAwJIzw9eAH4gbUAA6fnBC8APpA0IID0/eAH4gbQBAaTnBy8AP5A2IID0/OAF4AfSBgSQnh+8APxA2oAA0vODF4AfSBsQQHp+8ALwA2kDAkjPD14AfiBtQADp+cELwA+kDQggPT94AfiBtAEBpOcHLwA/kDYggPT84AXgB9IGBJCeH7wA/EDagADS84MXgB9IGxBAen7wAvADaQMCSM8PXgB+IG1AAOn5wQvAD6QNCCA9P3gB+IG0AQGk5wcvAD+QNiCA9PzgBeAH0gYEkJ4fvAD8QNqAANLzgxeAH0gbEEB6fvAC8ANpAwJIzw9eAH4gbUAA6fnBC8APpA0IID0/eAH4gbQBAaTnBy8AP5A2IID0/OAF4AfSBgSQnh+8APxA2oAA0vODF4AfSBsQQHp+8ALwA2kDAkjPD14AfiBtQADp+cELwA+kDQggPT94AfiBtAEBpOcHLwA/kDYggPT84AXgB9IGBJCeH7wA/EDagADS84MXgB9IGxBAen7wAvADaQMCSM8PXgB+IG1AAOn5wQvAD6QNCCA9P3gB+IG0AQGk5wcvAD+QNiCA9PzgBeAH0gYEkJ4fvAD8QNqAANLzgxeAH0gbEEB6fvAC8ANpAwJIzw9eAH4gbUAA6fnBC8APpA0IID0/eAH4gbQBAaTnBy8AP5A2IID0/OAF4AfSBgSQnh+8APxA2oAA0vODF4AfSBsQQHp+8ALwA2kDAkjPD14AfiBtQADp+cELwA+kDQggPT94AfiBtAEBpOcHLwA/kDYggPT84AXgB9IGBJCeH/wDZn4AgZI4REEAAAAASUVORK5CYII=\\\\\\\"}]}\\\"],\\\"hiddenFrames\\\":[\\\"\\\"]}}\",\"resourceNames\":[\"comms\"],\"name\":\"comms\"}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "comms",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 16
+                      },
+                      {
+                        "x": 192,
+                        "y": 16
+                      },
+                      {
+                        "x": 192,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "adaptCollisionMaskAutomatically": true,
+      "assetStoreId": "",
+      "name": "Backup_Gen",
+      "type": "Sprite",
+      "updateIfNotVisible": false,
+      "variables": [
+        {
+          "folded": true,
+          "name": "InteractSelected",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "InteractText",
+          "type": "string",
+          "value": "It's Broken"
+        },
+        {
+          "folded": true,
+          "name": "InteractType",
+          "type": "number",
+          "value": 10
+        },
+        {
+          "folded": true,
+          "name": "PromptOffset",
+          "type": "number",
+          "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
+      "effects": [],
+      "behaviors": [],
+      "animations": [
+        {
+          "name": "assets\\Generator",
+          "useMultipleDirections": false,
+          "directions": [
+            {
+              "looping": false,
+              "metadata": "{\"pskl\":{}}",
+              "timeBetweenFrames": 0.08,
+              "sprites": [
+                {
+                  "hasCustomCollisionMask": true,
+                  "image": "assets\\Generator",
+                  "points": [],
+                  "originPoint": {
+                    "name": "origine",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "centerPoint": {
+                    "automatic": true,
+                    "name": "centre",
+                    "x": 0,
+                    "y": 0
+                  },
+                  "customCollisionMask": [
+                    [
+                      {
+                        "x": 0,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 0
+                      },
+                      {
+                        "x": 128,
+                        "y": 128
+                      },
+                      {
+                        "x": 0,
+                        "y": 128
+                      }
+                    ]
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ]
     }
   ],
   "objectsFolderStructure": {
@@ -23398,6 +25376,12 @@
         "objectName": "Generator"
       },
       {
+        "objectName": "comms"
+      },
+      {
+        "objectName": "Breaker"
+      },
+      {
         "objectName": "The_Machine"
       },
       {
@@ -23411,6 +25395,18 @@
       },
       {
         "objectName": "Trex"
+      },
+      {
+        "objectName": "Wire"
+      },
+      {
+        "objectName": "Wire_L"
+      },
+      {
+        "objectName": "Sparking_wire"
+      },
+      {
+        "objectName": "Backup_Gen"
       }
     ]
   },
@@ -30135,7 +32131,7 @@
                 "value": "PickNearest"
               },
               "parameters": [
-                "Interacables",
+                "Door",
                 "Player.CenterX()",
                 "Player.CenterY()",
                 ""
@@ -30157,7 +32153,7 @@
                 "value": "VarObjet"
               },
               "parameters": [
-                "Interacables",
+                "Door",
                 "InteractType",
                 "=",
                 "3"
@@ -30174,7 +32170,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::Index"
                   },
                   "parameters": [
-                    "Interacables",
+                    "Door",
                     "Animation",
                     "=",
                     "3"
@@ -30233,7 +32229,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "Interacables",
+                    "Door",
                     "Animation",
                     "=",
                     "1"
@@ -30253,6 +32249,16 @@
                   },
                   "parameters": [
                     "LightWall",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Door",
+                    "PathfindingObstacle",
                     ""
                   ]
                 }
@@ -30288,7 +32294,7 @@
                     "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
                   },
                   "parameters": [
-                    "Interacables",
+                    "Door",
                     "Animation",
                     "=",
                     "2"
@@ -30327,10 +32333,20 @@
                     "value": "ModVarObjet"
                   },
                   "parameters": [
-                    "Interacables",
+                    "Door",
                     "InteractType",
                     "=",
                     "4"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Door",
+                    "PathfindingObstacle",
+                    ""
                   ]
                 }
               ]
@@ -30473,6 +32489,16 @@
                     "LightWall",
                     "=",
                     "Door.Angle()"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ActivateBehavior"
+                  },
+                  "parameters": [
+                    "Door",
+                    "PathfindingObstacle",
+                    "yes"
                   ]
                 }
               ]
@@ -30867,10 +32893,1187 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Power",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
-      "events": [],
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Generator",
+                "InteractText",
+                "=",
+                "\"Press E to turn on\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "ShortFixed",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Generator",
+                "InteractText",
+                "=",
+                "\"Hmmm, there must be a short\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "BreakerFlipped",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "Generator",
+                "InteractText",
+                "=",
+                "\"Needs breaker to be flipped\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "InMenu",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShortFixed",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BreakerFlipped",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageMax",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageCur",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageType",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Interacting",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "InMenu",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BreakerFlipped",
+                    "False"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageMax",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageCur",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageType",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Interacting",
+                    "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "InMenu",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShortFixed",
+                    "False"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "HotbarHover.CenterX()",
+                    "HotbarHover.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Visible"
+                  },
+                  "parameters": [
+                    "HeldItem"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "HeldItem",
+                    "Animation",
+                    "=",
+                    "6"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageMax",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageCur",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageType",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Interacting",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Or"
+              },
+              "parameters": [],
+              "subInstructions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "8"
+                  ]
+                }
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageType",
+                "=",
+                "6"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Interacables",
+                "Player.CenterX()",
+                "Player.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageCur",
+                ">=",
+                "Player.Variable(UsageMax)"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Interacables",
+                "InteractType",
+                "=",
+                "6"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "InteractPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PowerOn",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageType",
+                "=",
+                "7"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Interacables",
+                "Player.CenterX()",
+                "Player.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageCur",
+                ">=",
+                "Player.Variable(UsageMax)"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Interacables",
+                "InteractType",
+                "=",
+                "7"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "InteractPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "BreakerFlipped",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageType",
+                "=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Interacables",
+                "Player.CenterX()",
+                "Player.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageCur",
+                ">=",
+                "Player.Variable(UsageMax)"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Interacables",
+                "InteractType",
+                "=",
+                "8"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "HeldItem",
+                "HotbarHover.CenterX()",
+                "HotbarHover.CenterY()",
+                ""
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::SetIndex"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "InteractPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetSceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "ShortFixed",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "HeldItem"
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "parameters": []
+    },
+    {
+      "colorB": 228,
+      "colorG": 176,
+      "colorR": 74,
+      "creationTime": 0,
+      "folded": true,
+      "name": "comms",
+      "source": "",
+      "type": "BuiltinCommonInstructions::Group",
+      "events": [
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "comms",
+                "InteractText",
+                "=",
+                "\"Press E to call for help\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "SceneVariableAsBoolean"
+              },
+              "parameters": [
+                "PowerOn",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "ModVarObjetTxt"
+              },
+              "parameters": [
+                "comms",
+                "InteractText",
+                "=",
+                "\"Needs Power\""
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyPressed"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "BuiltinCommonInstructions::Once"
+              },
+              "parameters": []
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "InMenu",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "PickNearest"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Player.CenterX()",
+                    "Player.CenterY()",
+                    ""
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "True"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SceneVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "PowerOn",
+                    "True"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageMax",
+                    "=",
+                    "12"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageCur",
+                    "=",
+                    "0"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "ModVarObjet"
+                  },
+                  "parameters": [
+                    "Player",
+                    "UsageType",
+                    "=",
+                    "9"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Interacting",
+                    "True"
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "KeyReleased"
+              },
+              "parameters": [
+                "",
+                "e"
+              ]
+            },
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Interacables",
+                "InteractType",
+                "=",
+                "9"
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "SetObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "False"
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "ObjectVariableAsBoolean"
+              },
+              "parameters": [
+                "Player",
+                "Interacting",
+                "True"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageType",
+                "=",
+                "9"
+              ]
+            },
+            {
+              "type": {
+                "value": "PickNearest"
+              },
+              "parameters": [
+                "Interacables",
+                "Player.CenterX()",
+                "Player.CenterY()",
+                ""
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Player",
+                "UsageCur",
+                ">=",
+                "Player.Variable(UsageMax)"
+              ]
+            },
+            {
+              "type": {
+                "value": "VarObjet"
+              },
+              "parameters": [
+                "Interacables",
+                "InteractType",
+                "=",
+                "9"
+              ]
+            }
+          ],
+          "actions": [],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Scene"
+                  },
+                  "parameters": [
+                    "",
+                    "\"Victory\"",
+                    ""
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [],
+          "actions": []
+        }
+      ],
       "parameters": []
     },
     {
@@ -30893,7 +34096,7 @@
             "textG": 0,
             "textR": 0
           },
-          "comment": "Interact Types\n0:use Item\n1:hide\n2:unhide\n3:Break/openDoor\n4:closeDoor\n5:Reading\n6:generator\n7:breaker"
+          "comment": "Interact Types\n0:use Item\n1:hide\n2:unhide\n3:Break/openDoor\n4:closeDoor\n5:Reading\n6:generator\n7:breaker\n8: sparking wire\n9: comms\n10: backup gen"
         },
         {
           "type": "BuiltinCommonInstructions::Standard",
@@ -31301,6 +34504,180 @@
                     "Interacables",
                     "InteractSelected",
                     "True"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "6"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "InteractPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "7"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "InteractPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "False"
+                  ]
+                }
+              ]
+            },
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractType",
+                    "=",
+                    "8"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "AnimatableCapability::AnimatableBehavior::Index"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Animation",
+                    "=",
+                    "1"
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "Cache"
+                  },
+                  "parameters": [
+                    "InteractPrompt"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "EffectCapability::EffectBehavior::EnableEffect"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "Effect",
+                    "\"Glow\"",
+                    "no"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Interacables",
+                    "InteractSelected",
+                    "False"
                   ]
                 }
               ]
@@ -32362,12 +35739,39 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
-      "folded": true,
       "name": "Dinos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
       "events": [
         {
+          "type": "BuiltinCommonInstructions::Standard",
+          "conditions": [
+            {
+              "type": {
+                "value": "Health::Health::IsDead"
+              },
+              "parameters": [
+                "Player",
+                "Health",
+                ""
+              ]
+            }
+          ],
+          "actions": [
+            {
+              "type": {
+                "value": "Scene"
+              },
+              "parameters": [
+                "",
+                "\"Defeat\"",
+                ""
+              ]
+            }
+          ]
+        },
+        {
+          "folded": true,
           "type": "BuiltinCommonInstructions::Standard",
           "conditions": [
             {
@@ -32391,6 +35795,48 @@
                 "Dinos",
                 "isAggro",
                 "True"
+              ]
+            }
+          ],
+          "events": [
+            {
+              "type": "BuiltinCommonInstructions::Standard",
+              "conditions": [
+                {
+                  "type": {
+                    "value": "VarObjet"
+                  },
+                  "parameters": [
+                    "Dinos",
+                    "DinoType",
+                    "=",
+                    "1"
+                  ]
+                },
+                {
+                  "type": {
+                    "value": "Health::Health::Health"
+                  },
+                  "parameters": [
+                    "Player",
+                    "Health",
+                    ">",
+                    "50",
+                    ""
+                  ]
+                }
+              ],
+              "actions": [
+                {
+                  "type": {
+                    "value": "SetObjectVariableAsBoolean"
+                  },
+                  "parameters": [
+                    "Dinos",
+                    "isAggro",
+                    "False"
+                  ]
+                }
               ]
             }
           ]
