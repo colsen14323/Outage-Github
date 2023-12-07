@@ -9,7 +9,7 @@
   "title": "",
   "v": 209,
   "uiSettings": {
-    "grid": false,
+    "grid": true,
     "gridType": "rectangular",
     "gridWidth": 32,
     "gridHeight": 32,
@@ -17,8 +17,8 @@
     "gridOffsetY": 0,
     "gridColor": 10401023,
     "gridAlpha": 0.8,
-    "snap": false,
-    "zoomFactor": 0.3541128223539805,
+    "snap": true,
+    "zoomFactor": 0.47727553269351264,
     "windowMask": false
   },
   "objectsGroups": [
@@ -36,6 +36,9 @@
         },
         {
           "name": "TextInteractable"
+        },
+        {
+          "name": "Generator"
         }
       ]
     },
@@ -61,6 +64,9 @@
         },
         {
           "name": "Locker"
+        },
+        {
+          "name": "Generator"
         }
       ]
     },
@@ -90,6 +96,9 @@
         },
         {
           "name": "LightWall"
+        },
+        {
+          "name": "Generator"
         }
       ]
     },
@@ -131,7 +140,19 @@
       "folded": true,
       "name": "PowerOn",
       "type": "boolean",
-      "value": true
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "ShortFixed",
+      "type": "boolean",
+      "value": false
+    },
+    {
+      "folded": true,
+      "name": "BreakerFlipped",
+      "type": "boolean",
+      "value": false
     },
     {
       "folded": true,
@@ -16109,15 +16130,237 @@
     },
     {
       "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 832,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "d8e01163-c18e-4e54-8d4d-a3eb8b8876d6",
+      "width": 800,
+      "x": 8544,
+      "y": -64,
+      "zOrder": 335,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 672,
+      "layer": "",
+      "name": "RoomFloor",
+      "persistentUuid": "f1b9ccf0-a804-4a22-881b-1eda46abb103",
+      "width": 576,
+      "x": 8768,
+      "y": 768,
+      "zOrder": 336,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "c161f086-5205-4d75-ad8a-dd8cfc39b039",
+      "width": 576,
+      "x": 8544,
+      "y": 736,
+      "zOrder": 337,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 704,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "4b34d046-f2c2-4726-8e87-c38bc481e7e0",
+      "width": 32,
+      "x": 8768,
+      "y": 736,
+      "zOrder": 338,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "9af9b422-24ae-410a-8ce8-f5ee2a593413",
+      "width": 576,
+      "x": 8768,
+      "y": 1408,
+      "zOrder": 339,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 1504,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "87b040dc-161b-4e16-bdd0-a311bb50add5",
+      "width": 32,
+      "x": 9312,
+      "y": -64,
+      "zOrder": 340,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "78744b0d-c37a-4258-afd3-a5b3740f5255",
+      "width": 800,
+      "x": 8544,
+      "y": -64,
+      "zOrder": 341,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "1172a5c0-fa89-482b-8d95-05bdefd3252c",
+      "width": 32,
+      "x": 8544,
+      "y": -64,
+      "zOrder": 342,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 384,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "033bc775-556c-4fee-b780-56665022cb9b",
+      "width": 32,
+      "x": 8544,
+      "y": 384,
+      "zOrder": 343,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 90,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "b83ad466-0ca7-4aa3-92d1-cb74e404f01a",
+      "width": 64,
+      "x": 8528,
+      "y": 336,
+      "zOrder": 344,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "Door",
+      "persistentUuid": "c01eae61-2d7f-4be9-b6f7-5b83525a2e53",
+      "width": 64,
+      "x": 9120,
+      "y": 736,
+      "zOrder": 345,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": true,
+      "depth": 1,
+      "height": 32,
+      "layer": "",
+      "name": "BuildingWall",
+      "persistentUuid": "5d958c19-3a93-4fb7-b6c7-0d3ba1c84726",
+      "width": 160,
+      "x": 9184,
+      "y": 736,
+      "zOrder": 346,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Veloceraptor",
+      "persistentUuid": "10c2197f-e601-4c91-bea9-80a379c33484",
+      "width": 0,
+      "x": 9024,
+      "y": 224,
+      "zOrder": 347,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
       "customSize": false,
       "height": 0,
       "layer": "",
       "name": "Player",
-      "persistentUuid": "9f2ccede-7e2c-492f-8975-fda619ba5d51",
+      "persistentUuid": "1caa9da0-a6f5-47c6-b28d-cebbbd550485",
       "width": 0,
-      "x": 6272,
-      "y": 19776,
-      "zOrder": 334,
+      "x": 9120,
+      "y": 1184,
+      "zOrder": 348,
+      "numberProperties": [],
+      "stringProperties": [],
+      "initialVariables": []
+    },
+    {
+      "angle": 0,
+      "customSize": false,
+      "height": 0,
+      "layer": "",
+      "name": "Generator",
+      "persistentUuid": "e937ecd4-a53c-4f4c-a6ad-7153719b44a5",
+      "width": 0,
+      "x": 9184,
+      "y": 1280,
+      "zOrder": 349,
       "numberProperties": [],
       "stringProperties": [],
       "initialVariables": []
@@ -19849,7 +20092,38 @@
       "name": "Generator",
       "type": "Sprite",
       "updateIfNotVisible": false,
-      "variables": [],
+      "variables": [
+        {
+          "folded": true,
+          "name": "InteractSelected",
+          "type": "boolean",
+          "value": false
+        },
+        {
+          "folded": true,
+          "name": "InteractText",
+          "type": "string",
+          "value": "Press E to turn on"
+        },
+        {
+          "folded": true,
+          "name": "InteractType",
+          "type": "number",
+          "value": 6
+        },
+        {
+          "folded": true,
+          "name": "PromptOffset",
+          "type": "number",
+          "value": 32
+        },
+        {
+          "folded": true,
+          "name": "Computing",
+          "type": "boolean",
+          "value": false
+        }
+      ],
       "effects": [],
       "behaviors": [],
       "animations": [
@@ -23381,6 +23655,28 @@
                 "Locker",
                 "=",
                 "10"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Veloceraptor",
+                "Scale",
+                "=",
+                "0.7"
+              ]
+            },
+            {
+              "type": {
+                "value": "ScalableCapability::ScalableBehavior::SetValue"
+              },
+              "parameters": [
+                "Dilophosaur",
+                "Scale",
+                "=",
+                "0.5"
               ]
             }
           ]
@@ -32066,6 +32362,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Dinos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
