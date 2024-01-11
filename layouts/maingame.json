@@ -17657,7 +17657,7 @@
           "DownPressed": false,
           "LeftPressed": false,
           "UpPressed": false,
-          "Sprint": "LControl",
+          "Sprint": "Space",
           "Crouch": "LShift"
         }
       ],
@@ -18882,10 +18882,10 @@
       ],
       "behaviors": [
         {
-          "cost": 2,
-          "impassable": true,
           "name": "PathfindingObstacle",
-          "type": "PathfindingBehavior::PathfindingObstacleBehavior"
+          "type": "PathfindingBehavior::PathfindingObstacleBehavior",
+          "cost": 2,
+          "impassable": true
         }
       ],
       "animations": [
@@ -25978,7 +25978,7 @@
               },
               "parameters": [
                 "",
-                "LControl"
+                "Space"
               ]
             }
           ],
@@ -35739,6 +35739,7 @@
       "colorG": 176,
       "colorR": 74,
       "creationTime": 0,
+      "folded": true,
       "name": "Dinos",
       "source": "",
       "type": "BuiltinCommonInstructions::Group",
